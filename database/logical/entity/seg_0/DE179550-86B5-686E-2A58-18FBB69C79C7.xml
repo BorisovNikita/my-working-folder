@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE179550-86B5-686E-2A58-18FBB69C79C7" name="Медицинская справка">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-17 06:58:17 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="C40B8ACC-5CE9-B277-3CB6-CFC87F382EBB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Серия номер справки" id="D3BF5C10-62F5-FDB5-2AF3-C9FDF6DFD692">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-17 06:58:30 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="C40B8ACC-5CE9-B277-3CB6-CFC87F382EBB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID владельца" id="90D58CA9-4798-4FF9-58A5-E580A4FE484F">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-17 06:58:59 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="C40B8ACC-5CE9-B277-3CB6-CFC87F382EBB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата выдачи" id="F419F8BE-9345-1BE6-CCA1-398971133240">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-17 06:59:13 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="C40B8ACC-5CE9-B277-3CB6-CFC87F382EBB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Выдавшая организация" id="48C0EB2C-292F-8532-5C56-D4D6B587EAFE">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-17 06:59:26 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="C40B8ACC-5CE9-B277-3CB6-CFC87F382EBB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID владельца1" id="1E867631-D8E5-D012-3460-4CEBC98FC13D">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-17 07:22:12 UTC</createdTime>
+<generatorID>3210DA56-51F9-10F7-5110-300BBF9CD3FE</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="C40B8ACC-5CE9-B277-3CB6-CFC87F382EBB" value="true"/>
+</engineerTo>
+<referedAttribute>58D4237F-C639-246D-B050-23CA960FD88A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D26D9656-FCF3-418A-4795-0D776A894EE2" name="Медицинская справка PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-17 06:58:49 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="C40B8ACC-5CE9-B277-3CB6-CFC87F382EBB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3BF5C10-62F5-FDB5-2AF3-C9FDF6DFD692</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="845C5477-17F2-5246-C336-76654B2D5B7D" name="Владелец">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-17 07:20:44 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="C40B8ACC-5CE9-B277-3CB6-CFC87F382EBB" value="true"/>
+</engineerTo>
+<newElementsIDs>90D58CA9-4798-4FF9-58A5-E580A4FE484F</newElementsIDs>
+<usedAttributes>
+<attributeRef>90D58CA9-4798-4FF9-58A5-E580A4FE484F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

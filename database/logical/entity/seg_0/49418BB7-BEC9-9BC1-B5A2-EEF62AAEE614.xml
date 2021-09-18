@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49418BB7-BEC9-9BC1-B5A2-EEF62AAEE614" name="Автошкола">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-17 07:04:08 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="C40B8ACC-5CE9-B277-3CB6-CFC87F382EBB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID автошколы" id="1C3CA94C-3852-4C54-0BD6-A36CC9A9E584">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-17 07:04:18 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="C40B8ACC-5CE9-B277-3CB6-CFC87F382EBB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Наименование" id="461F4BA9-FE30-A62E-D30B-50B4D7D17CDE">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-17 07:04:38 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="C40B8ACC-5CE9-B277-3CB6-CFC87F382EBB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Юридический адрес" id="CD88902C-E793-2C54-CD01-6D02D6DF0ABD">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-17 07:05:03 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="C40B8ACC-5CE9-B277-3CB6-CFC87F382EBB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Срок действия аккредитации" id="3435CC50-5BC5-6D59-AD29-09C174ECD52D">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-17 07:05:12 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="C40B8ACC-5CE9-B277-3CB6-CFC87F382EBB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D4EFE8D-1AF0-086B-91FD-9DEA38031E88" name="Автошкола PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-17 07:04:35 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="C40B8ACC-5CE9-B277-3CB6-CFC87F382EBB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C3CA94C-3852-4C54-0BD6-A36CC9A9E584</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
