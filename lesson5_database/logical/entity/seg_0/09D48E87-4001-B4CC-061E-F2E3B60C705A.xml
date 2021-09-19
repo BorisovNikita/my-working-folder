@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09D48E87-4001-B4CC-061E-F2E3B60C705A" name="Издатель">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:38:11 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Имя" id="BAEEB0FC-FC22-5FF7-C332-BF676F0B1998">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:38:20 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Адрес" id="3F357D4E-F796-3475-6D42-290CF2DC2301">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:38:53 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер телефона" id="B03EC8A1-B262-3977-D21D-AFAF594C16D3">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:39:05 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ссылка на главную страницу сайта" id="1808C9D2-02C5-1989-40CC-615113D5BB7F">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:39:12 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D26933CB-BD6E-651E-0497-2C1AC2320BE6" name="Издатель PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:41:50 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BAEEB0FC-FC22-5FF7-C332-BF676F0B1998</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

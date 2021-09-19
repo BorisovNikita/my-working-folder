@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="458974E4-2937-A65B-41CA-705DF0051EC7" name="Корзина">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:46:21 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Shopping_Cart_ID" id="3B205A92-E9F1-AA68-C01E-C42069B30961">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:46:29 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
+<ownDataTypeParameters>,100000,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID покупателя" id="9E2CA3F1-5916-9E17-D09B-4477A4533AFD">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:46:51 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="5972CEC1-8FA6-B501-E73C-C3C36C646667">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 14:09:05 UTC</createdTime>
+<generatorID>8AF92370-00CC-9312-B7DC-A1FDD668E126</generatorID>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<referedAttribute>34D805E7-6C00-08DC-0586-A28AF8388E59</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10000</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F51BC88-D458-3DC4-6349-DA7DDFB51C42" name="Корзина PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 14:08:25 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B205A92-E9F1-AA68-C01E-C42069B30961</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="4B6D9237-BC3D-7040-E692-B949B67EC9AC" name="Покупатель">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 14:10:52 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<newElementsIDs>9E2CA3F1-5916-9E17-D09B-4477A4533AFD</newElementsIDs>
+<usedAttributes>
+<attributeRef>9E2CA3F1-5916-9E17-D09B-4477A4533AFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

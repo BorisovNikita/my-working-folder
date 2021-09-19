@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6BBE28A0-77A3-12F4-AB09-E0BFBAB62FB6" name="Покупатель">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:43:04 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="34D805E7-6C00-08DC-0586-A28AF8388E59">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:44:11 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10000</dataTypePrecision>
+<ownDataTypeParameters>,10000,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Имя" id="7EE4612F-25C4-1CF1-5A40-092655E4EC06">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:43:11 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Адрес" id="B350C869-585B-1539-BF2F-492CB7194D38">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:43:45 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Адрес элетронной почты" id="7F13E7C3-5B1A-A99D-6695-2A40E6648993">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:43:45 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер телефона" id="4E3DE7E7-118E-AD35-C431-A8DFC0D91409">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:44:03 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8DCE5FDD-68CE-EBDE-A7F6-21E80A36C3F8" name="Покупатель PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:44:43 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>34D805E7-6C00-08DC-0586-A28AF8388E59</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B86F661-E783-482A-E26B-0FDB37238703" name="Наличие товаров в корзине">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 14:11:28 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID корзины" id="2AE9135D-5079-18DB-AB2B-75A272FD592B">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 14:11:42 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ISBN книги" id="4D1B2E2F-342E-0DC6-6EA4-EAD5338B5891">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 14:11:59 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Количество кнги" id="CC3B2E6D-5380-F7CE-CAD3-D847705E9BC4">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 14:12:12 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Shopping_Cart_ID" id="BE961061-BC27-5646-BD3A-5A7E2B55B8AA">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 14:13:50 UTC</createdTime>
+<generatorID>DF6EE1AF-668E-2A92-21B0-FCD8270E1C5A</generatorID>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<referedAttribute>3B205A92-E9F1-AA68-C01E-C42069B30961</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер ISBN" id="343E5DB7-D80C-88C1-0A2A-CF37985749B9">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 14:15:46 UTC</createdTime>
+<generatorID>DD100ACE-D94A-BEA1-E1FC-92099C46CBAC</generatorID>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<referedAttribute>8FD9F867-0481-FA6D-8EC1-BE4F331976B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="84C364A9-30C1-52A4-5C61-18D110B5D45F" name="Книга">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 14:12:42 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<newElementsIDs>4D1B2E2F-342E-0DC6-6EA4-EAD5338B5891</newElementsIDs>
+<usedAttributes>
+<attributeRef>4D1B2E2F-342E-0DC6-6EA4-EAD5338B5891</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B1D7D9A1-B5C1-0887-C524-F3EE078B2ADC" name="Корзина">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 14:12:54 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<newElementsIDs>2AE9135D-5079-18DB-AB2B-75A272FD592B</newElementsIDs>
+<usedAttributes>
+<attributeRef>2AE9135D-5079-18DB-AB2B-75A272FD592B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

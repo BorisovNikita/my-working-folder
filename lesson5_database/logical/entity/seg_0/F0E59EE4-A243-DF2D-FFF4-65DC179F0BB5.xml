@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0E59EE4-A243-DF2D-FFF4-65DC179F0BB5" name="Наличие на складах">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:58:15 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ISBN книги" id="84FF036D-D911-75B3-8D48-B3ECF3938904">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:58:28 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Код склада" id="DDD2C1B9-5363-708B-E950-14F50047DD6E">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:58:44 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Количество книг на складе" id="D1B9AA58-8385-1510-A580-97361F65DB7A">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 13:59:11 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер ISBN" id="7E54D1AF-322C-0EA6-6BEF-C3FE08FD547D">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 14:01:18 UTC</createdTime>
+<generatorID>FCA956F3-2340-8277-F429-F74F438A5113</generatorID>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8FD9F867-0481-FA6D-8EC1-BE4F331976B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Код" id="88FF9C8F-B734-3092-4405-727181D881DA">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 14:02:22 UTC</createdTime>
+<generatorID>590746B6-7C53-45D1-2C2D-5610C4BDC6E0</generatorID>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1167A841-6A52-F697-FBEA-B87DF2B8DF87</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="222EECCF-9266-49D5-A691-4FD544B2DB33" name="Книга">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 14:00:45 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<newElementsIDs>84FF036D-D911-75B3-8D48-B3ECF3938904</newElementsIDs>
+<usedAttributes>
+<attributeRef>84FF036D-D911-75B3-8D48-B3ECF3938904</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2FB08A76-46D2-273F-C922-C87BD477DE69" name="Код">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-19 14:01:04 UTC</createdTime>
+<ownerDesignName>lesson5_database</ownerDesignName>
+<engineerTo>
+<item key="27DCAE42-513C-32AD-7293-C790342CEB6A" value="true"/>
+</engineerTo>
+<newElementsIDs>DDD2C1B9-5363-708B-E950-14F50047DD6E</newElementsIDs>
+<usedAttributes>
+<attributeRef>DDD2C1B9-5363-708B-E950-14F50047DD6E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

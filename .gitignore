@@ -2,3 +2,7 @@ univer_by_Kireev
 Английский
 exams
 вряд ли пригодится, работы()
+**/*.localz
+**/*.local
+**/*.git
+**/*.DS_Store
