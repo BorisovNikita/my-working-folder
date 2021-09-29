@@ -3,6 +3,7 @@
 ![image](https://user-images.githubusercontent.com/58771506/135317606-5d1a734b-756e-4d9e-9975-1e7466a336b2.png)
 ![image](https://user-images.githubusercontent.com/58771506/135317660-5cf8d18c-21f3-45ad-b86e-4ee322834579.png)
 В самом файловом менеджере можно вызвать следующие команды
+
 ![image](https://user-images.githubusercontent.com/58771506/135317770-6c153082-8c5d-4fbf-8d45-7329a288f6ea.png)
 pwf покажет рабочую папку
 ![image](https://user-images.githubusercontent.com/58771506/135317927-ce88c134-50f7-4393-9fb2-8cb74e1ba458.png)
