@@ -1,4 +1,5 @@
 Файл с настройками пути создан отдельно в config
+
 ![image](https://user-images.githubusercontent.com/58771506/135317606-5d1a734b-756e-4d9e-9975-1e7466a336b2.png)
 ![image](https://user-images.githubusercontent.com/58771506/135317660-5cf8d18c-21f3-45ad-b86e-4ee322834579.png)
 В самом файловом менеджере можно вызвать следующие команды
