@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB535EE7-A00B-EC2B-704A-0D22FA651ED0" name="Складская ведомость">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:35:30 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID товара" id="B713E669-AAF1-BFCB-477C-B6A1D6E1D479">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:36:56 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Наименование" id="3FDE922D-F590-3711-EFDE-23D367B0CDD3">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:39:19 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Описание" id="D17F9578-8B4E-66E1-1608-4C4F7F756983">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:39:24 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="предпочтительный поставщик" id="9628C826-26A3-F22C-92BA-70F87CC4A651">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:39:41 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Остаток (в ед.)" id="E654DD6C-8A28-96F6-531B-23E011FE8F38">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:39:55 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Возможность повторного заказа" id="8CD3610E-8DB7-2B22-984F-4B666D44271A">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:40:12 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64245668-BBB4-D7B2-0D57-9E3630307987" name="Складская ведомость PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:39:04 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B713E669-AAF1-BFCB-477C-B6A1D6E1D479</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

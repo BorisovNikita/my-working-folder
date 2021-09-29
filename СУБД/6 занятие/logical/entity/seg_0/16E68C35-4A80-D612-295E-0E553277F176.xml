@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="16E68C35-4A80-D612-295E-0E553277F176" name="Поставщики товаров">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:02:17 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UID записи" id="EDF2A25F-174A-CED0-64BA-24C2FC191F6E">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:02:30 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID поставщика" id="B9353F22-C2EF-53C4-6AD2-019F7FCF5A0A">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:02:36 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID товара" id="F28A32A3-FDC5-A60F-3190-EB094850622F">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:02:49 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID товара" id="FEB616AD-0CC8-1E4E-0963-D07876332FA1">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:03:42 UTC</createdTime>
+<generatorID>A75106B0-83D5-45C7-3772-E3CC4A6E689A</generatorID>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<referedAttribute>B713E669-AAF1-BFCB-477C-B6A1D6E1D479</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID поставщика1" id="BD74116C-16C8-24A4-D563-4E2E6D621DFB">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:04:08 UTC</createdTime>
+<generatorID>B7109489-8CBA-25F2-F321-016E3C86A2ED</generatorID>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<referedAttribute>58DB0B9D-A991-FD29-B2A2-6CD828E4BBA8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D52A5A6-1C84-416E-078E-EA57642DF348" name="Поставщики товаров PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:02:35 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EDF2A25F-174A-CED0-64BA-24C2FC191F6E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3B054585-E099-3C2A-90E9-5269F89B5DE8" name="Товар">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:03:03 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<newElementsIDs>F28A32A3-FDC5-A60F-3190-EB094850622F</newElementsIDs>
+<usedAttributes>
+<attributeRef>F28A32A3-FDC5-A60F-3190-EB094850622F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="7B4CE5BA-ECBE-6697-1351-D42A133C0C79" name="Поставщик">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:03:12 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<newElementsIDs>B9353F22-C2EF-53C4-6AD2-019F7FCF5A0A</newElementsIDs>
+<usedAttributes>
+<attributeRef>B9353F22-C2EF-53C4-6AD2-019F7FCF5A0A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

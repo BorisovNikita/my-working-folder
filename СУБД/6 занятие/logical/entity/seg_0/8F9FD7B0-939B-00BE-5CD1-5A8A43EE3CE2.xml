@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F9FD7B0-939B-00BE-5CD1-5A8A43EE3CE2" name="Поставщик">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:01:11 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UID поставщика" id="58DB0B9D-A991-FD29-B2A2-6CD828E4BBA8">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:01:19 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Наименование организации" id="B7BBA291-D2CC-5315-C2F0-112EB64E8987">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:01:26 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Юр адрес" id="6DAA7910-022A-2C9A-C11D-ED2E9E300E89">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:01:36 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ОГРН" id="8790BF18-6B57-E0F9-A228-EBFBC9411C4D">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:01:39 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ИНН" id="B4868C9C-FCD1-ED5A-DF32-030424211420">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:01:55 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="КПП" id="EA606659-20F8-8950-F90F-ABAACB448A27">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:01:58 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A68C51F6-EC92-AA38-662C-C1DABA47A9A9" name="Поставщик PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:02:10 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>58DB0B9D-A991-FD29-B2A2-6CD828E4BBA8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

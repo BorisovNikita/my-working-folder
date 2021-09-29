@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6DABB4BC-2043-85CB-7641-4ABB6A687559" name="Запросы">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:44:43 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UID запроса" id="6FE4F752-029D-BA17-0FD9-BAEBDFEA4E9F">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:45:02 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID заказа" id="63CBF790-9DC1-8749-4D5D-FB047378EDE0">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:45:09 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID товара" id="A13CF0EA-BD5E-94DA-1AA9-4428000B9EFD">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:45:14 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Количество (ед.)" id="0B07035F-AB1C-8011-B0CD-00DDCC31E9CA">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:45:30 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID товара" id="40B9BE34-42AA-7A48-B89A-545BD1F91D48">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:50:04 UTC</createdTime>
+<generatorID>2BB8F5EB-BFF5-E822-F6AF-F3C3A40787F4</generatorID>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<referedAttribute>B713E669-AAF1-BFCB-477C-B6A1D6E1D479</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID заказа1" id="7C75561C-D213-2B50-4D16-E4FE172D68FA">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:50:44 UTC</createdTime>
+<generatorID>918C0D58-DE5E-A893-2BFB-93BF0BA56162</generatorID>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<referedAttribute>803D90A3-6240-01F7-E693-DB9BA933B069</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3C45F6C-B032-A9CF-16FB-F7DE197AF4D4" name="Запросы PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:45:08 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6FE4F752-029D-BA17-0FD9-BAEBDFEA4E9F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="CF80C4A6-AD71-B27C-1226-3DED816AB63D" name="Товар">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:46:59 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<newElementsIDs>A13CF0EA-BD5E-94DA-1AA9-4428000B9EFD</newElementsIDs>
+<usedAttributes>
+<attributeRef>A13CF0EA-BD5E-94DA-1AA9-4428000B9EFD</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="01026601-8676-9D28-4B53-56E10A11EA95" name="Заказ">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:47:23 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<newElementsIDs>63CBF790-9DC1-8749-4D5D-FB047378EDE0</newElementsIDs>
+<usedAttributes>
+<attributeRef>63CBF790-9DC1-8749-4D5D-FB047378EDE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

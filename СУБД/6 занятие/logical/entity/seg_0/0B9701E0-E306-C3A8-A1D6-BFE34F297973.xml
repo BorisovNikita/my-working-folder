@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B9701E0-E306-C3A8-A1D6-BFE34F297973" name="Счёт">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:56:53 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UID счета" id="C4944E22-BF2D-7C8E-B10D-15A607338896">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:57:01 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер счета" id="DB2566BC-A539-07B7-2D3E-FD1288BCBFED">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:57:44 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Сумма счета" id="D7833C63-6AFA-3D99-026E-A580D3682271">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 10:58:09 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата выставления" id="571BFB37-A392-5D62-FB88-C5C0B1CBF68D">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:00:08 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID счета1" id="4A56EAE6-DF1D-E98C-F4DD-A45FF31814B5">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:00:48 UTC</createdTime>
+<generatorID>D76F4BDE-08B8-AEB5-B393-01797DA3316F</generatorID>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<referedAttribute>21A07A56-225D-BDFA-EC33-FB424F79663B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8922A39B-2B1B-E5B5-281B-1318B6A428D4" name="Счёт PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-09-29 11:00:30 UTC</createdTime>
+<ownerDesignName>6 занятие</ownerDesignName>
+<engineerTo>
+<item key="2FCE87B8-1386-4A5B-9357-1ECBB2185E03" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C4944E22-BF2D-7C8E-B10D-15A607338896</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
