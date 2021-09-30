@@ -1,17 +1,18 @@
 import socket,sys,getpass,random
 
 #If you want to save 'print' in log file{
-# orig_stdout = sys.stdout
-# f = open('server_log.txt', 'w')
-# sys.stdout = f}
+orig_stdout = sys.stdout
+f = open('server_log.txt', 'w')
+sys.stdout = f
+# }
 
 
 def listening(sock):
     conn, addr = sock.accept()
     print('Подключен клиент: ', addr)
-    # print(sock.getsockname())
 
-    with open("clients.txt", 'r') as clients:
+    with open("clients.txt", 'a+') as clients:
+        clients.seek(0,0)
         for line in clients:
             if addr[0] in line:
                 conn.send(('Hello '+line.replace(addr[0], '')).encode())
@@ -19,15 +20,12 @@ def listening(sock):
         else:
             conn.send('Enter your name!'.encode())
             username = conn.recv(1024).decode()
-            with open("clients.txt", 'a') as ex_cl:
-                ex_cl.write(username+addr[0])
-
+            clients.write('\n'+username+addr[0])
 
     ret=False
     msg = ''
 
     while True:
-        # print(sock.getsockname())
         print('Прием данных от клиента')
         try:
             data = conn.recv(1024)
@@ -68,7 +66,7 @@ sock = socket.socket()
 #         pass
 #     print('От 1 до 65535')
 
-c_port = 23
+c_port = 13131
 while True:
     try:
         sock.bind(('', c_port))
@@ -89,6 +87,6 @@ print('Остановка сервера')
 
 
 #If you want to save 'print' in log file{
-# sys.stdout = orig_stdout
-# f.close()
+sys.stdout = orig_stdout
+f.close()
 #}

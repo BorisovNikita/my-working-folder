@@ -10,19 +10,18 @@ def s_recv(sock):
     pswd = data.rfind('$$$~')
     answ = data.rfind('@$$~')
     atkn = re.search('\$token=(.{32,32})\$', data)
-    # print(data)
-    # print(atkn)
+
     print('Recieved message length - {}'.format(data[:indx]))
-    # print('_______',data[:indx])
+
     if pswd>-1:
         return data[indx+4:pswd], 1
-        # print('pswd')   
+
     elif answ>-1:
         return data[indx+4:answ], 2
-        # print('answ')
+
     elif atkn:
         indx2 = atkn.start()
-        # print(indx,indx2, atkn[1])
+
         return (data[indx+4:indx2], atkn[1]), 3
     else:
         return data[indx+4:], 0
