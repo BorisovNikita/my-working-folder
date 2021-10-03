@@ -35,7 +35,7 @@ socket.socket.s_recv = s_recv
 def listening(sock):
     while True:
         data = sock.s_recv()
-        print(data)
+        print(data[0])
 
 
 def main(sock):
