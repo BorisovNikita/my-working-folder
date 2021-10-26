@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A18BB6E0-A842-FDAA-EA6F-C11A6FD789E9" name="Виды поломок">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:19:28 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UID" id="66AA45F8-F694-7D19-846C-2D2E7D8006E2">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:19:38 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="вид поломки" id="D87602F1-7034-1BCC-A472-C84D50D86D50">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:19:43 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="уровеь критичности" id="C69DCA62-FBDE-5BA3-C9CD-01E014541AA7">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:19:49 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="прогнозируемые расходы" id="56C76693-1855-EDE9-E352-49FE9C0816C2">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:19:55 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA4301B6-1204-80CB-F08C-5721547D90ED" name="Виды поломок PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:19:41 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>66AA45F8-F694-7D19-846C-2D2E7D8006E2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

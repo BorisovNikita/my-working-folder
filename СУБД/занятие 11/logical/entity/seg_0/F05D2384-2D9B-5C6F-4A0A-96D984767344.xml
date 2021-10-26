@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F05D2384-2D9B-5C6F-4A0A-96D984767344" name="Топливо">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:18:34 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UID" id="62671FA2-5E91-D9C1-B500-0D462473F8E3">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:18:43 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="тип топлива" id="47B8FA66-142D-8744-9964-C54757EC3E47">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:18:50 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="октановое число" id="48F1EAAB-561F-C39C-9271-5E27112F9758">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:19:01 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="02DFCBD1-C1DD-97DA-C435-AD65E5A6F755" name="Топливо PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:18:52 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62671FA2-5E91-D9C1-B500-0D462473F8E3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

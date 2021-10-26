@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="75687F7D-A055-3845-5455-80CCC2FDE64A" name="Учет повреждений">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:27:23 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UID" id="08B576FC-6953-98DA-09D5-D52F9DAD3C31">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:27:35 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID аварии" id="76A6D148-251B-A7EA-E54A-4EE2F1384AC8">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:27:40 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID поломки" id="9085DDFC-0636-2EC6-AE1A-2FB6137EBC0A">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:27:47 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID1" id="BD90E0DC-7606-2C3E-690B-03486B349BE2">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:38:16 UTC</createdTime>
+<generatorID>071F37EB-CE3C-BF78-6414-DC8D885C82EC</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<referedAttribute>1B01C7D1-CAD9-E406-234F-C9707AA020F9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID2" id="5A55F5CD-1F72-EA92-7CB7-997EA47F58D7">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:38:56 UTC</createdTime>
+<generatorID>42EF795B-8F85-2D2B-D0C0-E7A5791FE97E</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<referedAttribute>66AA45F8-F694-7D19-846C-2D2E7D8006E2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8C309DB7-A84A-1CCC-D827-9A32E4BB8753" name="Учет повреждений PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:27:39 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08B576FC-6953-98DA-09D5-D52F9DAD3C31</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

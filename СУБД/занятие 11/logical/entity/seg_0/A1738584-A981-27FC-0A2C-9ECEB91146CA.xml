@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1738584-A981-27FC-0A2C-9ECEB91146CA" name="Разгрузка">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:16:01 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UID" id="857F1138-9F05-84E2-F9A0-CE126CBA658A">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:16:09 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="дата разгрузки" id="5853457B-C065-9BF7-C517-20D3A31D9450">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:16:18 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="бригада" id="1DF1AD9F-2A5F-38F7-F150-8BE5F9FBD493">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:16:29 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID1" id="34A0AF7E-572E-14D7-E032-F32E3DC564B5">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:47:28 UTC</createdTime>
+<generatorID>0A197CF4-8471-AA99-CF06-F1DF512EC5E3</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<referedAttribute>529E6A78-2BFB-D42B-8886-DEA9F4663521</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="342AC598-63F0-0811-260D-8FD4D014BB7F" name="Разгрузка PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:16:38 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>857F1138-9F05-84E2-F9A0-CE126CBA658A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

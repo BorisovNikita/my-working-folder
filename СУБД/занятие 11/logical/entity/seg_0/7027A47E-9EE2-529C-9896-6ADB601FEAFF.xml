@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7027A47E-9EE2-529C-9896-6ADB601FEAFF" name="Учет аварий">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:26:37 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UID" id="1B01C7D1-CAD9-E406-234F-C9707AA020F9">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:26:44 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID машины" id="B6833A64-DF18-CBCA-1FF0-D3F33EEEFDBE">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:26:51 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="дата ДТП" id="62F27818-D16E-A4B0-709D-AC5479B97A27">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:26:59 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="вина водителя" id="04B2CA9F-9C36-4699-A3EB-D33D1D99E750">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:27:05 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="место ДТП" id="76E71F37-0C5E-A9D8-BFDD-3188867F8557">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:27:10 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID1" id="49464B5A-0AEF-7DEF-01DB-7DF00631E908">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:37:55 UTC</createdTime>
+<generatorID>5AB00893-0B21-3ECB-5AE3-67AF6DCD9C2C</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<referedAttribute>94E54BE1-1169-C97C-16A5-AF987B3D0AAB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B0C3A59-2320-92E1-42F2-E8A2C5C5C067" name="Учет аварий PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:26:48 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B01C7D1-CAD9-E406-234F-C9707AA020F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

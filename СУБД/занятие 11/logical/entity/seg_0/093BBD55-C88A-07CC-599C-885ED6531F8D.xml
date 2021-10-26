@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="093BBD55-C88A-07CC-599C-885ED6531F8D" name="Журнал выезда">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:11:30 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UID" id="529E6A78-2BFB-D42B-8886-DEA9F4663521">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:12:13 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID машины" id="58B1653A-F01D-5C98-5951-4FC117056C2D">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:12:19 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID сотрудника" id="C8FCF146-CFD4-4B6F-C723-BD125D242876">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:12:33 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID загрузки" id="F9E86DE0-D04C-396B-2306-35849316FC9C">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:12:43 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID разгрузки" id="86C5FD55-E764-8FE6-644A-EF76A712D3A6">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:46:55 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID рейса" id="44C75FCE-41EC-00B7-F810-83B722138713">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:44:00 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="время выезда" id="7EC44E09-F606-A583-6C74-C7F7C12BAD55">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:12:49 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID1" id="CEE4F0F0-502B-105E-6C2C-A3573F7D52C2">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:30:59 UTC</createdTime>
+<generatorID>ADC34B3C-9B15-D227-DDDA-2BC280D45467</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<referedAttribute>94E54BE1-1169-C97C-16A5-AF987B3D0AAB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID2" id="D2A1FBCE-2E41-1707-98C7-026C683F9364">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:32:22 UTC</createdTime>
+<generatorID>9785E441-5F72-5E6E-9EC2-92DBC4A5C54E</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<referedAttribute>D35E01B5-D4E2-7610-7901-E051BDE5FFF1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID3" id="F7D3EDF5-C2D2-2604-00FE-1222F7F48DA0">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:36:04 UTC</createdTime>
+<generatorID>0F7A8BBE-E47A-F7C5-0C69-18AF2CAA4B75</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<referedAttribute>E1CD7E7B-4CE2-9AD2-E26F-EF942E35E0A7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID4" id="7F3D091A-E4D1-FEC6-ACA0-81E87B77C479">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:44:38 UTC</createdTime>
+<generatorID>6028C755-EF52-A05D-99C6-7184BE26229B</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<referedAttribute>582B5798-D44A-6418-77B9-422387B66898</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID5" id="FF44A406-A881-C866-71BE-902DB963B709">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:47:30 UTC</createdTime>
+<generatorID>0A197CF4-8471-AA99-CF06-F1DF512EC5E3</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<referedAttribute>857F1138-9F05-84E2-F9A0-CE126CBA658A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="28B93794-2BB3-B3F1-F5EA-E79514D1A971" name="Журнал выезда PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:12:17 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>529E6A78-2BFB-D42B-8886-DEA9F4663521</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

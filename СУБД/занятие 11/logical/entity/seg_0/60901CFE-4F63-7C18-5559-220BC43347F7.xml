@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60901CFE-4F63-7C18-5559-220BC43347F7" name="Загрузка">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:13:29 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UID" id="D35E01B5-D4E2-7610-7901-E051BDE5FFF1">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:13:35 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="дата загрузки" id="836CEA4F-B834-299B-4AFE-7C8E7E211EA2">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:13:39 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="бригада" id="7A721150-5069-8090-2CC5-74741D15A2BD">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:13:47 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID1" id="1744CB31-7FC8-3D39-83D3-57856C1D57B4">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:32:40 UTC</createdTime>
+<generatorID>9785E441-5F72-5E6E-9EC2-92DBC4A5C54E</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<referedAttribute>529E6A78-2BFB-D42B-8886-DEA9F4663521</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F7BF299-AD30-540B-1A51-54EB8EC8969D" name="Загрузка PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:13:38 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D35E01B5-D4E2-7610-7901-E051BDE5FFF1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

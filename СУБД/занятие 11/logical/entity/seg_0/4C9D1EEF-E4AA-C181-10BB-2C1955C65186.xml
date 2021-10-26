@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C9D1EEF-E4AA-C181-10BB-2C1955C65186" name="Рейс">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:10:16 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UID" id="582B5798-D44A-6418-77B9-422387B66898">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:10:25 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="пункт отправления" id="A0264008-AA6D-C333-FE57-81A9088B8C59">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:10:37 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="пункт назначения" id="EB17728C-AA19-5FA6-F407-6B72AFFAB3F0">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:10:43 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="промежуточные точки" id="3998C4D9-7DBD-9331-4D32-13BB5663EDD1">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:10:49 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="время отправления" id="DF851B90-187C-D040-BF71-C880EF0B1829">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:11:06 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="время прибытия" id="3B690AF7-D0F1-8F19-E87B-5D06AD389238">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:11:12 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID1" id="FA5EC601-99C6-92A2-E612-C7DD9461AEDE">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:44:35 UTC</createdTime>
+<generatorID>6028C755-EF52-A05D-99C6-7184BE26229B</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<referedAttribute>529E6A78-2BFB-D42B-8886-DEA9F4663521</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E52A8C2-67EE-4B3F-981C-50A344BCD481" name="Рейс PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:10:29 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>582B5798-D44A-6418-77B9-422387B66898</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

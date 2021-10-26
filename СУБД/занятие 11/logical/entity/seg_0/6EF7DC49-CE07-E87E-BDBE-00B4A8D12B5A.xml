@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6EF7DC49-CE07-E87E-BDBE-00B4A8D12B5A" name="Учет рабочего времени">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:22:16 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UID" id="6DEEE276-5611-4073-CC5C-B6BADBB9A755">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:22:26 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID водителя" id="D0DBD3C2-DE8F-5E60-4C77-95EB06669323">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:22:34 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="количество часов в рейсе" id="899955B3-E11D-5876-ED11-64880C665878">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:22:40 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID1" id="D0B29412-94FE-F445-FACB-C005634F1AA3">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:36:30 UTC</createdTime>
+<generatorID>3140C1F8-4492-69B2-91C2-8BA83BF3A1D4</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<referedAttribute>E1CD7E7B-4CE2-9AD2-E26F-EF942E35E0A7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2285025-A6B7-6BF8-4BF2-86949A47C9FD" name="Учет рабочего времени PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-10-20 07:22:33 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6DEEE276-5611-4073-CC5C-B6BADBB9A755</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
