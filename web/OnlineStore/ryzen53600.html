@@ -1,0 +1,92 @@
+<html>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-top: 50px;
+            margin-bottom: auto;
+            margin-right: auto;
+            width: 20%;
+        }
+        .angry-grid {
+            
+           display: grid; 
+        
+           grid-template-rows: 1fr 1fr;
+           grid-template-columns: 1fr;
+           
+           gap: 0px;
+           height: 100%;
+           
+        }
+          
+        #item-0 {
+        
+           background-color: #040244; 
+           grid-row-start: 1;
+           grid-column-start: 1;
+        
+           grid-row-end: 2;
+           grid-column-end: 2;
+           
+        }
+        #item-1 {
+        
+           background-color: #a4b1e7; 
+           grid-row-start: 2;
+           grid-column-start: 1;
+        
+           grid-row-end: 3;
+           grid-column-end: 2;
+           
+        }
+        </style>
+
+   <head>
+      <title>Интернет магазин</title>
+
+   </head>
+
+
+
+<body>
+    <div class="angry-grid">
+      <div id="item-0">
+          <img src="ryzen53600OEM.jpg" alt="процессор" class = "center"/>
+        </div>
+      <div id="item-1">
+        <h1 align="center" size="40">Описание товара</h1> 
+        <hr>
+        <table align = "center"> 
+            <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Производитель</li>
+                            <li>Код производителя</li>
+                            <li>Линейка</li>
+                            <li>Модель</li>
+                            <li>Socket </li>
+                            <li>Ядро</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>AMD</li>
+                            <li>YD320GC5F(H/I)MPK/YD320GC5M4MFH/Y</li>
+                            <li>Ryzen 3</li>
+                            <li>3200G</li>
+                            <li>AM4</li>
+                            <li>Picasso</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+    </div>
+</body>
+</html>

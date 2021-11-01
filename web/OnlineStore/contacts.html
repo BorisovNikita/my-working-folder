@@ -1,0 +1,78 @@
+<html>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        .angry-grid {
+            
+           display: grid; 
+        
+           grid-template-rows: 1fr 1fr;
+           grid-template-columns: 1fr;
+           
+           gap: 0px;
+           height: 100%;
+           
+        }
+          
+        #item-0 {
+        
+           background-color: #69bff8; 
+           grid-row-start: 1;
+           grid-column-start: 1;
+        
+           grid-row-end: 2;
+           grid-column-end: 2;
+           
+        }
+        #item-1 {
+        
+           background-color: #00969b; 
+           grid-row-start: 2;
+           grid-column-start: 1;
+        
+           grid-row-end: 3;
+           grid-column-end: 2;
+           
+        }
+        </style>
+   <head>
+      <title>Интернет магазин</title>
+        
+   </head>
+
+
+
+<body>
+    <div class="angry-grid">
+        <div id="item-0">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+                <hr>
+                <h1>Напишите нам</h1>
+                <hr>
+                <form action="">
+                    <fieldset>
+                    <legend>Напишите нам</legend>
+                    <input type="text" size="30" placeholder="Ваше Имя">
+                    <input type="email" size="50" placeholder="example@yandex.ru">
+                    <input type="text" size="30" placeholder="Тема письма">
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="textarea" style="width:1250px;height:150px;"></textarea>
+                    </fieldset>
+                </form>
+        </div>
+        <div id="item-1" align = "left">
+            <ul>
+                <li>г.Москва, ул. Арбат, дом 7, стр. 45</li>
+                <li>8(595)632-12-45</li>
+                <li>pcshop@mail.com</li>
+            </ul>
+        </div>
+
+</body>
+</html>
