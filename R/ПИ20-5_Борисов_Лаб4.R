@@ -1,0 +1,12 @@
+source("script_for_4.R")
+Sys.setlocale("LC_ALL","Russian_Russia")
+func1(2,3,4)
+func1(2,3,0)
+func1(2,"fd",4)
+func1(2,c(3,4,5),4)
+
+func2(c(3,4,5,6))
+func2(2, isDebug = TRUE)
+func2(2, isDebug = TRUE, lang = "Eng", short = TRUE)
+func2(c(-1,2,10,11), isDebug = TRUE, lang = "RU", short = FALSE)
+func2(c(-1,2,10,11,"fasd"))
