@@ -1,4 +1,4 @@
-import socket, random, threading
+import socket, random, threading, csv
 
 def encrypt(k, m):
     return ''.join(map(chr, [(x + k) % 65536 for x in map(ord, m)]))
@@ -13,18 +13,46 @@ def listening(sock):
         msg = decrypt(private_key, msg)
         print(msg)
 
-b = random.randint(10,99)
+
+def read_keys():
+    global sock
+    with open("client_key.csv", "r", newline = "") as keyfile:
+        reader = csv.reader(keyfile, delimiter = ";")
+        return [int(item) for item in next(reader)]
+
+def get_keys():
+    global sock
+    server_keys = sock.recv(1024).decode().split("|")#g, p, A
+    server_keys = [int(item) for item in server_keys]
+    try:
+        keys = read_keys()
+    except FileNotFoundError:
+        b = random.randint(100,999)
+        g = server_keys[0]
+        p = server_keys[1]
+        my_b = pow(g, b) % p
+        serv_a = server_keys[2]
+        private = pow(serv_a, b) % p
+        keys = [b, g, p, my_b, serv_a, private]
+        with open("client_key.csv", "w", newline = "") as keyfile:
+            writer = csv.writer(keyfile, delimiter = ";")
+            writer.writerow(keys)
+    sock.send(str(keys[3]).encode())
+    return keys
+
 
 sock = socket.socket()
 sock.setblocking(True)
 sock.connect(('localhost', 10101))
-
-server_key = sock.recv(1024).decode().split("|")
-server_key = [int(item) for item in server_key]
-myself_b = pow(server_key[1],b)%server_key[2]
-private_key = pow(server_key[0],b)%server_key[2]
-sock.send((str(myself_b)).encode())
-
+print(f"Socket connected at port 10101")
+all_keys = get_keys()
+private_key = all_keys[5]
+port = int(decrypt(private_key,sock.recv(1024).decode()))
+sock.close()
+sock = socket.socket()
+sock.setblocking(True)
+sock.connect(('localhost', port))
+print(f"Socket binded at port {port}")
 threading.Thread(target = listening, args = (sock, ), daemon = True).start()
 
 while True:
