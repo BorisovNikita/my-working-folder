@@ -48,3 +48,9 @@ csv файл с ключами сервера
 ![image](https://user-images.githubusercontent.com/58771506/143404003-073b7d7d-5269-4717-9295-5a58a5c0fbf4.png)
 
 Модифицируйте код FTP-сервера таким образом, чтобы он поддерживал шифрование.
+
+![image](https://user-images.githubusercontent.com/58771506/143406713-59c09e2d-2953-4feb-acdc-f7af2531b2a5.png)
+
+![image](https://user-images.githubusercontent.com/58771506/143406782-c3a94da2-a6c6-44f8-be46-16f885c31c45.png)
+
+методы send/recv заменены на собственно написанные s_send/s_recv которые поддерживают шифрование. Обмен ключами и генерация происходят при каждом запросе и каждый раз разные соответственно.
