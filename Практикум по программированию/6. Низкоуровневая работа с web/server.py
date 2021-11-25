@@ -81,13 +81,14 @@ def request_reader(request, root = "."):
     #     print(resource)
     content_type = "text/html"
     if allowed:
-        mime = magic.Magic(mime=True)
-        content_type = mime.from_file(resource)
-        print(content_type)
+        
         try:
             with open(resource, "rb") as contentfile:
                 content = contentfile.read(1024*1024*16)
             response_code = "200 OK"
+            mime = magic.Magic(mime=True)
+            content_type = mime.from_file(resource)
+            # print(content_type)
         except:
             content = b""
             response_code = "404 Not Found"
