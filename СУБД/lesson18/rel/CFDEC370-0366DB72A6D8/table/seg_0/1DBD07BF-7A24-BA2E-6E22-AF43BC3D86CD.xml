@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DBD07BF-7A24-BA2E-6E22-AF43BC3D86CD" name="EXAM_RESULT">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>71766944-B5C3-D617-BCEE-ABD073A9AC3B</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Grade" id="33369EF6-CF3D-FE8B-A319-5E613D5651EF">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>05C74FE6-C21E-9818-D60B-83A962607896</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STUDENT_ID" id="C740D174-A006-AC38-1B9D-D6EB8B83B9EB">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>E3DC2984-C619-B844-E7DE-84CD607BB084</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE68DDE7-A3B6-E113-1635-1845279CAEED" referredColumn="D746BD10-8622-C828-6CAC-98CD8C0EC38F"/>
+</associations>
+</Column>
+<Column name="EXAM_ID" id="6444F011-6A30-846F-D7BC-4E93E8106629">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>CC91AD9C-37B7-16ED-80F1-8C528CBEFF17</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD333431-0C6B-57F0-4794-7564BBF6FF12" referredColumn="F29D1A11-80FC-635C-BAD9-8FC33B29D33C"/>
+</associations>
+</Column>
+<Column name="COURSE_ID" id="61CF4D23-1CA9-E500-8958-C27F459E32B0">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>020F50D0-4BF1-F742-18B5-D798CD8A6215</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE17BB11-76F6-C7AA-B227-0F400BE2592E" referredColumn="65D28E55-B9C6-B5C1-31EE-2A9BD1B2302A"/>
+</associations>
+</Column>
+<Column name="COURSE_ACADEMIC_SESSION_ID" id="F56B4CAF-971D-D584-8ABC-291740D52C67">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>E1008715-B439-7F0A-EAEC-DCE4423663DE</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE17BB11-76F6-C7AA-B227-0F400BE2592E" referredColumn="7B9B5950-D999-3AB7-4CA9-C860A336A794"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15F23439-CE05-6E41-2097-A8ACBC507456" name="EXAM_RESULT_PK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>E8D11C14-94FC-415C-13C1-5837955281C5</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C740D174-A006-AC38-1B9D-D6EB8B83B9EB"/>
+<colUsage columnID="6444F011-6A30-846F-D7BC-4E93E8106629"/>
+<colUsage columnID="61CF4D23-1CA9-E500-8958-C27F459E32B0"/>
+<colUsage columnID="F56B4CAF-971D-D584-8ABC-291740D52C67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8DFD57E-567F-1067-1815-B78FEE73E29C" name="EXAM_RESULT_STUDENT_FK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>2FA049C9-2F6D-978C-9F92-46D5EE36941B</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C740D174-A006-AC38-1B9D-D6EB8B83B9EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF5B2248-6A2C-2659-C66F-3DE677EFC400" name="EXAM_RESULT_EXAM_FK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>159DB4FC-8A6F-E506-22A3-5E441F5AC00F</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6444F011-6A30-846F-D7BC-4E93E8106629"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EC9852A-B478-451B-0563-2ED80B94A59C" name="EXAM_RESULT_COURSE_FK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>2BB8A732-13F7-B3ED-EDFD-AE41DF639F23</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61CF4D23-1CA9-E500-8958-C27F459E32B0"/>
+<colUsage columnID="F56B4CAF-971D-D584-8ABC-291740D52C67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

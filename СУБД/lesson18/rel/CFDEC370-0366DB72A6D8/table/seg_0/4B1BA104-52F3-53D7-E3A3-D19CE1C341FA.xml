@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B1BA104-52F3-53D7-E3A3-D19CE1C341FA" name="ONLINE">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>2E4F9D7A-6EB0-00D0-47C3-3E3429BD814D</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Logon_ID" id="1D1D9EC0-EC31-4D1D-E9AA-FD5F48A52374">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>C08A88EF-85CB-5D13-17BA-1A6296481293</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="5F4526BF-9FE1-C059-CEB5-63C3A4EA0242">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>FF7C07EE-1C0F-CAE6-1B0C-8B7D0F9AA21A</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA53CAB4-6421-B0DC-AAA6-189ED83BFB43" name="ONLINE_PK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>8A7B26F0-085C-4087-1037-2D01DB9217CB</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D1D9EC0-EC31-4D1D-E9AA-FD5F48A52374"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

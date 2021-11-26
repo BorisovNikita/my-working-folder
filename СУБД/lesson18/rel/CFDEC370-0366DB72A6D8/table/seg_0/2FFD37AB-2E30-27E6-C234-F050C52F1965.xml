@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FFD37AB-2E30-27E6-C234-F050C52F1965" name="PARENT_INFORMATION">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>3AF24438-9013-7425-41F8-9B29DABD8C41</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="DA81D41E-9A9C-ACFA-7716-BC48833D9010">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>CF583803-27D4-F7AF-7C8F-4A77DF2C93E6</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parent_1_First_Name" id="476B1117-6C56-8F33-B765-118AB16E0330">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>04938A7A-20BF-30C7-81C3-7012F24FC7CC</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parent_1_Last_Name" id="3D650DD7-346E-F759-EC8A-6F1B02D50627">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>B09C8FC8-AC04-0C13-39A3-6AB64B5CEFB8</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parent_2_First_Name" id="CEB2A63D-FA38-A61D-FBF2-03DE643CA796">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>141B4359-7FAB-BE75-FFBA-2C92196F278F</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parent_2_Last_Name" id="D1FF7843-5E77-D926-0881-9227525F51B5">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>C9AA0B9E-8BD0-E89B-2C83-10A36569D700</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8066CC05-7A9F-D14D-1E1B-F45006A445BB" name="PARENT_INFORMATION_PK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>7CEA77F7-CAAA-F712-C493-F820C2D1FD63</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA81D41E-9A9C-ACFA-7716-BC48833D9010"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

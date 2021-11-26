@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CE69C61-A2F2-43D0-D400-7B5AD6771D43" name="PART_TIME">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>97F76A2F-E68F-5883-376C-38BDB8ED9755</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="DD129F67-C0C4-DC89-6E8D-E1E5967FE222">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>D3D6EAB1-C336-BF78-9F67-35198D406CBA</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4279CF15-E776-E095-25B7-DCC21C2ADCEE" referredColumn="02D74B74-0E1F-D328-52AE-52ADE0D16890"/>
+</associations>
+</Column>
+<Column name="hourly_rate" id="CB338BF9-AC53-FAEF-253E-51CD35E056BA">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>92432F4C-BC68-FF14-641C-8CD0C7532942</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC158E7B-A824-CB20-D393-FFA71A1966AD" name="PART_TIME_PK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>60F33C5B-B5D4-C13E-9B26-793B5CBA7336</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD129F67-C0C4-DC89-6E8D-E1E5967FE222"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="960AD571-5202-CC5D-F87B-BA6C4EB6A741" name="PART_TIME_FACULTY_FK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>4AF72BD0-BC45-0F23-B9AB-1474020F743E</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD129F67-C0C4-DC89-6E8D-E1E5967FE222"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BF0DF26-DC7F-DD9F-61DE-2804B8CD33A5" name="EXAM TYPE">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:42:54 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Type" id="15F12A81-E991-CC6D-EF82-62A4D84A10BB">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:43:02 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="1E14C5C8-1EA3-EDA0-5AED-0B663E90DD99">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:43:07 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="E61B1C79-0ECD-5F06-30A9-A8DC04125C84">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:43:09 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="22A2E56B-ED79-C0F0-BACD-8A2CE37726F0" name="EXAM TYPE PK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:43:05 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15F12A81-E991-CC6D-EF82-62A4D84A10BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="64D0762E-4F2B-9BBB-5954-4B1E9FE2E133" name="FACULTY COURSE DETAIL">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:15:26 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Contact Hours" id="4DFF11F9-157B-A0C0-C3DC-CE9C32361612">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:15:40 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="D343353A-CC7F-7F71-873E-8AEE65DACC06">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:16:41 UTC</createdTime>
+<generatorID>2CCDC766-C406-E2FC-8A3C-066A01532D29</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<referedAttribute>66A27BE9-159E-9C3E-BE5E-3451D96049D0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="8338F7C7-EF87-FE37-07B8-9D7B7EB9DD73">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:18:26 UTC</createdTime>
+<generatorID>134EEDD4-08A9-843D-19F6-0954DA3714E7</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<referedAttribute>D3D6EAB1-C336-BF78-9F67-35198D406CBA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="206D8169-F40F-47EC-9199-B0EC15AECE41">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:34:54 UTC</createdTime>
+<generatorID>2CCDC766-C406-E2FC-8A3C-066A01532D29</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<referedAttribute>7ED231D5-977A-C696-F89E-3D4D0AFA58A1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8BBCD1F0-7A76-7C8F-6491-021363613058" name="FACULTY COURSE DETAIL PK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:16:41 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D343353A-CC7F-7F71-873E-8AEE65DACC06</attributeRef>
+<attributeRef>206D8169-F40F-47EC-9199-B0EC15AECE41</attributeRef>
+<attributeRef>8338F7C7-EF87-FE37-07B8-9D7B7EB9DD73</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

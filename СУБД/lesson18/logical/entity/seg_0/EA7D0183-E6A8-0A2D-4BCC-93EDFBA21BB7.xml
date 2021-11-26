@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA7D0183-E6A8-0A2D-4BCC-93EDFBA21BB7" name="STUDENT">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 22:02:24 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="28AF8E66-CC2C-99A9-89A3-372D23CC02C0">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 22:02:34 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First Name" id="FA283DDC-12BB-99BB-C196-FA6578EC3F7C">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 22:02:43 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last Name" id="C0086033-6E64-511E-1F5C-62350B34A2B0">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 22:02:56 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Registration Year" id="7CDAC967-E041-F93D-2447-807484C67BFE">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 22:03:02 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="D1D54C0B-BA03-F5C1-07E3-01B3D2C698BD">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 22:03:16 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="8DA61D34-B88F-D38C-08D9-BB2EC7B5166F">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 22:11:30 UTC</createdTime>
+<generatorID>E2C8C5A2-B20A-33D7-19DB-CD934803F1D0</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CF583803-27D4-F7AF-7C8F-4A77DF2C93E6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3418EC9-53AC-2CD5-7210-B5E89CBB3B63" name="STUDENT PK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 22:02:36 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28AF8E66-CC2C-99A9-89A3-372D23CC02C0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

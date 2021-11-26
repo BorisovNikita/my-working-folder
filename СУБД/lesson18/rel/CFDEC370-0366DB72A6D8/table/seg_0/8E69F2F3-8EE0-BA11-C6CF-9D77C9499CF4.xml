@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E69F2F3-8EE0-BA11-C6CF-9D77C9499CF4" name="EXAM">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>F15F6102-4C92-E547-C291-FA2C1B2A3EAB</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F29D1A11-80FC-635C-BAD9-8FC33B29D33C">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>D6FD387C-3891-DF1D-5923-39726CCF79F0</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Start_Date" id="1CE1569F-937E-5DBA-AAD5-DC9A36B5EEC4">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>520E3345-7CAA-61C3-821E-54B13B05B7EB</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXAM_TYPE_Type" id="A1687EA1-D3F1-9DE8-C92E-44102EDB3BCA">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>DC2A0E18-A110-88A2-9089-9C873E2FF0EA</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CAA115D-9ADA-DAFA-6E6A-4BFAB982FC78" referredColumn="D7BA0D91-3DFD-5084-DCB7-0504374601AA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F059328A-50EA-16D2-B556-F2FCF2F60C4A" name="EXAM_PK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>0318B499-B170-F3B2-A604-77293BA50704</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F29D1A11-80FC-635C-BAD9-8FC33B29D33C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F870AF6-7E5F-2422-815C-DEE6C275198F" name="EXAM_EXAM_TYPE_FK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>3AF43AE5-F9BF-2D95-3370-D4EF8763D0DB</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1687EA1-D3F1-9DE8-C92E-44102EDB3BCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

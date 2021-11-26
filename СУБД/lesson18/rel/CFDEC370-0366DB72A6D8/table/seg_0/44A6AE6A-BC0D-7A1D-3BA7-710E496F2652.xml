@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44A6AE6A-BC0D-7A1D-3BA7-710E496F2652" name="COURSE">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>06C662CB-3B19-E589-5585-1A9D041A666E</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="65D28E55-B9C6-B5C1-31EE-2A9BD1B2302A">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>66A27BE9-159E-9C3E-BE5E-3451D96049D0</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="F07DF197-BF89-CA4E-6386-766C632D33DD">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>341F2C58-AC6D-9CA7-839D-FABEE5F0AE76</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENT_ID" id="61F61096-7541-3A51-B1C8-7C4D72634C5E">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>40DC2847-9A7E-7500-1DF5-D9A79A670C67</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8DDCCC4-23FA-F87D-8A8D-48573F3FAAD3" referredColumn="A940EDB0-1E30-9FD6-81C4-ED55D0CC7CF3"/>
+</associations>
+</Column>
+<Column name="SEATED_Room" id="2B73F5CB-95BF-6C08-F1DE-81ED9653DCDC">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>702D4009-5CFC-B7AB-E916-0AD86FC738EC</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD95FB2F-9D1F-3068-F40C-9D00FC8130E2" referredColumn="E111AFFF-285D-A75F-C46B-4E81841E6101"/>
+</associations>
+</Column>
+<Column name="SEATED_Date/Time" id="FDE6263B-5050-10A7-94DA-94A58652F63D">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>D37A0B82-DC25-531E-0C75-D9DDCD1FF01F</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD95FB2F-9D1F-3068-F40C-9D00FC8130E2" referredColumn="E0E6A408-0EA2-43C4-1DDB-7E870876B540"/>
+</associations>
+</Column>
+<Column name="SEATED_Building" id="360DE01E-2FED-D35B-EF54-5CE12DDDF6B9">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>B91DFB17-E32C-A5CE-9E6C-065257B6CEB8</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD95FB2F-9D1F-3068-F40C-9D00FC8130E2" referredColumn="7A2D9BA4-B962-5385-4B2E-A1C66F57AD4E"/>
+</associations>
+</Column>
+<Column name="ONLINE_Logon_ID" id="2394C9CF-C532-54DE-6EE9-B2808DA12369">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>1B6715D4-E84F-FE28-E2CC-19F59DB2F29C</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03AE2F9E-6441-CA1A-DCE9-E6DFE5D30C4B" referredColumn="1D1D9EC0-EC31-4D1D-E9AA-FD5F48A52374"/>
+</associations>
+</Column>
+<Column name="ACADEMIC_SESSION_ID" id="7B9B5950-D999-3AB7-4CA9-C860A336A794">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>7ED231D5-977A-C696-F89E-3D4D0AFA58A1</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4E89145-394B-AA74-46E1-B71C4298D1BE" referredColumn="9D8DDDA5-CD91-43CF-3087-42D5FB443611"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC311CCE-4581-9235-5B55-BE7984820DD6" name="COURSE_PK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>ED548D9B-3C69-AF1F-50FF-7183F8F4616A</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65D28E55-B9C6-B5C1-31EE-2A9BD1B2302A"/>
+<colUsage columnID="7B9B5950-D999-3AB7-4CA9-C860A336A794"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="091F9821-859E-4E3E-0C99-4944867F0CB4" name="COURSE_SEATED_FK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>FA1B1EE6-EB59-A3C4-BA70-C9BF65468214</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B73F5CB-95BF-6C08-F1DE-81ED9653DCDC"/>
+<colUsage columnID="FDE6263B-5050-10A7-94DA-94A58652F63D"/>
+<colUsage columnID="360DE01E-2FED-D35B-EF54-5CE12DDDF6B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0835FC67-97BB-35DF-8469-335881DB0ABC" name="COURSE_ONLINE_FK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>5ECD69DC-4A4D-8035-1659-F5ED57E749F0</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2394C9CF-C532-54DE-6EE9-B2808DA12369"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="372B1E80-EF0B-A915-CDF7-F8CB307F6F64" name="COURSE_ACADEMIC_SESSION_FK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>7F3C6838-8E85-FF94-58C8-7FDCE22CB979</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B9B5950-D999-3AB7-4CA9-C860A336A794"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD099E51-3A99-5E18-B62D-907E7884F451" name="COURSE_DEPARTMENT_FK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>E464AFEC-FA86-8242-CE1D-A97BBD5EFC57</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61F61096-7541-3A51-B1C8-7C4D72634C5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

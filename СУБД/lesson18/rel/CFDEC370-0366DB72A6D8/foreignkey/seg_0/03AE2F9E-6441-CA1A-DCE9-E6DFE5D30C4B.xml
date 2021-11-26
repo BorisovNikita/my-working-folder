@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="03AE2F9E-6441-CA1A-DCE9-E6DFE5D30C4B" containerWithKeyObject="44A6AE6A-BC0D-7A1D-3BA7-710E496F2652" localFKIndex="0835FC67-97BB-35DF-8469-335881DB0ABC" name="COURSE_ONLINE_FK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>5ECD69DC-4A4D-8035-1659-F5ED57E749F0</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<referredTableLongName>ONLINE</referredTableLongName>
+<arc>B0665BEF-245D-BD9A-13AE-A6AFBB468690</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4B1BA104-52F3-53D7-E3A3-D19CE1C341FA</referredTableID>
+<keyObject>BA53CAB4-6421-B0DC-AAA6-189ED83BFB43</keyObject>
+<referredKeyID>BA53CAB4-6421-B0DC-AAA6-189ED83BFB43</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Logon_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

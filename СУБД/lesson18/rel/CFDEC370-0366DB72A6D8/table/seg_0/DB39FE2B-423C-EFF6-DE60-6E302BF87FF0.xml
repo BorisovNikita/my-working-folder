@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB39FE2B-423C-EFF6-DE60-6E302BF87FF0" name="SEATED">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>DB1C789F-07BF-4BF1-657A-884EFF474A0C</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Building" id="7A2D9BA4-B962-5385-4B2E-A1C66F57AD4E">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>3DC6DD69-1950-63DB-349B-8E156713E834</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Room" id="E111AFFF-285D-A75F-C46B-4E81841E6101">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>84973017-F73A-D93F-CA0D-6E30367EB88C</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date/Time" id="E0E6A408-0EA2-43C4-1DDB-7E870876B540">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>1EAB56F0-ED81-314B-92D8-31BD2272E29C</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBFD740C-64B0-1AE9-8C73-8EA811F6D59A" name="SEATED_PK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>90114737-89AE-4A9D-1B3B-2B16A890E695</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E111AFFF-285D-A75F-C46B-4E81841E6101"/>
+<colUsage columnID="E0E6A408-0EA2-43C4-1DDB-7E870876B540"/>
+<colUsage columnID="7A2D9BA4-B962-5385-4B2E-A1C66F57AD4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

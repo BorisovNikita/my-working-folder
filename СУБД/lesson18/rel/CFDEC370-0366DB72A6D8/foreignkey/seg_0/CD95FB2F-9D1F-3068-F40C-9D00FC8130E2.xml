@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CD95FB2F-9D1F-3068-F40C-9D00FC8130E2" containerWithKeyObject="44A6AE6A-BC0D-7A1D-3BA7-710E496F2652" localFKIndex="091F9821-859E-4E3E-0C99-4944867F0CB4" name="COURSE_SEATED_FK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>FA1B1EE6-EB59-A3C4-BA70-C9BF65468214</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<referredTableLongName>SEATED</referredTableLongName>
+<arc>B0665BEF-245D-BD9A-13AE-A6AFBB468690</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DB39FE2B-423C-EFF6-DE60-6E302BF87FF0</referredTableID>
+<keyObject>BBFD740C-64B0-1AE9-8C73-8EA811F6D59A</keyObject>
+<referredKeyID>BBFD740C-64B0-1AE9-8C73-8EA811F6D59A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Room,Date/Time,Building</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

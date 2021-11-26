@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02CBC633-5F10-17C9-5BCC-C0155EF73A6F" name="STUDENT">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>EA7D0183-E6A8-0A2D-4BCC-93EDFBA21BB7</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D746BD10-8622-C828-6CAC-98CD8C0EC38F">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>28AF8E66-CC2C-99A9-89A3-372D23CC02C0</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="A47E1D37-BF83-DB04-F9A9-3C87F979C1F5">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>FA283DDC-12BB-99BB-C196-FA6578EC3F7C</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="77BC399E-95E1-23EB-5024-114C2083718F">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>C0086033-6E64-511E-1F5C-62350B34A2B0</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registration_Year" id="6E671977-844F-36AD-0B03-D568B0A1B934">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>7CDAC967-E041-F93D-2447-807484C67BFE</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="F5A3CE30-E228-CBB0-53E8-5C3189769A32">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>D1D54C0B-BA03-F5C1-07E3-01B3D2C698BD</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARENT_INFORMATION_ID" id="F3512FB5-6896-56BE-97FF-02F87F6BDE18">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>8DA61D34-B88F-D38C-08D9-BB2EC7B5166F</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F7C686F-6100-39F1-0514-C486F629F720" referredColumn="DA81D41E-9A9C-ACFA-7716-BC48833D9010"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B0DCD06-1B64-4CEB-B494-9C990726B62B" name="STUDENT_PK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>B3418EC9-53AC-2CD5-7210-B5E89CBB3B63</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D746BD10-8622-C828-6CAC-98CD8C0EC38F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C41597F9-B020-D308-BE1F-9EE6EDEFBEA4" name="STUDENT_PARENT_INFORMATION_FK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:49:17 UTC</createdTime>
+<generatorID>E2C8C5A2-B20A-33D7-19DB-CD934803F1D0</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3512FB5-6896-56BE-97FF-02F87F6BDE18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

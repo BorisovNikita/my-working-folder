@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="534B57E9-0394-85AA-7CA0-1E652B0E49CB" name="STUDENT ATTEDANCE">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:07:37 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number of Working Days" id="6A232E5C-FB02-2BD9-4E06-8874C26F4340">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:10:21 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number of Days Off" id="660B7F22-AA06-184A-DF2D-659DB8CCC25B">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:12:33 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Eligibility for exam" id="C92004C1-74D4-4141-12DE-5DC0A7CFB1F8">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:12:51 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="EA422992-008A-9F99-2651-6CC6777E5CA8">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:31:02 UTC</createdTime>
+<generatorID>90513054-BD93-6DAF-80AF-A39C7F7A4D22</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<referedAttribute>28AF8E66-CC2C-99A9-89A3-372D23CC02C0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="F24887B7-C4AB-7DEC-355E-1B91A7F35CB1">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:31:50 UTC</createdTime>
+<generatorID>3507C90E-80BD-8141-9F13-C101F27065A4</generatorID>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<referedAttribute>44D255CE-DF83-7C60-8A88-CF1F6CACA21C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6FCE975C-C925-6278-7387-1E438A862E56" name="STUDENT ATTEDANCE PK">
+<createdBy>Анастасия</createdBy>
+<createdTime>2021-11-24 23:31:02 UTC</createdTime>
+<ownerDesignName>lesson18</ownerDesignName>
+<engineerTo>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA422992-008A-9F99-2651-6CC6777E5CA8</attributeRef>
+<attributeRef>F24887B7-C4AB-7DEC-355E-1B91A7F35CB1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
