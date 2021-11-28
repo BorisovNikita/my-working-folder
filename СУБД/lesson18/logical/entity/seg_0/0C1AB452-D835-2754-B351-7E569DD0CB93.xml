@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Name" id="0342F8C1-DF1F-82AB-7726-53C001854DD1">
@@ -32,7 +34,9 @@
 <engineerTo>
 <item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Head" id="FA7FD59F-1ED6-387A-89B8-1539E33D72B0">
@@ -42,7 +46,9 @@
 <engineerTo>
 <item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

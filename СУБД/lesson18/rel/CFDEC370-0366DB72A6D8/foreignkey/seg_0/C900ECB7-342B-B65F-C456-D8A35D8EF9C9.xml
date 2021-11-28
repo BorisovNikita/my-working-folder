@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C900ECB7-342B-B65F-C456-D8A35D8EF9C9" containerWithKeyObject="0C2D2B4B-6B44-3E5E-17B8-293BE4D79815" localFKIndex="22967CF5-22AC-074A-9B03-204CC1D8C5F5" name="FACULTY_LOGIN_DETAIL_FACULTY_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C900ECB7-342B-B65F-C456-D8A35D8EF9C9" containerWithKeyObject="0C2D2B4B-6B44-3E5E-17B8-293BE4D79815" localFKIndex="22967CF5-22AC-074A-9B03-204CC1D8C5F5" name="FACL_LOGIN_DETAILS_FACULTYS_ForeignKey">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>FF9D3767-C3EB-DAE7-ECCD-4888CE812A37</generatorID>
 <ownerDesignName>lesson18</ownerDesignName>
-<referredTableLongName>FACULTY</referredTableLongName>
+<referredTableLongName>FACULTYS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>A3D30898-8B09-5C93-1CCC-275E39521EDC</referredTableID>
 <keyObject>11312AA5-795F-81BB-5C5F-C3C6AA640298</keyObject>

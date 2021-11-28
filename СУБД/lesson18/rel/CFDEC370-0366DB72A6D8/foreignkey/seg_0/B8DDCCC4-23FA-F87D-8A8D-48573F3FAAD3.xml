@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B8DDCCC4-23FA-F87D-8A8D-48573F3FAAD3" containerWithKeyObject="44A6AE6A-BC0D-7A1D-3BA7-710E496F2652" localFKIndex="BD099E51-3A99-5E18-B62D-907E7884F451" name="COURSE_DEPARTMENT_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B8DDCCC4-23FA-F87D-8A8D-48573F3FAAD3" containerWithKeyObject="44A6AE6A-BC0D-7A1D-3BA7-710E496F2652" localFKIndex="BD099E51-3A99-5E18-B62D-907E7884F451" name="COURSES_DEPARTMENTS_ForeignKey">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>E464AFEC-FA86-8242-CE1D-A97BBD5EFC57</generatorID>
 <ownerDesignName>lesson18</ownerDesignName>
-<referredTableLongName>DEPARTMENT</referredTableLongName>
+<referredTableLongName>DEPARTMENTS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>843CCF7C-FBA2-A3CB-260A-87CB6EA1E342</referredTableID>
 <keyObject>F6ED03AE-C6CD-B3DB-07EB-93D04F8397E1</keyObject>

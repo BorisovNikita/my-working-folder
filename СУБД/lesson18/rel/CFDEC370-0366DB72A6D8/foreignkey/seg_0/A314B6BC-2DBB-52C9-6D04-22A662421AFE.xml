@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A314B6BC-2DBB-52C9-6D04-22A662421AFE" containerWithKeyObject="C507262C-F88E-B580-1940-53A8BF4F5C6D" localFKIndex="9CF5AECE-7F01-1E85-CE4E-9C61C676ADAA" name="FACULTY_COURSE_DETAIL_COURSE_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A314B6BC-2DBB-52C9-6D04-22A662421AFE" containerWithKeyObject="C507262C-F88E-B580-1940-53A8BF4F5C6D" localFKIndex="9CF5AECE-7F01-1E85-CE4E-9C61C676ADAA" name="FACL_CRS_DETAILS_COURSES_ForeignKey">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>2CCDC766-C406-E2FC-8A3C-066A01532D29</generatorID>
 <ownerDesignName>lesson18</ownerDesignName>
-<referredTableLongName>COURSE</referredTableLongName>
+<referredTableLongName>COURSES</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>44A6AE6A-BC0D-7A1D-3BA7-710E496F2652</referredTableID>
 <keyObject>CC311CCE-4581-9235-5B55-BE7984820DD6</keyObject>
 <referredKeyID>CC311CCE-4581-9235-5B55-BE7984820DD6</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>ID,ACADEMIC_SESSION_ID</refColNames>
+<refColNames>ID,ACDM_SESSIONS_ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID" id="EA361FB7-0861-54FD-613F-A1B8B44292C7">
@@ -34,7 +36,8 @@
 <item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
 </engineerTo>
 <referedAttribute>D3D6EAB1-C336-BF78-9F67-35198D406CBA</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -49,6 +52,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>EA361FB7-0861-54FD-613F-A1B8B44292C7</attributeRef>
+<attributeRef>E05DAFDC-2C66-5BC0-996D-4C9665517AD4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

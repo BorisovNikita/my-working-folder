@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="First Name" id="FA283DDC-12BB-99BB-C196-FA6578EC3F7C">
@@ -32,7 +34,9 @@
 <engineerTo>
 <item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Last Name" id="C0086033-6E64-511E-1F5C-62350B34A2B0">
@@ -42,7 +46,9 @@
 <engineerTo>
 <item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Registration Year" id="7CDAC967-E041-F93D-2447-807484C67BFE">
@@ -52,7 +58,9 @@
 <engineerTo>
 <item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Email" id="D1D54C0B-BA03-F5C1-07E3-01B3D2C698BD">
@@ -62,7 +70,9 @@
 <engineerTo>
 <item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID1" id="8DA61D34-B88F-D38C-08D9-BB2EC7B5166F">
@@ -75,7 +85,8 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>CF583803-27D4-F7AF-7C8F-4A77DF2C93E6</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID" id="D343353A-CC7F-7F71-873E-8AEE65DACC06">
@@ -34,7 +36,9 @@
 <item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
 </engineerTo>
 <referedAttribute>66A27BE9-159E-9C3E-BE5E-3451D96049D0</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID1" id="8338F7C7-EF87-FE37-07B8-9D7B7EB9DD73">
@@ -46,7 +50,8 @@
 <item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
 </engineerTo>
 <referedAttribute>D3D6EAB1-C336-BF78-9F67-35198D406CBA</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID2" id="206D8169-F40F-47EC-9199-B0EC15AECE41">
@@ -58,7 +63,8 @@
 <item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
 </engineerTo>
 <referedAttribute>7ED231D5-977A-C696-F89E-3D4D0AFA58A1</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

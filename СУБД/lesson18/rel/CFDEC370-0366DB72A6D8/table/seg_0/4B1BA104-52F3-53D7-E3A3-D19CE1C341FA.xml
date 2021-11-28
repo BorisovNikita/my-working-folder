@@ -13,7 +13,9 @@
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>C08A88EF-85CB-5D13-17BA-1A6296481293</generatorID>
 <ownerDesignName>lesson18</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -22,7 +24,9 @@
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>FF7C07EE-1C0F-CAE6-1B0C-8B7D0F9AA21A</generatorID>
 <ownerDesignName>lesson18</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

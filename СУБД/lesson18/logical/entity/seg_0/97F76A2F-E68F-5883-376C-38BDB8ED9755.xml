@@ -3,8 +3,9 @@
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 22:23:54 UTC</createdTime>
 <ownerDesignName>lesson18</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
+<item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -23,7 +24,9 @@
 <engineerTo>
 <item key="CFDEC370-0386-610B-5920-0366DB72A6D8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDFCDC51-F302-8E47-D749-3944F026041F" name="EXAM_TYPE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDFCDC51-F302-8E47-D749-3944F026041F" name="XAM_TYPES">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>2BF0DF26-DC7F-DD9F-61DE-2804B8CD33A5</generatorID>
@@ -8,12 +8,14 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Type" id="D7BA0D91-3DFD-5084-DCB7-0504374601AA">
+<Column name="TPS" id="D7BA0D91-3DFD-5084-DCB7-0504374601AA">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>15F12A81-E991-CC6D-EF82-62A4D84A10BB</generatorID>
 <ownerDesignName>lesson18</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -22,7 +24,9 @@
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>1E14C5C8-1EA3-EDA0-5AED-0B663E90DD99</generatorID>
 <ownerDesignName>lesson18</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -32,13 +36,15 @@
 <generatorID>E61B1C79-0ECD-5F06-30A9-A8DC04125C84</generatorID>
 <ownerDesignName>lesson18</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="70B34C46-005E-A87F-D0FA-3C76B95F6C39" name="EXAM_TYPE_PK">
+<ind_PK_UK id="70B34C46-005E-A87F-D0FA-3C76B95F6C39" name="XAM_TYP_PK">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>22A2E56B-ED79-C0F0-BACD-8A2CE37726F0</generatorID>

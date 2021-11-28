@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C2D2B4B-6B44-3E5E-17B8-293BE4D79815" name="FACULTY_LOGIN_DETAIL">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C2D2B4B-6B44-3E5E-17B8-293BE4D79815" name="FACL_LOGIN_DETAILS">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>13FA9934-6D83-C781-D0F8-664D4325A7A2</generatorID>
@@ -8,21 +8,25 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Login_Date_Time" id="DEA4E847-8824-840F-B66E-FCBC5801ED64">
+<Column name="LOGIN_Date_TMS" id="DEA4E847-8824-840F-B66E-FCBC5801ED64">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>E05DAFDC-2C66-5BC0-996D-4C9665517AD4</generatorID>
 <ownerDesignName>lesson18</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="FACULTY_ID" id="0D833D97-CA42-737E-7D69-1B9D84D30718">
+<Column name="FACULTYS_ID" id="0D833D97-CA42-737E-7D69-1B9D84D30718">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>EA361FB7-0861-54FD-613F-A1B8B44292C7</generatorID>
 <ownerDesignName>lesson18</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -32,7 +36,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="10DA477C-0145-EDAD-F7AD-E99493717BE3" name="FACULTY_LOGIN_DETAIL_PK">
+<ind_PK_UK id="10DA477C-0145-EDAD-F7AD-E99493717BE3" name="FACULTY_LOGIN_DTA_PK">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>25F1EF8E-95CC-B557-54ED-3E2FC8B09AF2</generatorID>
@@ -42,9 +46,10 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0D833D97-CA42-737E-7D69-1B9D84D30718"/>
+<colUsage columnID="DEA4E847-8824-840F-B66E-FCBC5801ED64"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="22967CF5-22AC-074A-9B03-204CC1D8C5F5" name="FACULTY_LOGIN_DETAIL_FACULTY_FK">
+<ind_PK_UK id="22967CF5-22AC-074A-9B03-204CC1D8C5F5" name="FACL_LOGIN_DETAILS_FACULTYS_ForeignKey">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>FF9D3767-C3EB-DAE7-ECCD-4888CE812A37</generatorID>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0CAA115D-9ADA-DAFA-6E6A-4BFAB982FC78" containerWithKeyObject="8E69F2F3-8EE0-BA11-C6CF-9D77C9499CF4" localFKIndex="5F870AF6-7E5F-2422-815C-DEE6C275198F" name="EXAM_EXAM_TYPE_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0CAA115D-9ADA-DAFA-6E6A-4BFAB982FC78" containerWithKeyObject="8E69F2F3-8EE0-BA11-C6CF-9D77C9499CF4" localFKIndex="5F870AF6-7E5F-2422-815C-DEE6C275198F" name="EXAMS_XAM_TYPES_ForeignKey">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>3AF43AE5-F9BF-2D95-3370-D4EF8763D0DB</generatorID>
 <ownerDesignName>lesson18</ownerDesignName>
-<referredTableLongName>EXAM_TYPE</referredTableLongName>
+<referredTableLongName>XAM_TYPES</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>BDFCDC51-F302-8E47-D749-3944F026041F</referredTableID>
 <keyObject>70B34C46-005E-A87F-D0FA-3C76B95F6C39</keyObject>
 <referredKeyID>70B34C46-005E-A87F-D0FA-3C76B95F6C39</referredKeyID>
 <mandatory>false</mandatory>
-<refColNames>Type</refColNames>
+<refColNames>TPS</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

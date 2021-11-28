@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCDB5A7D-B7A2-15B4-A156-5181871CAD6A" name="STUDENT_COURSE_DETAIL">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCDB5A7D-B7A2-15B4-A156-5181871CAD6A" name="STDS_CRS_DETAILS">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>2A8940B2-BDE9-F541-6549-5F57FFA73FB9</generatorID>
@@ -13,16 +13,20 @@
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>0B13B231-FE07-43F9-C8DA-AE61D162F57D</generatorID>
 <ownerDesignName>lesson18</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COURSE_ID" id="D65CB489-1BF4-6D24-E8E1-780ECCF8B54F">
+<Column name="COURSES_ID" id="D65CB489-1BF4-6D24-E8E1-780ECCF8B54F">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>81EF514E-74ED-45F4-D750-A7652F6F39EF</generatorID>
 <ownerDesignName>lesson18</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -30,12 +34,14 @@
 <colAssociation fkAssociation="797128CF-AAAA-7442-970C-0A08C0D35D99" referredColumn="65D28E55-B9C6-B5C1-31EE-2A9BD1B2302A"/>
 </associations>
 </Column>
-<Column name="STUDENT_ID" id="D5283A37-3BAF-52A1-9E99-652964AA6E88">
+<Column name="STUDENTS_ID" id="D5283A37-3BAF-52A1-9E99-652964AA6E88">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>5D4D5BDF-E8B6-9BC0-9AB0-31D6721A1909</generatorID>
 <ownerDesignName>lesson18</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -43,12 +49,14 @@
 <colAssociation fkAssociation="04A00032-83CD-4C71-99A5-863DE50217EC" referredColumn="D746BD10-8622-C828-6CAC-98CD8C0EC38F"/>
 </associations>
 </Column>
-<Column name="COURSE_ACADEMIC_SESSION_ID" id="A4A65025-F360-8A65-B2F6-62EC630BD5A4">
+<Column name="COURSES_ACDM_SESSIONS_ID" id="A4A65025-F360-8A65-B2F6-62EC630BD5A4">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>CE124FFA-2387-C6B9-059A-F275D5A38FD1</generatorID>
 <ownerDesignName>lesson18</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -58,7 +66,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="19F07A4B-C08D-F4E1-8F16-7A85C9F55399" name="STUDENT_COURSE_DETAIL_PK">
+<ind_PK_UK id="19F07A4B-C08D-F4E1-8F16-7A85C9F55399" name="STUDENT_COURSE_DTA_PK">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>6AA5E675-86BC-7D45-4175-76F08F8C2380</generatorID>
@@ -72,7 +80,7 @@
 <colUsage columnID="A4A65025-F360-8A65-B2F6-62EC630BD5A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7CE251BE-15A8-73A3-4D77-9C95FD7EFF26" name="STUDENT_COURSE_DETAIL_STUDENT_FK">
+<ind_PK_UK id="7CE251BE-15A8-73A3-4D77-9C95FD7EFF26" name="STDS_CRS_DETAILS_STUDENTS_ForeignKey">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>388332BE-2FCC-D5DC-051F-D1CB26BFDB04</generatorID>
@@ -83,7 +91,7 @@
 <colUsage columnID="D5283A37-3BAF-52A1-9E99-652964AA6E88"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CBF61FA6-DA3A-936B-454C-EB4E698B8180" name="STUDENT_COURSE_DETAIL_COURSE_FK">
+<ind_PK_UK id="CBF61FA6-DA3A-936B-454C-EB4E698B8180" name="STDS_CRS_DETAILS_COURSES_ForeignKey">
 <createdBy>Анастасия</createdBy>
 <createdTime>2021-11-24 23:49:17 UTC</createdTime>
 <generatorID>0FBDD3DB-9265-6602-63F5-9C6D04C6AAF8</generatorID>
