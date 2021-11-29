@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<cwd_glossary name="MyTestGlossary" description="generated from logical model of design" id="FAAE2656-EB95-57B9-8DEE-F93F5F35F4DC" incomplete_modifiers="true" >
+
+   <glossaryWord name="1" plural="" abbreviation="" alt_abbreviation="" id="C1DC8C4B-42A6-7E65-CF5E-4AB2974D2992" import_id="" description="" />
+   <glossaryWord name="2" plural="" abbreviation="" alt_abbreviation="" id="88AAEAA5-21D2-74AA-4097-FFAA4ADF9AAE" import_id="" description="" />
+   <glossaryWord name="ACADEMIC" plural="ACADEMICS" abbreviation="ACDM" alt_abbreviation="" id="F51FAA4B-A328-CC7C-7943-CD1F736C8EC4" import_id="" description="" />
+   <glossaryWord name="ATTEDANCE" plural="ATTEDANCES" abbreviation="ATTD" alt_abbreviation="" id="7F63D6C3-BC7F-F629-6A20-9DC206D0F97B" import_id="" description="" />
+   <glossaryWord name="Building" plural="" abbreviation="" alt_abbreviation="" id="F1D31FF8-74D6-A63C-85CC-EA609034700A" import_id="" description="" />
+   <glossaryWord name="COURSE" plural="COURSES" abbreviation="CRS" alt_abbreviation="" id="70F84A1A-F561-7A3A-9FFB-BEEBCDCCC327" import_id="" description="" />
+   <glossaryWord name="Contact" plural="" abbreviation="" alt_abbreviation="" id="379EA439-C0A6-8039-BF76-DBAA78B72503" import_id="" description="" />
+   <glossaryWord name="DEPARTMENT" plural="DEPARTMENTS" abbreviation="DPT" alt_abbreviation="" id="6B0C606A-8A5C-C759-C953-73A1C72A0939" import_id="" description="" />
+   <glossaryWord name="DETAIL" plural="DETAILS" abbreviation="DTA" alt_abbreviation="" id="0845CEC0-C45D-41B3-C8A5-4F75260E1C10" import_id="" description="" />
+   <glossaryWord name="Date" plural="" abbreviation="" alt_abbreviation="" id="F65DA6C5-CF7F-6A63-E875-7B157388C8C9" import_id="" description="" />
+   <glossaryWord name="Date/Time" plural="" abbreviation="" alt_abbreviation="" id="06401F40-2729-56BE-2854-C76D65602116" import_id="" description="" />
+   <glossaryWord name="Days" plural="" abbreviation="" alt_abbreviation="" id="6C69552B-2F49-2E7C-7ED5-87ABA43B34B4" import_id="" description="" />
+   <glossaryWord name="Description" plural="" abbreviation="" alt_abbreviation="" id="41F9C3BA-ED93-B3CF-0473-3093D968E09C" import_id="" description="" />
+   <glossaryWord name="EXAM" plural="EXAMS" abbreviation="XAM" alt_abbreviation="" id="9A3D0785-3930-AA7E-D5FE-F5E7BB2CC31C" import_id="" description="" />
+   <glossaryWord name="Eligibility" plural="" abbreviation="" alt_abbreviation="" id="E54FD901-C3D8-AEA4-9EEB-1E0559390A9C" import_id="" description="" />
+   <glossaryWord name="Email" plural="" abbreviation="" alt_abbreviation="" id="B6342EF6-A90F-606F-C576-4515B64DA563" import_id="" description="" />
+   <glossaryWord name="FACULTY" plural="FACULTYS" abbreviation="FACL" alt_abbreviation="" id="4DE36959-0069-ACD8-924B-BEB9B4BA340D" import_id="" description="" />
+   <glossaryWord name="FULL" plural="FULL" abbreviation="FUL" alt_abbreviation="" id="9BE30437-C8C9-50B6-C8CE-DDF4F6D32623" import_id="" description="" />
+   <glossaryWord name="First" plural="" abbreviation="" alt_abbreviation="" id="EC6EF5BD-C273-4776-1D27-9B113872FA96" import_id="" description="" />
+   <glossaryWord name="Grade" plural="" abbreviation="" alt_abbreviation="" id="72B9205C-E17A-4DD7-C422-03CB596BFFFA" import_id="" description="" />
+   <glossaryWord name="Head" plural="" abbreviation="" alt_abbreviation="" id="B0A97C0E-80FD-51E0-3008-922622390B61" import_id="" description="" />
+   <glossaryWord name="Hours" plural="" abbreviation="" alt_abbreviation="" id="C4165EE9-422C-22FD-5B14-B9C0D6FD83B3" import_id="" description="" />
+   <glossaryWord name="ID" plural="" abbreviation="" alt_abbreviation="" id="80574106-2B48-E949-48B9-F48DF9DAE99E" import_id="" description="" />
+   <glossaryWord name="INFORMATION" plural="INFORMATION" abbreviation="INF" alt_abbreviation="" id="6E6299BA-C138-C06E-DAD9-5D80FB8BE75D" import_id="" description="" />
+   <glossaryWord name="LOGIN" plural="" abbreviation="" alt_abbreviation="" id="4B7C2C04-5BEC-05AC-BCE3-0C167E2EA640" import_id="" description="" />
+   <glossaryWord name="Last" plural="" abbreviation="" alt_abbreviation="" id="A6989365-05CD-1739-F8BE-34036142BE70" import_id="" description="" />
+   <glossaryWord name="Logon" plural="" abbreviation="" alt_abbreviation="" id="B9B275CA-D08F-4ADB-0035-C7E4DCD7BD32" import_id="" description="" />
+   <glossaryWord name="Name" plural="" abbreviation="" alt_abbreviation="" id="BAD91E68-F923-CFAA-3080-16750D195122" import_id="" description="" />
+   <glossaryWord name="Number" plural="" abbreviation="" alt_abbreviation="" id="F538326E-8F2B-24CE-DACB-C349393F2260" import_id="" description="" />
+   <glossaryWord name="ONLINE" plural="ONLINE" abbreviation="ONL" alt_abbreviation="" id="7F1980BA-3B23-C586-1739-0FA6FD265DF7" import_id="" description="" />
+   <glossaryWord name="Off" plural="" abbreviation="" alt_abbreviation="" id="AB8E6A55-7E08-642E-3A6F-8D64C0D16CE1" import_id="" description="" />
+   <glossaryWord name="PARENT" plural="PARENTS" abbreviation="PNT" alt_abbreviation="" id="51C99885-90ED-A546-7084-0C799F830912" import_id="" description="" />
+   <glossaryWord name="PART" plural="PARTS" abbreviation="PAT" alt_abbreviation="" id="30CFC168-DE31-A6FE-E01D-F9F6F48B8A37" import_id="" description="" />
+   <glossaryWord name="PK" plural="" abbreviation="" alt_abbreviation="" id="AA349D65-D6DE-65AA-3177-7C27C8A62787" import_id="" description="" />
+   <glossaryWord name="Password" plural="" abbreviation="" alt_abbreviation="" id="4AA7AD75-805D-E283-CC6C-4AF053095419" import_id="" description="" />
+   <glossaryWord name="RESULT" plural="RESULTS" abbreviation="RSL" alt_abbreviation="" id="E6AD6F51-4913-4283-F6EF-35797751D75C" import_id="" description="" />
+   <glossaryWord name="Registration" plural="" abbreviation="" alt_abbreviation="" id="0CA97911-E0BF-3083-715D-2536AAC639D2" import_id="" description="" />
+   <glossaryWord name="Room" plural="" abbreviation="" alt_abbreviation="" id="778E5684-63E9-4D55-ECE1-393E59B4D99C" import_id="" description="" />
+   <glossaryWord name="SEATED" plural="SEATEDS" abbreviation="STDS" alt_abbreviation="" id="713566AC-8819-2EA0-350D-02643132B389" import_id="" description="" />
+   <glossaryWord name="SESSION" plural="SESSIONS" abbreviation="SSNS" alt_abbreviation="" id="73E01CE6-8C11-7DD4-5E32-21DFC6615142" import_id="" description="" />
+   <glossaryWord name="STUDENT" plural="STUDENTS" abbreviation="STDS" alt_abbreviation="" id="98042727-FFD3-9E58-0768-E6843CC4D1C7" import_id="" description="" />
+   <glossaryWord name="Start" plural="" abbreviation="" alt_abbreviation="" id="C6809C1C-FD37-E07B-8DCA-F9DBDEBBC4E0" import_id="" description="" />
+   <glossaryWord name="TYPE" plural="TYPES" abbreviation="TPS" alt_abbreviation="" id="FD9C4A2B-903E-E219-6C0B-FC6CC6396B2A" import_id="" description="" />
+   <glossaryWord name="TIME" plural="TIMES" abbreviation="TMS" alt_abbreviation="" id="BD8FA5EE-4AD8-50F2-1BD4-BC2B789B0FC8" import_id="" description="" />
+   <glossaryWord name="Working" plural="" abbreviation="" alt_abbreviation="" id="37DC0063-39D1-E7B0-3E07-414ADAA0930C" import_id="" description="" />
+   <glossaryWord name="Year" plural="" abbreviation="" alt_abbreviation="" id="B34738FF-17A2-02D7-1DF1-C65CDCDDA309" import_id="" description="" />
+   <glossaryWord name="for" plural="" abbreviation="" alt_abbreviation="" id="067B7812-3BDE-BB41-5EE5-A5340202791D" import_id="" description="" />
+   <glossaryWord name="hourly" plural="" abbreviation="" alt_abbreviation="" id="3F7E9311-4FA2-BA59-82E5-FA13A4220DE2" import_id="" description="" />
+   <glossaryWord name="insurance" plural="" abbreviation="" alt_abbreviation="" id="F6E7014B-C1B5-BC84-6462-AF34F40A283C" import_id="" description="" />
+   <glossaryWord name="of" plural="" abbreviation="" alt_abbreviation="" id="817B498B-533A-329B-E567-357AC6BA8181" import_id="" description="" />
+   <glossaryWord name="rate" plural="" abbreviation="" alt_abbreviation="" id="5A41B308-50DC-0915-4B53-3E9960597F80" import_id="" description="" />
+   <glossaryWord name="salary" plural="" abbreviation="" alt_abbreviation="" id="85C4FDA3-632A-E94C-E39C-3A592CB55C31" import_id="" description="" />
+
+</cwd_glossary>

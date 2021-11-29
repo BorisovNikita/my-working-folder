@@ -1,0 +1,53 @@
+Oracle SQL Developer Data Modeler Names Abbreviations Log.
+Date and Time: 2021-11-26 16:15:51 MSK
+Design Name: lesson18
+
+	Standardized Objects:
+		Tables: 	0
+		Columns: 	24
+		Indexes: 	0
+		Views: 	0
+
+<<<<< COLUMNS >>>>>
+	Building (SEATEDS)                      -->                                     BLD
+	COURSES_ACADEMIC_SESSION_ID (FACL_CRS_DETAILS) -->                                     COURSES_ACADEMIC_SES_ID
+	Contact_Hours (FACL_CRS_DETAILS)        -->                                     CTT_Hours
+	Description (XAM_TYPES)                 -->                                     DSC
+	Eligibility_for_XAM (STDS_ATTEDANCES)   -->                                     EGB_for_XAM
+	First_Name (FACULTYS)                   -->                                     FIR_Name
+	LOGIN_Date_TMS (FACL_LOGIN_DETAILS)     -->                                     LOGIN_DTE_TMS
+	Last_Name (FACULTYS)                    -->                                     LST_Name
+	Logon_ID (ONLINE)                       -->                                     LGN_ID
+	Number_of_Days_Off (STDS_ATTEDANCES)    -->                                     Number_of_Days_OFF
+	Number_of_Working_Days (STDS_ATTEDANCES) -->                                     Number_of_WRK_Days
+	ONLINE_Logon_ID (COURSES)               -->                                     ONLINE_LGN_ID
+	PNT_1_First_Name (PNT_INFORMATION)      -->                                     PNT_1_FIR_Name
+	PNT_1_Last_Name (PNT_INFORMATION)       -->                                     PNT_1_LST_Name
+	PNT_2_First_Name (PNT_INFORMATION)      -->                                     PNT_2_FIR_Name
+	PNT_2_Last_Name (PNT_INFORMATION)       -->                                     PNT_2_LST_Name
+	PNT_INFORMATION_ID (STUDENTS)           -->                                     PNT_INF_ID
+	Password (ONLINE)                       -->                                     PWD
+	Registration_Year (STUDENTS)            -->                                     RGS_YEA
+	SEATEDS_Building (COURSES)              -->                                     SEATEDS_BLD
+	Start_Date (EXAMS)                      -->                                     STT_DTE
+	hourly_rate (PAT_TIMES)                 -->                                     hourly_rat
+	insurance (FUL_TIMES)                   -->                                     isu
+	salary (FUL_TIMES)                      -->                                     sly
+
+<<<<< PRIMARY KEYS & UNIQUE KEYS >>>>>
+	ACADEMIC_SESSION_PK (ACDM_SESSIONS)     -->                                     ACADEMIC_SES_PK
+	DEPARTMENT_PK (DEPARTMENTS)             -->                                     DPT_PK
+	EXAM_PK (EXAMS)                         -->                                     XAM_PK
+	EXAM_RESULT_PK (XAM_RESULTS)            -->                                     XAM_RSL_PK
+	EXAM_TYPE_PK (XAM_TYPES)                -->                                     XAM_TYP_PK
+	FACULTY_COURSE_DETAIL_PK (FACL_CRS_DETAILS) -->                                     FACULTY_COURSE_DTA_PK
+	FACULTY_LOGIN_DETAIL_PK (FACL_LOGIN_DETAILS) -->                                     FACULTY_LOGIN_DTA_PK
+	FULL_TIME_PK (FUL_TIMES)                -->                                     FUL_TME_PK
+	PARENT_INFORMATION_PK (PNT_INFORMATION) -->                                     PNT_INF_PK
+	PART_TIME_PK (PAT_TIMES)                -->                                     PAT_TME_PK
+	STUDENT_COURSE_DETAIL_PK (STDS_CRS_DETAILS) -->                                     STUDENT_COURSE_DTA_PK
+
+<<<<< FOREIGN KEYS >>>>>
+	FULL_TIME_FACULTY_FK (FUL_TIMES)        -->                                     FUL_TME_FACULTY_FK
+	PART_TIME_FACULTY_FK (PAT_TIMES)        -->                                     PAT_TME_FACULTY_FK
+	STUDENTS_PNT_INFORMATION_FK (STUDENTS)  -->                                     STUDENTS_PNT_INF_FK
