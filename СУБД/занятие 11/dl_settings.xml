@@ -292,6 +292,7 @@
 			<discriminator_col value="{table abbr}_TYPE"/>
 		</constraints>
 		<glossaries>
+			<glossary_file value="C:\Users\20578\Desktop\мусорка учебная\СУБД\занятие 11\MYGLOSSARY.glossary"/>
 		</glossaries>
 	</naming_standard_rules>
 	<comparemapping>
@@ -299,7 +300,7 @@
 	<engineering_params>
 		<delete_without_origin value="false"/>
 		<engineer_coordinates value="true"/>
-		<engineer_generated value="false"/>
+		<engineer_generated value="true"/>
 		<show_engineering_intree value="false"/>
 		<apply_naming_std value="true"/>
 		<use_pref_abbreviation value="true"/>

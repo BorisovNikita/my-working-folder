@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FE7AA33-CECA-F384-F6B3-24469F263D4F" name="Учет_ТОПЛИВА">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>238611BA-BDCB-929C-69D6-F218418EB11E</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="объем_топлива" id="9B092833-E126-A210-9EC6-8202E0312792">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>A89A4D28-0B35-79C8-2EE7-0776C83CE1DA</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="РЕЙСЫ_UID" id="A754BD5E-EC44-125C-451B-7B577D0041E4">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>5E4058CF-3F9B-A364-7563-9D0D09D6F34F</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E7DAF52-C2FC-E23E-000B-E1CD28AE7C6E" referredColumn="495192AF-5C96-A42B-4F8F-48086EE93169"/>
+</associations>
+</Column>
+<Column name="ТОПЛИВО_UID" id="4490B24B-07B1-412D-4B33-3F11C0FB3F25">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>356F6FE1-2493-B34A-CAAC-614D58BE5058</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CC9C7ED-B1D2-D16D-C1B9-ED013B99A91A" referredColumn="7A177266-4707-4747-E10F-A12A27F4EB22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7C5D9A0-C38E-504E-8EAD-DE3AC30E821E" name="Учет_топлива_PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>9DE5F965-45AC-09B2-442B-5A719745FC66</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A754BD5E-EC44-125C-451B-7B577D0041E4"/>
+<colUsage columnID="4490B24B-07B1-412D-4B33-3F11C0FB3F25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="961FEBCD-318C-1ACF-C584-2A68188BEFEA" name="Учет_ТОПЛИВА_РЕЙСЫ_FK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>F5E52BF6-7ACF-47DF-FA01-55D060F09A27</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A754BD5E-EC44-125C-451B-7B577D0041E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBF6EF6D-AE60-DCD8-D4F5-886445E653CE" name="Учет_ТОПЛИВА_ТОПЛИВО_FK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>22664B8C-A51D-9603-76EF-5C553713EF02</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4490B24B-07B1-412D-4B33-3F11C0FB3F25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

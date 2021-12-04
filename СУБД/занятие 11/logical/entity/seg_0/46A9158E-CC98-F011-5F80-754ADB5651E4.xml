@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46A9158E-CC98-F011-5F80-754ADB5651E4" name="Выгруженные товары">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46A9158E-CC98-F011-5F80-754ADB5651E4" name="Выгруженный товар">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:16:44 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -15,28 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="UID разгрузки" id="81F3AC3D-3A3B-B2FD-1CAA-449FFABFEF7F">
-<createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:16:53 UTC</createdTime>
-<ownerDesignName>занятие 11</ownerDesignName>
-<engineerTo>
-<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="UID товара" id="DA19066F-53C8-52DD-5942-B3A45CCB5A63">
-<createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:17:01 UTC</createdTime>
-<ownerDesignName>занятие 11</ownerDesignName>
-<engineerTo>
-<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="количество товара" id="202A4B3F-8758-F50D-549A-3EAE61BC0492">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:17:09 UTC</createdTime>
@@ -44,8 +22,9 @@
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="масса товара" id="F1E91563-2505-9C07-E3E1-FC6246D7EFF6">
@@ -55,33 +34,51 @@
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UID" id="3C991261-E5F0-5C6A-FE38-648F05D82A6A">
+<Attribute name="UID" id="0DD4422E-341D-07EA-E10F-A7E1BD0B6F97">
 <createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:47:41 UTC</createdTime>
-<generatorID>41BF2F2E-F0D8-3FDE-64D2-9AEF5FBCCEB5</generatorID>
+<createdTime>2021-12-02 06:18:26 UTC</createdTime>
+<generatorID>5143E52F-AF6D-804F-EB68-797ACB922250</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
 <referedAttribute>857F1138-9F05-84E2-F9A0-CE126CBA658A</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UID1" id="32D3823E-66DB-1D6F-9A1E-6CB3ACC3C73F">
+<Attribute name="UID1" id="F6197BE2-2BF0-A5E5-9EF3-5A8DC8E7BE7C">
 <createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:47:53 UTC</createdTime>
-<generatorID>D3ACC818-E3BA-AF1A-7266-05AAA98971EF</generatorID>
+<createdTime>2021-12-02 06:20:19 UTC</createdTime>
+<generatorID>50E02E8F-8A80-2E2B-F87B-EECE40297C17</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
 <referedAttribute>5EC8FC4F-BEB9-ED0F-D663-8FDE5E73C33A</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A89D2BEF-72E3-E567-E19D-8A8C183567D9" name="Выгруженные товары PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:18:26 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DD4422E-341D-07EA-E10F-A7E1BD0B6F97</attributeRef>
+<attributeRef>F6197BE2-2BF0-A5E5-9EF3-5A8DC8E7BE7C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

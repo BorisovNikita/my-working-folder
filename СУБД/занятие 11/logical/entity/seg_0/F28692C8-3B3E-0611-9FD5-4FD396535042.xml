@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F28692C8-3B3E-0611-9FD5-4FD396535042" name="Загруженные товары">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F28692C8-3B3E-0611-9FD5-4FD396535042" name="Загруженныe товар">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:14:23 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -15,27 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="UID загрузки" id="133288F8-4394-AAB3-4802-B1F995AA9DF0">
-<createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:14:33 UTC</createdTime>
-<ownerDesignName>занятие 11</ownerDesignName>
-<engineerTo>
-<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="UID товара" id="A9B55C6D-8BB7-EFA8-131A-229A670148FA">
-<createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:14:37 UTC</createdTime>
-<ownerDesignName>занятие 11</ownerDesignName>
-<engineerTo>
-<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="количество" id="BA511A6A-0E30-0FD3-58B3-9D281352D010">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:15:32 UTC</createdTime>
@@ -43,8 +22,9 @@
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="масса" id="CCA198A3-99AB-239B-80A7-0A9AA7A0AD2A">
@@ -54,44 +34,52 @@
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UID" id="815FE2C1-0266-D4D9-C8C1-F579477F9244">
+<Attribute name="UID" id="2FDB9033-E395-778D-9998-7A0EE7B99E75">
 <createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:33:41 UTC</createdTime>
-<generatorID>02706269-B266-7C72-DCA4-D88E4AB0E321</generatorID>
+<createdTime>2021-12-02 06:17:57 UTC</createdTime>
+<generatorID>9F84B14D-431D-E2FF-6883-5E70557E8CC7</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
 <referedAttribute>D35E01B5-D4E2-7610-7901-E051BDE5FFF1</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UID1" id="B3A249EA-66BA-399F-D2CA-80639C7C1009">
+<Attribute name="UID1" id="0FAB4B33-6EF1-E993-AFE9-177E1F1D7797">
 <createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:35:18 UTC</createdTime>
-<generatorID>83C21A70-25DB-1545-C90F-49811988222D</generatorID>
+<createdTime>2021-12-02 06:20:14 UTC</createdTime>
+<generatorID>9C1ED350-33FB-B2EA-3101-986B9AB81B06</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
 <referedAttribute>5EC8FC4F-BEB9-ED0F-D663-8FDE5E73C33A</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BA60FC6A-A29B-2892-113A-40D5EEF7FA29" name="Загруженные товары PK">
+<identifier id="0B238011-94D9-5200-24EE-76B1B8AF434B" name="Загруженные товары PK">
 <createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:34:55 UTC</createdTime>
+<createdTime>2021-12-02 06:17:57 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>2FDB9033-E395-778D-9998-7A0EE7B99E75</attributeRef>
+<attributeRef>0FAB4B33-6EF1-E993-AFE9-177E1F1D7797</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17A9FD1E-93A2-EDE9-6A50-097D50CD2E17" name="Вид_ТО">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>D236AE83-C5D1-9730-F97B-AE8019F0B3C2</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UID" id="CFA27CE1-8946-6859-48A2-CBAB34742971">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>9192307A-DF57-329C-CF80-6ABB270D21E8</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Вид" id="3F47DFE3-B209-AD16-8F21-642D921733D0">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>D6FFA382-7212-4928-8F8C-4563AA081A51</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="периодичность" id="9E763341-FE11-1F63-52DC-AF8055882CF3">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>26196F18-FDAE-BEFF-77EE-87A7CA4901DA</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="стоимость" id="CC0EE86A-BF02-6917-271A-4D4CAC71354E">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>62778061-11F9-69F1-EE59-B1174B398DE9</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F77D2E68-254C-D6EC-C5BC-859A71A78A62" name="Вид_ТО_PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>0639183F-CC44-1F78-6BEF-7415A45FC6D3</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFA27CE1-8946-6859-48A2-CBAB34742971"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF8A7063-81A4-6CB0-3E93-9D9798B22B21" name="Загруженныe_ТОВАРЫ">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>F28692C8-3B3E-0611-9FD5-4FD396535042</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="количество" id="A8BCBCD3-9A1C-CC71-3B55-D971F1D58970">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>BA511A6A-0E30-0FD3-58B3-9D281352D010</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="масса" id="944D82BB-91AF-8592-BCE0-BA9D591ACBA5">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>CCA198A3-99AB-239B-80A7-0A9AA7A0AD2A</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ЗАГРУЗКИ_UID" id="DD93E379-0385-4310-6E46-74FF0D86843D">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>2FDB9033-E395-778D-9998-7A0EE7B99E75</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1211177-0FAB-D9B8-CC5E-F9C1B20BE12C" referredColumn="1D654512-7F06-8C1C-484D-BA69B1D7B1D4"/>
+</associations>
+</Column>
+<Column name="ТОВАРЫ_UID" id="7DDF7C13-52CE-BEB8-E013-6527DBC15DCE">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>0FAB4B33-6EF1-E993-AFE9-177E1F1D7797</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F5B7F64-D940-277A-353F-163D21CD687D" referredColumn="79F7EBE0-8BC5-4B52-CE67-36715C9BBEA1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0305B151-C767-C80C-F433-3C68F5608D1B" name="Загруженны_товар_PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>0B238011-94D9-5200-24EE-76B1B8AF434B</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD93E379-0385-4310-6E46-74FF0D86843D"/>
+<colUsage columnID="7DDF7C13-52CE-BEB8-E013-6527DBC15DCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E114757-34A7-6A95-B055-06C9E915177C" name="Загруженны_ТОВАРЫ_ЗАГРУЗКИ_FK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>9F84B14D-431D-E2FF-6883-5E70557E8CC7</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD93E379-0385-4310-6E46-74FF0D86843D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24422B10-8C64-2445-F6D5-45A6C60D300B" name="Загруженны_ТОВАРЫ_ТОВАРЫ_FK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>9C1ED350-33FB-B2EA-3101-986B9AB81B06</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DDF7C13-52CE-BEB8-E013-6527DBC15DCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

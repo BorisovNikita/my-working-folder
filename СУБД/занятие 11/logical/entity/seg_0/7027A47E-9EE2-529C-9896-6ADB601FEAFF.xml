@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7027A47E-9EE2-529C-9896-6ADB601FEAFF" name="Учет аварий">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7027A47E-9EE2-529C-9896-6ADB601FEAFF" name="Учет аварии">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:26:37 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -22,18 +22,9 @@
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="UID машины" id="B6833A64-DF18-CBCA-1FF0-D3F33EEEFDBE">
-<createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:26:51 UTC</createdTime>
-<ownerDesignName>занятие 11</ownerDesignName>
-<engineerTo>
-<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="дата ДТП" id="62F27818-D16E-A4B0-709D-AC5479B97A27">
@@ -43,8 +34,9 @@
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="вина водителя" id="04B2CA9F-9C36-4699-A3EB-D33D1D99E750">
@@ -54,8 +46,9 @@
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="место ДТП" id="76E71F37-0C5E-A9D8-BFDD-3188867F8557">
@@ -65,20 +58,23 @@
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UID1" id="49464B5A-0AEF-7DEF-01DB-7DF00631E908">
+<Attribute name="UID1" id="C898EBA0-EB2B-C14E-E69A-0F3A168E8219">
 <createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:37:55 UTC</createdTime>
-<generatorID>5AB00893-0B21-3ECB-5AE3-67AF6DCD9C2C</generatorID>
+<createdTime>2021-12-02 06:29:37 UTC</createdTime>
+<generatorID>A04A3756-AAC1-DE0A-3B7D-FEB1B8853E4B</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
 <referedAttribute>94E54BE1-1169-C97C-16A5-AF987B3D0AAB</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC80238C-FFDB-1B98-9431-BDCB6CD3E786" containerWithKeyObject="2B150D3B-D066-BDF7-8A34-737986CB4A40" localFKIndex="E7AF6FBD-3763-891F-BDA0-5D22EF369692" name="Учет_ПОВРЕЖДЕНИЙ_Вид_ПОЛОМОК_FK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>5D4BA017-E4F7-4713-94D8-2BCC08E7CC8B</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<referredTableLongName>Вид_ПОЛОМОК</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F8ECF961-F52C-0AE9-6F32-8CFAE00632AE</referredTableID>
+<keyObject>1D723F25-45C1-41EF-E758-07280BE77888</keyObject>
+<referredKeyID>1D723F25-45C1-41EF-E758-07280BE77888</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>UID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

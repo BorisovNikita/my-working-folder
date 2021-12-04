@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE279AFA-F435-4794-96CC-D30D94A2CA69" name="РЕЙСЫ">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>4C9D1EEF-E4AA-C181-10BB-2C1955C65186</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UID" id="495192AF-5C96-A42B-4F8F-48086EE93169">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>582B5798-D44A-6418-77B9-422387B66898</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="пункт_отправления" id="253A566A-D2B6-01E1-ACC7-1C23B4A114CF">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>A0264008-AA6D-C333-FE57-81A9088B8C59</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="пункт_назначения" id="1C623FBA-C38F-85C2-30B4-8302F674760D">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>EB17728C-AA19-5FA6-F407-6B72AFFAB3F0</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="промежуточные_точки" id="0413B485-C23B-E410-9B39-6E53F99ABF67">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>3998C4D9-7DBD-9331-4D32-13BB5663EDD1</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="время_отправления" id="1AD8FA9F-823D-2B25-A91E-FF67053514AA">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>DF851B90-187C-D040-BF71-C880EF0B1829</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="время_прибытия" id="7B5C6994-9E7B-CA6C-2C54-1951E6DF9B8A">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>3B690AF7-D0F1-8F19-E87B-5D06AD389238</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63C9B745-78B2-22A1-0993-DEABE99394C2" name="Рейс_PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>6E52A8C2-67EE-4B3F-981C-50A344BCD481</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="495192AF-5C96-A42B-4F8F-48086EE93169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

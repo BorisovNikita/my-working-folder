@@ -15,38 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="UID" id="084F43FA-C579-0A1F-92DA-F6C541849DDB">
-<createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:17:54 UTC</createdTime>
-<ownerDesignName>занятие 11</ownerDesignName>
-<engineerTo>
-<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="UID рейса" id="E4BB7534-26DD-C130-9EA6-154E9135707F">
-<createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:18:03 UTC</createdTime>
-<ownerDesignName>занятие 11</ownerDesignName>
-<engineerTo>
-<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="UID топлива" id="00CA1928-520E-9F07-4C1C-56B81FC9D03F">
-<createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:18:10 UTC</createdTime>
-<ownerDesignName>занятие 11</ownerDesignName>
-<engineerTo>
-<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="объем топлива" id="A89A4D28-0B35-79C8-2EE7-0776C83CE1DA">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:18:21 UTC</createdTime>
@@ -54,46 +22,51 @@
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UID1" id="BAB6E6B2-390E-CC4D-C17A-2AA6D936BFC4">
+<Attribute name="UID" id="5E4058CF-3F9B-A364-7563-9D0D09D6F34F">
 <createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:43:07 UTC</createdTime>
-<generatorID>3E0F85FC-CFF7-808A-CF0E-22320A2D0BCD</generatorID>
-<ownerDesignName>занятие 11</ownerDesignName>
-<engineerTo>
-<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
-</engineerTo>
-<referedAttribute>62671FA2-5E91-D9C1-B500-0D462473F8E3</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="UID2" id="A6E102C3-854F-F65C-573B-7AD81EE60AC6">
-<createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:43:31 UTC</createdTime>
-<generatorID>1F32EA53-5448-A495-5D96-35BA6F9EDBAA</generatorID>
+<createdTime>2021-12-02 06:14:04 UTC</createdTime>
+<generatorID>F5E52BF6-7ACF-47DF-FA01-55D060F09A27</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
 <referedAttribute>582B5798-D44A-6418-77B9-422387B66898</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID1" id="356F6FE1-2493-B34A-CAAC-614D58BE5058">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:14:17 UTC</createdTime>
+<generatorID>22664B8C-A51D-9603-76EF-5C553713EF02</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<referedAttribute>62671FA2-5E91-D9C1-B500-0D462473F8E3</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C13DC4EB-A625-C554-5337-24739A9ADB95" name="Учет топлива PK">
+<identifier id="9DE5F965-45AC-09B2-442B-5A719745FC66" name="Учет топлива PK">
 <createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:18:02 UTC</createdTime>
+<createdTime>2021-12-02 06:14:04 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>084F43FA-C579-0A1F-92DA-F6C541849DDB</attributeRef>
+<attributeRef>5E4058CF-3F9B-A364-7563-9D0D09D6F34F</attributeRef>
+<attributeRef>356F6FE1-2493-B34A-CAAC-614D58BE5058</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

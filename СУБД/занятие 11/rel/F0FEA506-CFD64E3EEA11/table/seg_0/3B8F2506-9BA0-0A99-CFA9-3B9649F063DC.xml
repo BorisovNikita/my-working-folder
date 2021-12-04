@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B8F2506-9BA0-0A99-CFA9-3B9649F063DC" name="Статус_МАШИН">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>ED601F3E-3FD9-36E4-4900-E65D84E07E50</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UID" id="AEAC5758-AB5C-1571-F3CC-34551A9A7BDE">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>94CC636A-38C7-7FD0-8D94-FA2DF526B953</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Статус" id="0B1217E2-AA2D-76C1-EAE0-4D1CB0709686">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>F61B6EE9-37B6-E5A0-C7D4-CDE81A4506EC</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="местоположение" id="20A8262E-B449-7A7A-17EC-969A481BCD4B">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>5B0EFDF4-B074-DE0B-86DC-DC53FEEF3314</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="АВТОМАШИНЫ_UID" id="4AE63485-F29C-FE68-BBAC-36F5B592EABE">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>B6F1059F-973C-30D8-27B8-01D5096E72F2</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75FF80BF-0F6F-5D43-27A2-BD7F3CDD71F3" referredColumn="BAE31DD3-8212-286C-4C3A-161A4E05AB72"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF5F2E96-4880-0F11-4315-23238DAE8559" name="Статус_машины_PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>240B48C2-ABCD-6E40-8B1E-D84DE93E06E8</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEAC5758-AB5C-1571-F3CC-34551A9A7BDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="720B0E94-13D2-59D1-2BDB-BA6079F09D8F" name="Статус_машины__IDX">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>89BA5727-5EAC-615D-387E-52F5CF5FFB7B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4AE63485-F29C-FE68-BBAC-36F5B592EABE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBFEEB13-B796-6A1F-0108-1084388E0D55" name="Статус_МАШИН_АВТОМАШИНЫ_FK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:47:30 UTC</createdTime>
+<generatorID>89BA5727-5EAC-615D-387E-52F5CF5FFB7B</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AE63485-F29C-FE68-BBAC-36F5B592EABE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -15,74 +15,84 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="UID" id="08B576FC-6953-98DA-09D5-D52F9DAD3C31">
+<Attribute name="Критичность" id="094DC2C5-A76A-0CBD-ADD4-CD991CBE81DB">
 <createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:27:35 UTC</createdTime>
+<createdTime>2021-12-02 06:30:31 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UID аварии" id="76A6D148-251B-A7EA-E54A-4EE2F1384AC8">
+<Attribute name="Процент повреждения" id="DE47C764-D9DE-6090-AE82-92863C83242C">
 <createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:27:40 UTC</createdTime>
+<createdTime>2021-12-02 06:30:49 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UID поломки" id="9085DDFC-0636-2EC6-AE1A-2FB6137EBC0A">
+<Attribute name="Возможность ремонта" id="0AC99D4D-ED6C-1B3E-B7CD-DE3183ABE7D9">
 <createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:27:47 UTC</createdTime>
+<createdTime>2021-12-02 06:31:05 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UID1" id="BD90E0DC-7606-2C3E-690B-03486B349BE2">
+<Attribute name="UID" id="F68604BB-FB5E-B9F6-FB19-37AFFDEF9E07">
 <createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:38:16 UTC</createdTime>
-<generatorID>071F37EB-CE3C-BF78-6414-DC8D885C82EC</generatorID>
+<createdTime>2021-12-02 06:31:43 UTC</createdTime>
+<generatorID>25456AB5-3CB4-E40E-191F-87E94AA9F0A8</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
 <referedAttribute>1B01C7D1-CAD9-E406-234F-C9707AA020F9</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UID2" id="5A55F5CD-1F72-EA92-7CB7-997EA47F58D7">
+<Attribute name="UID1" id="686E9D16-F1B6-E1AA-9B08-72DFE758F25D">
 <createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:38:56 UTC</createdTime>
-<generatorID>42EF795B-8F85-2D2B-D0C0-E7A5791FE97E</generatorID>
+<createdTime>2021-12-02 06:32:39 UTC</createdTime>
+<generatorID>5D4BA017-E4F7-4713-94D8-2BCC08E7CC8B</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
 <referedAttribute>66AA45F8-F694-7D19-846C-2D2E7D8006E2</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8C309DB7-A84A-1CCC-D827-9A32E4BB8753" name="Учет повреждений PK">
+<identifier id="A88AA1D2-A645-E6CF-A39A-C8463CFEF2EF" name="Учет повреждений PK">
 <createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:27:39 UTC</createdTime>
+<createdTime>2021-12-02 06:31:43 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>08B576FC-6953-98DA-09D5-D52F9DAD3C31</attributeRef>
+<attributeRef>F68604BB-FB5E-B9F6-FB19-37AFFDEF9E07</attributeRef>
+<attributeRef>686E9D16-F1B6-E1AA-9B08-72DFE758F25D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="дата разгрузки" id="5853457B-C065-9BF7-C517-20D3A31D9450">
@@ -32,8 +34,9 @@
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="бригада" id="1DF1AD9F-2A5F-38F7-F150-8BE5F9FBD493">
@@ -43,20 +46,51 @@
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UID1" id="34A0AF7E-572E-14D7-E032-F32E3DC564B5">
+<Attribute name="UID3" id="40357F42-6D5F-A8F9-9110-CBDDC2F4E6DE">
 <createdBy>LocalUSer</createdBy>
-<createdTime>2021-10-20 07:47:28 UTC</createdTime>
-<generatorID>0A197CF4-8471-AA99-CF06-F1DF512EC5E3</generatorID>
+<createdTime>2021-12-02 06:17:19 UTC</createdTime>
+<generatorID>9C477A09-12A9-7FA3-22E9-181058651554</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<referedAttribute>529E6A78-2BFB-D42B-8886-DEA9F4663521</referedAttribute>
-<use>0</use>
+<referedAttribute>59C95328-E66B-677F-7203-E07354D0AFC2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID4" id="C8E24244-CBDF-F473-A098-43D36FB9C494">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:17:19 UTC</createdTime>
+<generatorID>9C477A09-12A9-7FA3-22E9-181058651554</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<referedAttribute>8F9EA4C2-5567-D24B-A1F7-C7ADD1A30449</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UID1" id="57638DA8-FE56-F5FB-E8BD-05C4346F6726">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:17:19 UTC</createdTime>
+<generatorID>9C477A09-12A9-7FA3-22E9-181058651554</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<engineerTo>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+</engineerTo>
+<referedAttribute>C8B6D0F6-E2E3-C681-EDB2-A08B1E297827</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

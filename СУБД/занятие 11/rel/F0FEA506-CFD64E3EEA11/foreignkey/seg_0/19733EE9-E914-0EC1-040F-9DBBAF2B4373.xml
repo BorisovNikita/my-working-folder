@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="19733EE9-E914-0EC1-040F-9DBBAF2B4373" containerWithKeyObject="FF328959-F003-4B87-3B80-3DC9E88A6C3F" localFKIndex="FFC6F634-5915-3891-76D7-EF159AF22BA2" name="РАЗГРУЗКИ_Журнал_ВЫЕЗДОВ_FK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>9C477A09-12A9-7FA3-22E9-181058651554</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<referredTableLongName>Журнал_ВЫЕЗДОВ</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>25BFAA16-1E6E-3264-7A22-663C78887089</referredTableID>
+<keyObject>5EB9D243-1BC8-9A88-CFEF-F2B769895B6E</keyObject>
+<referredKeyID>5EB9D243-1BC8-9A88-CFEF-F2B769895B6E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ВОДИТЕЛИ_UID,РЕЙСЫ_UID,АВТОМАШИНЫ_UID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

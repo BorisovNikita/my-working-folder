@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF328959-F003-4B87-3B80-3DC9E88A6C3F" name="РАЗГРУЗКИ">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>A1738584-A981-27FC-0A2C-9ECEB91146CA</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UID" id="F5EF4211-D5C6-73E6-F88F-458F8806CFF0">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>857F1138-9F05-84E2-F9A0-CE126CBA658A</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="дата_разгрузки" id="273AFD70-12E2-9798-1EE8-B1D37D2C482F">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>5853457B-C065-9BF7-C517-20D3A31D9450</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="бригада" id="C0319062-67BE-6494-174E-11657D771A8E">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>1DF1AD9F-2A5F-38F7-F150-8BE5F9FBD493</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Журнал_ВЫЕЗДОВ_Водитель_UID" id="45E5537D-2B46-778E-EA30-9E39992C6B22">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>40357F42-6D5F-A8F9-9110-CBDDC2F4E6DE</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19733EE9-E914-0EC1-040F-9DBBAF2B4373" referredColumn="7DDE34DF-D8F2-B170-AF13-4B2DAEF83398"/>
+</associations>
+</Column>
+<Column name="Журнал_ВЫЕЗДОВ_Рейс_UID" id="77DF7EA6-F165-7260-BAAB-11C1BCC79B03">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>C8E24244-CBDF-F473-A098-43D36FB9C494</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19733EE9-E914-0EC1-040F-9DBBAF2B4373" referredColumn="6410CF0C-8CC6-A2FC-2EA5-17124F0E2623"/>
+</associations>
+</Column>
+<Column name="Журнал_ВЫЕЗДОВ_Автомашина_UID" id="5D8B84FE-91ED-C448-3C0A-D28AF5CA0AB6">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>57638DA8-FE56-F5FB-E8BD-05C4346F6726</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19733EE9-E914-0EC1-040F-9DBBAF2B4373" referredColumn="371424CE-F891-9713-EF8D-D6845FDD7C54"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8FA1443-9263-CA5B-2878-8F52C47851D7" name="Разгрузка_PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>342AC598-63F0-0811-260D-8FD4D014BB7F</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5EF4211-D5C6-73E6-F88F-458F8806CFF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCE4B5EB-3603-0510-83D0-B0A1903A3FE9" name="Разгрузка__IDX">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<ownerDesignName>занятие 11</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9C477A09-12A9-7FA3-22E9-181058651554</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="45E5537D-2B46-778E-EA30-9E39992C6B22"/>
+<colUsage columnID="77DF7EA6-F165-7260-BAAB-11C1BCC79B03"/>
+<colUsage columnID="5D8B84FE-91ED-C448-3C0A-D28AF5CA0AB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFC6F634-5915-3891-76D7-EF159AF22BA2" name="РАЗГРУЗКИ_Журнал_ВЫЕЗДОВ_FK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>9C477A09-12A9-7FA3-22E9-181058651554</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45E5537D-2B46-778E-EA30-9E39992C6B22"/>
+<colUsage columnID="77DF7EA6-F165-7260-BAAB-11C1BCC79B03"/>
+<colUsage columnID="5D8B84FE-91ED-C448-3C0A-D28AF5CA0AB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

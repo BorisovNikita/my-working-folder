@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E7DAF52-C2FC-E23E-000B-E1CD28AE7C6E" containerWithKeyObject="3FE7AA33-CECA-F384-F6B3-24469F263D4F" localFKIndex="961FEBCD-318C-1ACF-C584-2A68188BEFEA" name="Учет_ТОПЛИВА_РЕЙСЫ_FK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>F5E52BF6-7ACF-47DF-FA01-55D060F09A27</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<referredTableLongName>РЕЙСЫ</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EE279AFA-F435-4794-96CC-D30D94A2CA69</referredTableID>
+<keyObject>63C9B745-78B2-22A1-0993-DEABE99394C2</keyObject>
+<referredKeyID>63C9B745-78B2-22A1-0993-DEABE99394C2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>UID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D1211177-0FAB-D9B8-CC5E-F9C1B20BE12C" containerWithKeyObject="EF8A7063-81A4-6CB0-3E93-9D9798B22B21" localFKIndex="6E114757-34A7-6A95-B055-06C9E915177C" name="Загруженны_ТОВАРЫ_ЗАГРУЗКИ_FK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>9F84B14D-431D-E2FF-6883-5E70557E8CC7</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<referredTableLongName>ЗАГРУЗКИ</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>085892CC-F833-018D-FA1B-A0F8AB2AA41D</referredTableID>
+<keyObject>453B2ACA-81C2-3D15-0DC6-954FBC95706D</keyObject>
+<referredKeyID>453B2ACA-81C2-3D15-0DC6-954FBC95706D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>UID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

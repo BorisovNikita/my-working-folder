@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38711BEE-CA2B-8B3F-4FF9-8811223142FB" name="Учет_рабочего_ВРЕМЕНИ">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>6EF7DC49-CE07-E87E-BDBE-00B4A8D12B5A</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="количество_часов_в_рейсе" id="1F4CDB70-193D-CEC7-BE5A-0FC146E9AA3A">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>899955B3-E11D-5876-ED11-64880C665878</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ВОДИТЕЛИ_UID" id="DA577DF3-01E3-CCF0-49E2-432EA06B1CDB">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>8279026D-E455-F71A-A3F8-D342B81F34D6</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8CB1A84-C0C4-5F9F-CED3-E6445F6231AB" referredColumn="349429FD-1467-4465-EE1F-5DF781F4CCE5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35CB8812-1596-14C8-70BB-B09C185DF0A8" name="Учет_рабочего_времени_PK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>C8CD9138-353C-C9DD-333D-EDB590FB58FC</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA577DF3-01E3-CCF0-49E2-432EA06B1CDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1892F9F2-80D9-7CBB-FC96-62FFD44E08A9" name="Учет_рабочего_ВРЕМЕНИ_ВОДИТЕЛИ_FK">
+<createdBy>LocalUSer</createdBy>
+<createdTime>2021-12-02 06:34:32 UTC</createdTime>
+<generatorID>1F62A534-DD17-ACB0-598A-A4C4C549FF85</generatorID>
+<ownerDesignName>занятие 11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA577DF3-01E3-CCF0-49E2-432EA06B1CDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
