@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5B72CCC-FC83-6480-DE9A-DC2F2C55E0A7" containerWithKeyObject="085892CC-F833-018D-FA1B-A0F8AB2AA41D" localFKIndex="0F1B2CB0-C1F1-C155-9ADB-88E0EB2BE461" name="ЗАГРУЗКИ_Журнал_ВЫЕЗДОВ_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5B72CCC-FC83-6480-DE9A-DC2F2C55E0A7" containerWithKeyObject="085892CC-F833-018D-FA1B-A0F8AB2AA41D" localFKIndex="0F1B2CB0-C1F1-C155-9ADB-88E0EB2BE461" name="LOADING_EXIT_LOG_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>2648FEC1-AA42-5D21-9B6B-C7BE15573527</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
-<referredTableLongName>Журнал_ВЫЕЗДОВ</referredTableLongName>
+<referredTableLongName>EXIT_LOG</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>25BFAA16-1E6E-3264-7A22-663C78887089</referredTableID>
 <keyObject>5EB9D243-1BC8-9A88-CFEF-F2B769895B6E</keyObject>
 <referredKeyID>5EB9D243-1BC8-9A88-CFEF-F2B769895B6E</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>ВОДИТЕЛИ_UID,РЕЙСЫ_UID,АВТОМАШИНЫ_UID</refColNames>
+<refColNames>DRIVER_UID,Path_UID,VEHICLE_UID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

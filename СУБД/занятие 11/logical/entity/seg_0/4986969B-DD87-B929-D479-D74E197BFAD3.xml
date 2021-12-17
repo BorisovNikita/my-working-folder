@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4986969B-DD87-B929-D479-D74E197BFAD3" name="Водитель">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4986969B-DD87-B929-D479-D74E197BFAD3" name="DRIVER">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:08:55 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ФИО" id="0B005ACF-E394-0509-4483-70DB23514CB5">
+<Attribute name="Full name" id="0B005ACF-E394-0509-4483-70DB23514CB5">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:09:11 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Паспорт" id="D9F56A38-35B2-E533-9449-86D92D496794">
+<Attribute name="Passport" id="D9F56A38-35B2-E533-9449-86D92D496794">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:09:16 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -51,7 +51,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="адрес" id="D335EC6E-1858-E82E-4ABA-B7CD811058EC">
+<Attribute name="Address" id="D335EC6E-1858-E82E-4ABA-B7CD811058EC">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:09:21 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -63,7 +63,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="телефон" id="3102A900-7288-2375-5285-A449B68D8830">
+<Attribute name="Phone number" id="3102A900-7288-2375-5285-A449B68D8830">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:09:44 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -75,7 +75,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="категории прав" id="02F3F3F2-0ED6-66D3-087D-3F7B26BCF97A">
+<Attribute name="Dhiver license" id="02F3F3F2-0ED6-66D3-087D-3F7B26BCF97A">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:09:46 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -87,7 +87,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="стаж вождения" id="00BA3D9F-5AD9-996D-C335-3A81B94790E9">
+<Attribute name="Driving expirience" id="00BA3D9F-5AD9-996D-C335-3A81B94790E9">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:09:57 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>

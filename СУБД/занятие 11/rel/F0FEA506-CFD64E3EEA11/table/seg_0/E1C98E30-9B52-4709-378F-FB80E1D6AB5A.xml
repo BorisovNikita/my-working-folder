@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1C98E30-9B52-4709-378F-FB80E1D6AB5A" name="Учет_ПОЛОМОК">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1C98E30-9B52-4709-378F-FB80E1D6AB5A" name="BRD_LOG">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>FA896566-B260-45EB-FC18-DDA889227425</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="дата_обнаружения" id="949CBEC9-3779-C4A5-03AD-BCBE7C9B2040">
+<Column name="DTE" id="949CBEC9-3779-C4A5-03AD-BCBE7C9B2040">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>00AC8E97-E807-3D0C-BC93-3BF9CEF04B25</generatorID>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Критичность" id="D4012286-AAD1-2107-040E-D03A7BE18870">
+<Column name="LEV" id="D4012286-AAD1-2107-040E-D03A7BE18870">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>24FFD786-A9C2-F05E-5574-B215A7CB7C64</generatorID>
@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Кем_обнаружено" id="97B3B7A7-9A5A-13FC-236C-085144A4434A">
+<Column name="Who" id="97B3B7A7-9A5A-13FC-236C-085144A4434A">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>9E86FB67-5E77-A706-811E-35B7E2A01D9A</generatorID>
@@ -41,7 +41,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="АВТОМАШИНЫ_UID" id="21BD132C-F8A0-C36E-A57B-D7A4CBA60C6C">
+<Column name="VEHICLE_UID" id="21BD132C-F8A0-C36E-A57B-D7A4CBA60C6C">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>5E31E516-95FE-29C0-F378-E0E3DBD3E56D</generatorID>
@@ -56,7 +56,7 @@
 <colAssociation fkAssociation="DE676059-4F8A-969C-7584-3646ACAB4C9E" referredColumn="BAE31DD3-8212-286C-4C3A-161A4E05AB72"/>
 </associations>
 </Column>
-<Column name="Вид_ПОЛОМОК_UID" id="4019034A-4AA8-B7F1-F120-039316388D86">
+<Column name="BREAKDOWN_UID" id="4019034A-4AA8-B7F1-F120-039316388D86">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>DCA75BB8-04ED-2269-FEBC-801F94DE3560</generatorID>
@@ -73,7 +73,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="69A156CB-5539-6325-7B0C-C814A92F11AE" name="Учет_поломки_PK">
+<ind_PK_UK id="69A156CB-5539-6325-7B0C-C814A92F11AE" name="BREAKDOWN_LOG_PK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>C7F5C231-420E-D50B-CC85-8D000B662898</generatorID>
@@ -86,7 +86,7 @@
 <colUsage columnID="4019034A-4AA8-B7F1-F120-039316388D86"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0A1CBC21-8D19-777C-89A9-D43F96CFE9D6" name="Учет_ПОЛОМОК_АВТОМАШИНЫ_FK">
+<ind_PK_UK id="0A1CBC21-8D19-777C-89A9-D43F96CFE9D6" name="BREAKDOWN_LOG_VEHICLE_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>3706EEC2-8AEC-4C4E-2A31-9CE635083DF1</generatorID>
@@ -97,7 +97,7 @@
 <colUsage columnID="21BD132C-F8A0-C36E-A57B-D7A4CBA60C6C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="78D4A2DE-AC16-36EC-72B9-9E8761CEB4D8" name="Учет_ПОЛОМОК_Вид_ПОЛОМОК_FK">
+<ind_PK_UK id="78D4A2DE-AC16-36EC-72B9-9E8761CEB4D8" name="BREAKDOWN_LOG_BREAKDOWN_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>B2DE62C6-FA80-D145-1E53-5CC708CECD26</generatorID>

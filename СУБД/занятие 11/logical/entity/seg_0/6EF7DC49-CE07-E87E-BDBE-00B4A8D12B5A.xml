@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6EF7DC49-CE07-E87E-BDBE-00B4A8D12B5A" name="Учет рабочего времени">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6EF7DC49-CE07-E87E-BDBE-00B4A8D12B5A" name="WORKING TIME LOG">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:22:16 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="количество часов в рейсе" id="899955B3-E11D-5876-ED11-64880C665878">
+<Attribute name="Amount of hours" id="899955B3-E11D-5876-ED11-64880C665878">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:22:40 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -36,6 +36,7 @@
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
 <referedAttribute>E1CD7E7B-4CE2-9AD2-E26F-EF942E35E0A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>

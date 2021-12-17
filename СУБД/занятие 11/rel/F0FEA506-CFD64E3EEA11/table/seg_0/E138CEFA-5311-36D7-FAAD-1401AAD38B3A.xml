@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E138CEFA-5311-36D7-FAAD-1401AAD38B3A" name="Журнал_РЕМОНТА">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E138CEFA-5311-36D7-FAAD-1401AAD38B3A" name="RPA_LOG">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>B63AECDF-036A-F873-F49C-AC26F0E100DA</generatorID>
@@ -17,7 +17,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="фактическая_стоимость_ремонта" id="8B0D0628-E552-F7C4-E4DB-E92B4A53CEEC">
+<Column name="ATL_CST" id="8B0D0628-E552-F7C4-E4DB-E92B4A53CEEC">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>6BB58108-8C42-16AE-1F50-E408964C9083</generatorID>
@@ -28,7 +28,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="дата_ремонта" id="2BD903FB-9077-8298-698A-634EC9BF181D">
+<Column name="DTE" id="2BD903FB-9077-8298-698A-634EC9BF181D">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>B4102056-5C28-E817-F1F6-767B0438CD82</generatorID>
@@ -39,7 +39,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="АВТОМАШИНЫ_UID" id="1F15A34E-89EB-EA44-E285-3DB822063BE1">
+<Column name="VEHICLE_UID" id="1F15A34E-89EB-EA44-E285-3DB822063BE1">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>5A7F6849-7FAC-E170-9AE6-6C61218CFB28</generatorID>
@@ -54,7 +54,7 @@
 <colAssociation fkAssociation="771F9752-374B-2107-02BB-F202FC022964" referredColumn="BAE31DD3-8212-286C-4C3A-161A4E05AB72"/>
 </associations>
 </Column>
-<Column name="Вид_ПОЛОМОК_UID" id="7C3F01AA-FEA6-BABD-BBA9-F96742D3C6AC">
+<Column name="BREAKDOWN_UID" id="7C3F01AA-FEA6-BABD-BBA9-F96742D3C6AC">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>DD789F7C-E9DB-E254-64A5-460F8C6DF72B</generatorID>
@@ -71,7 +71,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="9CDDE872-60ED-D3B1-8100-E44E847E0854" name="Журнал_ремонта_PK">
+<ind_PK_UK id="9CDDE872-60ED-D3B1-8100-E44E847E0854" name="REPAIR_LOG_PK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>710D10AF-6142-9A76-02C1-0196C561B1AE</generatorID>
@@ -83,7 +83,7 @@
 <colUsage columnID="65714B49-98DA-DC0C-B0ED-4F4A22186E80"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B9E888EC-6057-F8D2-3A22-048D289B7FB9" name="Журнал_ремонта_АВТОМАШИНЫ_FK">
+<ind_PK_UK id="B9E888EC-6057-F8D2-3A22-048D289B7FB9" name="REPAIR_LOG_VEHICLE_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>ACB2620D-74DE-41B7-4512-C76FF8F7627C</generatorID>
@@ -94,7 +94,7 @@
 <colUsage columnID="1F15A34E-89EB-EA44-E285-3DB822063BE1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0D482907-6D42-4810-0F4B-E7F667658C10" name="Журнал_ремонта_Вид_ПОЛОМОК_FK">
+<ind_PK_UK id="0D482907-6D42-4810-0F4B-E7F667658C10" name="REPAIR_LOG_BREAKDOWN_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>09F5D98B-E601-543B-20E6-BC0DDEC9BF3D</generatorID>

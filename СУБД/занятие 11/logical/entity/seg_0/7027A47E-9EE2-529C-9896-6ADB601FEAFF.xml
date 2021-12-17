@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7027A47E-9EE2-529C-9896-6ADB601FEAFF" name="Учет аварии">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7027A47E-9EE2-529C-9896-6ADB601FEAFF" name="CRASH LOG">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:26:37 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="дата ДТП" id="62F27818-D16E-A4B0-709D-AC5479B97A27">
+<Attribute name="Crash date" id="62F27818-D16E-A4B0-709D-AC5479B97A27">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:26:59 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="вина водителя" id="04B2CA9F-9C36-4699-A3EB-D33D1D99E750">
+<Attribute name="Driver&apos;s fault" id="04B2CA9F-9C36-4699-A3EB-D33D1D99E750">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:27:05 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -51,7 +51,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="место ДТП" id="76E71F37-0C5E-A9D8-BFDD-3188867F8557">
+<Attribute name="Location" id="76E71F37-0C5E-A9D8-BFDD-3188867F8557">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:27:10 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>

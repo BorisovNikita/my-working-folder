@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8CB1A84-C0C4-5F9F-CED3-E6445F6231AB" containerWithKeyObject="38711BEE-CA2B-8B3F-4FF9-8811223142FB" localFKIndex="1892F9F2-80D9-7CBB-FC96-62FFD44E08A9" name="Учет_рабочего_ВРЕМЕНИ_ВОДИТЕЛИ_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8CB1A84-C0C4-5F9F-CED3-E6445F6231AB" containerWithKeyObject="38711BEE-CA2B-8B3F-4FF9-8811223142FB" localFKIndex="1892F9F2-80D9-7CBB-FC96-62FFD44E08A9" name="WORKING_TIME_LOG_DRIVER_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>1F62A534-DD17-ACB0-598A-A4C4C549FF85</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
-<referredTableLongName>ВОДИТЕЛИ</referredTableLongName>
+<referredTableLongName>DRIVERS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>9E2F665D-6AEF-D892-1A31-E97FB8D60F39</referredTableID>
 <keyObject>BAFDAC09-5D3F-29E6-35A4-CD991232A4C4</keyObject>

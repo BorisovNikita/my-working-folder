@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="085892CC-F833-018D-FA1B-A0F8AB2AA41D" name="ЗАГРУЗКИ">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="085892CC-F833-018D-FA1B-A0F8AB2AA41D" name="LOADING">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>60901CFE-4F63-7C18-5559-220BC43347F7</generatorID>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="дата_загрузки" id="486C3611-23E0-CE55-F2DD-4C7BC33134B4">
+<Column name="DTE" id="486C3611-23E0-CE55-F2DD-4C7BC33134B4">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>836CEA4F-B834-299B-4AFE-7C8E7E211EA2</generatorID>
@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="бригада" id="B15B771D-82E2-1E46-B0AA-F19B52EAE26D">
+<Column name="Brigade" id="B15B771D-82E2-1E46-B0AA-F19B52EAE26D">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>7A721150-5069-8090-2CC5-74741D15A2BD</generatorID>
@@ -41,7 +41,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Журнал_ВЫЕЗДОВ_Водитель_UID" id="FE083333-2B7B-10AB-8B87-203A9221BABE">
+<Column name="EXIT_LOG_ВОДИТЕЛИ_UID" id="FE083333-2B7B-10AB-8B87-203A9221BABE">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>D1A3A89B-2686-6A39-A957-F07F1DC35719</generatorID>
@@ -56,7 +56,7 @@
 <colAssociation fkAssociation="F5B72CCC-FC83-6480-DE9A-DC2F2C55E0A7" referredColumn="7DDE34DF-D8F2-B170-AF13-4B2DAEF83398"/>
 </associations>
 </Column>
-<Column name="Журнал_ВЫЕЗДОВ_Рейс_UID" id="3EF4101D-7C40-7B81-6B25-BD547CBF8210">
+<Column name="EXIT_LOG_РЕЙСЫ_UID" id="3EF4101D-7C40-7B81-6B25-BD547CBF8210">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>6FF16BF9-02C8-1D63-4EFE-FAAB7AE0073B</generatorID>
@@ -71,7 +71,7 @@
 <colAssociation fkAssociation="F5B72CCC-FC83-6480-DE9A-DC2F2C55E0A7" referredColumn="6410CF0C-8CC6-A2FC-2EA5-17124F0E2623"/>
 </associations>
 </Column>
-<Column name="Журнал_ВЫЕЗДОВ_Автомашина_UID" id="02CF7FF8-4CBC-6C17-B77B-118350BDB93C">
+<Column name="EXIT_LOG_АВТОМАШИНЫ_UID" id="02CF7FF8-4CBC-6C17-B77B-118350BDB93C">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>8FD2E176-8502-3FFA-0AE1-8D8E166AB7B5</generatorID>
@@ -88,7 +88,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="453B2ACA-81C2-3D15-0DC6-954FBC95706D" name="Загрузка_PK">
+<ind_PK_UK id="453B2ACA-81C2-3D15-0DC6-954FBC95706D" name="LOADING_PK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>6F7BF299-AD30-540B-1A51-54EB8EC8969D</generatorID>
@@ -113,7 +113,7 @@
 <colUsage columnID="02CF7FF8-4CBC-6C17-B77B-118350BDB93C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0F1B2CB0-C1F1-C155-9ADB-88E0EB2BE461" name="ЗАГРУЗКИ_Журнал_ВЫЕЗДОВ_FK">
+<ind_PK_UK id="0F1B2CB0-C1F1-C155-9ADB-88E0EB2BE461" name="LOADING_EXIT_LOG_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>2648FEC1-AA42-5D21-9B6B-C7BE15573527</generatorID>

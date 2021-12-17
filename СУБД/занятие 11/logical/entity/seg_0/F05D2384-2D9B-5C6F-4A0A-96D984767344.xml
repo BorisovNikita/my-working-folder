@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F05D2384-2D9B-5C6F-4A0A-96D984767344" name="Топливо">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F05D2384-2D9B-5C6F-4A0A-96D984767344" name="FUEL">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:18:34 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="тип топлива" id="47B8FA66-142D-8744-9964-C54757EC3E47">
+<Attribute name="Type" id="47B8FA66-142D-8744-9964-C54757EC3E47">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:18:50 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="октановое число" id="48F1EAAB-561F-C39C-9271-5E27112F9758">
+<Attribute name="Octane" id="48F1EAAB-561F-C39C-9271-5E27112F9758">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:19:01 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>

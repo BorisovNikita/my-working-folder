@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED601F3E-3FD9-36E4-4900-E65D84E07E50" name="Статус машины">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED601F3E-3FD9-36E4-4900-E65D84E07E50" name="VEHICLE STATUS">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:25:59 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="статус" id="F61B6EE9-37B6-E5A0-C7D4-CDE81A4506EC">
+<Attribute name="Status" id="F61B6EE9-37B6-E5A0-C7D4-CDE81A4506EC">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:26:20 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="местоположение" id="5B0EFDF4-B074-DE0B-86DC-DC53FEEF3314">
+<Attribute name="Location" id="5B0EFDF4-B074-DE0B-86DC-DC53FEEF3314">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:26:27 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>

@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6A2191C0-41CE-A482-F753-246AEBFD21A3" containerWithKeyObject="25BFAA16-1E6E-3264-7A22-663C78887089" localFKIndex="581596F6-4844-B523-D023-FB8982A573C8" name="Журнал_ВЫЕЗДОВ_ВОДИТЕЛИ_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6A2191C0-41CE-A482-F753-246AEBFD21A3" containerWithKeyObject="25BFAA16-1E6E-3264-7A22-663C78887089" localFKIndex="581596F6-4844-B523-D023-FB8982A573C8" name="EXIT_LOG_DRIVER_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>3C581827-B988-4A61-58A4-2BE085505BAC</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
-<referredTableLongName>ВОДИТЕЛИ</referredTableLongName>
+<referredTableLongName>DRIVERS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>9E2F665D-6AEF-D892-1A31-E97FB8D60F39</referredTableID>
 <keyObject>BAFDAC09-5D3F-29E6-35A4-CD991232A4C4</keyObject>

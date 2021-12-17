@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1738584-A981-27FC-0A2C-9ECEB91146CA" name="Разгрузка">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1738584-A981-27FC-0A2C-9ECEB91146CA" name="UNLOADING">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:16:01 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="дата разгрузки" id="5853457B-C065-9BF7-C517-20D3A31D9450">
+<Attribute name="Date" id="5853457B-C065-9BF7-C517-20D3A31D9450">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:16:18 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="бригада" id="1DF1AD9F-2A5F-38F7-F150-8BE5F9FBD493">
+<Attribute name="Brigade" id="1DF1AD9F-2A5F-38F7-F150-8BE5F9FBD493">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:16:29 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>

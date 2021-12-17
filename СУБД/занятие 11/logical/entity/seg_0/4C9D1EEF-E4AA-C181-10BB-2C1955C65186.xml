@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C9D1EEF-E4AA-C181-10BB-2C1955C65186" name="Рейс">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C9D1EEF-E4AA-C181-10BB-2C1955C65186" name="Path">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:10:16 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="пункт отправления" id="A0264008-AA6D-C333-FE57-81A9088B8C59">
+<Attribute name="Departure point" id="A0264008-AA6D-C333-FE57-81A9088B8C59">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:10:37 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="пункт назначения" id="EB17728C-AA19-5FA6-F407-6B72AFFAB3F0">
+<Attribute name="Destination" id="EB17728C-AA19-5FA6-F407-6B72AFFAB3F0">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:10:43 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -51,7 +51,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="промежуточные точки" id="3998C4D9-7DBD-9331-4D32-13BB5663EDD1">
+<Attribute name="Intermediate point" id="3998C4D9-7DBD-9331-4D32-13BB5663EDD1">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:10:49 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -64,7 +64,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="время отправления" id="DF851B90-187C-D040-BF71-C880EF0B1829">
+<Attribute name="Departure time" id="DF851B90-187C-D040-BF71-C880EF0B1829">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:11:06 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -76,7 +76,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="время прибытия" id="3B690AF7-D0F1-8F19-E87B-5D06AD389238">
+<Attribute name="Arrival time" id="3B690AF7-D0F1-8F19-E87B-5D06AD389238">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:11:12 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>

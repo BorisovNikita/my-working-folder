@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C4A6DC5B-256E-B026-8E3D-43EB97C5322F" containerWithKeyObject="7221C269-7FE9-7B2A-4D0F-35DFF47B7384" localFKIndex="1F0956B0-B2E0-833D-D92B-585BAFD51A45" name="Учет_аварии_АВТОМАШИНЫ_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C4A6DC5B-256E-B026-8E3D-43EB97C5322F" containerWithKeyObject="7221C269-7FE9-7B2A-4D0F-35DFF47B7384" localFKIndex="1F0956B0-B2E0-833D-D92B-585BAFD51A45" name="CRASH_LOG_VEHICLE_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>A04A3756-AAC1-DE0A-3B7D-FEB1B8853E4B</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
-<referredTableLongName>АВТОМАШИНЫ</referredTableLongName>
+<referredTableLongName>VEHICLES</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>C650D3A8-2999-ADDD-1E68-303157F76993</referredTableID>
 <keyObject>35C01128-3EA9-9F62-0D25-697D0025F430</keyObject>

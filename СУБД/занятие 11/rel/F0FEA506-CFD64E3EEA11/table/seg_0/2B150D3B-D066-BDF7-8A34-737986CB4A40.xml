@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B150D3B-D066-BDF7-8A34-737986CB4A40" name="Учет_ПОВРЕЖДЕНИЙ">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B150D3B-D066-BDF7-8A34-737986CB4A40" name="DAMAGE_LOG">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>75687F7D-A055-3845-5455-80CCC2FDE64A</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Критичность" id="66BB701F-CB5E-65BB-586E-308CFE55ED9D">
+<Column name="LEV" id="66BB701F-CB5E-65BB-586E-308CFE55ED9D">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>094DC2C5-A76A-0CBD-ADD4-CD991CBE81DB</generatorID>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Процент_повреждения" id="0FF7CC6D-A1A9-1A78-6833-5BF27362ECF3">
+<Column name="PCT" id="0FF7CC6D-A1A9-1A78-6833-5BF27362ECF3">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>DE47C764-D9DE-6090-AE82-92863C83242C</generatorID>
@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Возможность_ремонта" id="1960A3E7-0C53-1776-488C-A8F88278C3A6">
+<Column name="Possability" id="1960A3E7-0C53-1776-488C-A8F88278C3A6">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>0AC99D4D-ED6C-1B3E-B7CD-DE3183ABE7D9</generatorID>
@@ -42,7 +42,7 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Учет_аварии_UID" id="93113986-7BB5-A584-3D51-09FAF644D38D">
+<Column name="CRASH_LOG_UID" id="93113986-7BB5-A584-3D51-09FAF644D38D">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>F68604BB-FB5E-B9F6-FB19-37AFFDEF9E07</generatorID>
@@ -57,7 +57,7 @@
 <colAssociation fkAssociation="8E406EB0-372E-A63F-5915-3F797F9441C0" referredColumn="8DB51A05-F950-16A4-F22F-B0119720F0A5"/>
 </associations>
 </Column>
-<Column name="Вид_ПОЛОМОК_UID" id="1024E020-E705-271A-1523-A167CF024B18">
+<Column name="BREAKDOWN_UID" id="1024E020-E705-271A-1523-A167CF024B18">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>686E9D16-F1B6-E1AA-9B08-72DFE758F25D</generatorID>
@@ -74,7 +74,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F1F0A1CA-BFDE-C12C-D828-E1B880173670" name="Учет_повреждений_PK">
+<ind_PK_UK id="F1F0A1CA-BFDE-C12C-D828-E1B880173670" name="DAMAGE_LOG_PK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>A88AA1D2-A645-E6CF-A39A-C8463CFEF2EF</generatorID>
@@ -87,7 +87,7 @@
 <colUsage columnID="1024E020-E705-271A-1523-A167CF024B18"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="44E6092A-2207-D1E5-C68A-552FCC02A726" name="Учет_ПОВРЕЖДЕНИЙ_Учет_аварии_FK">
+<ind_PK_UK id="44E6092A-2207-D1E5-C68A-552FCC02A726" name="DAMAGE_LOG_CRASH_LOG_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>25456AB5-3CB4-E40E-191F-87E94AA9F0A8</generatorID>
@@ -98,7 +98,7 @@
 <colUsage columnID="93113986-7BB5-A584-3D51-09FAF644D38D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E7AF6FBD-3763-891F-BDA0-5D22EF369692" name="Учет_ПОВРЕЖДЕНИЙ_Вид_ПОЛОМОК_FK">
+<ind_PK_UK id="E7AF6FBD-3763-891F-BDA0-5D22EF369692" name="DAMAGE_LOG_BREAKDOWN_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>5D4BA017-E4F7-4713-94D8-2BCC08E7CC8B</generatorID>

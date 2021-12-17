@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B63AECDF-036A-F873-F49C-AC26F0E100DA" name="Журнал ремонта">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B63AECDF-036A-F873-F49C-AC26F0E100DA" name="REPAIR LOG">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:21:23 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -25,7 +25,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="фактическая стоимость ремонта" id="6BB58108-8C42-16AE-1F50-E408964C9083">
+<Attribute name="Actual cost" id="6BB58108-8C42-16AE-1F50-E408964C9083">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:21:51 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -37,7 +37,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="дата ремонта" id="B4102056-5C28-E817-F1F6-767B0438CD82">
+<Attribute name="Date" id="B4102056-5C28-E817-F1F6-767B0438CD82">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:22:00 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>

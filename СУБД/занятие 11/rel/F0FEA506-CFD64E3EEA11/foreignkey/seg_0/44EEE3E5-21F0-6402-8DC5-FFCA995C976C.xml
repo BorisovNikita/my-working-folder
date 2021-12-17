@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="44EEE3E5-21F0-6402-8DC5-FFCA995C976C" containerWithKeyObject="E1C98E30-9B52-4709-378F-FB80E1D6AB5A" localFKIndex="78D4A2DE-AC16-36EC-72B9-9E8761CEB4D8" name="Учет_ПОЛОМОК_Вид_ПОЛОМОК_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="44EEE3E5-21F0-6402-8DC5-FFCA995C976C" containerWithKeyObject="E1C98E30-9B52-4709-378F-FB80E1D6AB5A" localFKIndex="78D4A2DE-AC16-36EC-72B9-9E8761CEB4D8" name="BREAKDOWN_LOG_BREAKDOWN_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>B2DE62C6-FA80-D145-1E53-5CC708CECD26</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
-<referredTableLongName>Вид_ПОЛОМОК</referredTableLongName>
+<referredTableLongName>BREAKDOWNS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>F8ECF961-F52C-0AE9-6F32-8CFAE00632AE</referredTableID>
 <keyObject>1D723F25-45C1-41EF-E758-07280BE77888</keyObject>

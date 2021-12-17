@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B8F2506-9BA0-0A99-CFA9-3B9649F063DC" name="Статус_МАШИН">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B8F2506-9BA0-0A99-CFA9-3B9649F063DC" name="VEHICLE_STU">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>ED601F3E-3FD9-36E4-4900-E65D84E07E50</generatorID>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Статус" id="0B1217E2-AA2D-76C1-EAE0-4D1CB0709686">
+<Column name="STU" id="0B1217E2-AA2D-76C1-EAE0-4D1CB0709686">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>F61B6EE9-37B6-E5A0-C7D4-CDE81A4506EC</generatorID>
@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="местоположение" id="20A8262E-B449-7A7A-17EC-969A481BCD4B">
+<Column name="LOC" id="20A8262E-B449-7A7A-17EC-969A481BCD4B">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>5B0EFDF4-B074-DE0B-86DC-DC53FEEF3314</generatorID>
@@ -41,7 +41,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="АВТОМАШИНЫ_UID" id="4AE63485-F29C-FE68-BBAC-36F5B592EABE">
+<Column name="VEHICLES_UID" id="4AE63485-F29C-FE68-BBAC-36F5B592EABE">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>B6F1059F-973C-30D8-27B8-01D5096E72F2</generatorID>
@@ -53,12 +53,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="75FF80BF-0F6F-5D43-27A2-BD7F3CDD71F3" referredColumn="BAE31DD3-8212-286C-4C3A-161A4E05AB72"/>
+<colAssociation fkAssociation="34479BFA-7078-E86F-CABF-56D85728314F" referredColumn="BAE31DD3-8212-286C-4C3A-161A4E05AB72"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BF5F2E96-4880-0F11-4315-23238DAE8559" name="Статус_машины_PK">
+<ind_PK_UK id="BF5F2E96-4880-0F11-4315-23238DAE8559" name="VEHICLE_STATUS_PK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>240B48C2-ABCD-6E40-8B1E-D84DE93E06E8</generatorID>
@@ -81,9 +81,9 @@
 <colUsage columnID="4AE63485-F29C-FE68-BBAC-36F5B592EABE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DBFEEB13-B796-6A1F-0108-1084388E0D55" name="Статус_МАШИН_АВТОМАШИНЫ_FK">
-<createdBy>LocalUSer</createdBy>
-<createdTime>2021-12-02 06:47:30 UTC</createdTime>
+<ind_PK_UK id="D3CC3F3F-14D3-10F3-A12E-D17AD6AC8EBC" name="VEHICLE_STU_VEHICLES_FK">
+<createdBy>NekitOS</createdBy>
+<createdTime>2021-12-08 10:03:14 UTC</createdTime>
 <generatorID>89BA5727-5EAC-615D-387E-52F5CF5FFB7B</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
 <indexState>Foreign Key</indexState>

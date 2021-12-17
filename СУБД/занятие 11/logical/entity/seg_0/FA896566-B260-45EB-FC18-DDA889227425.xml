@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA896566-B260-45EB-FC18-DDA889227425" name="Учет поломки">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA896566-B260-45EB-FC18-DDA889227425" name="BREAKDOWN LOG">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:20:16 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Дата обнаружения" id="00AC8E97-E807-3D0C-BC93-3BF9CEF04B25">
+<Attribute name="Date" id="00AC8E97-E807-3D0C-BC93-3BF9CEF04B25">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:21:11 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Критичность" id="24FFD786-A9C2-F05E-5574-B215A7CB7C64">
+<Attribute name="Level" id="24FFD786-A9C2-F05E-5574-B215A7CB7C64">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:25:45 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Кем обнаружено" id="9E86FB67-5E77-A706-811E-35B7E2A01D9A">
+<Attribute name="Who" id="9E86FB67-5E77-A706-811E-35B7E2A01D9A">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:25:58 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -74,6 +74,7 @@
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
 <referedAttribute>66AA45F8-F694-7D19-846C-2D2E7D8006E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>

@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CEED0783-5075-AECD-0153-9862B2D114D8" containerWithKeyObject="10ADB2E5-559E-8F71-FB11-29FC39350BF4" localFKIndex="23A0C01E-F543-C5EA-FBB5-40A4DBFC9A10" name="Выгруженный_ТОВАРЫ_ТОВАРЫ_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CEED0783-5075-AECD-0153-9862B2D114D8" containerWithKeyObject="10ADB2E5-559E-8F71-FB11-29FC39350BF4" localFKIndex="23A0C01E-F543-C5EA-FBB5-40A4DBFC9A10" name="UNLOADED_PRODUCT_PRODUCT_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>50E02E8F-8A80-2E2B-F87B-EECE40297C17</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
-<referredTableLongName>ТОВАРЫ</referredTableLongName>
+<referredTableLongName>PRODUCTS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>418A961F-6B47-A7FF-8A99-E326BAC76B16</referredTableID>
 <keyObject>2DCE3083-2FAC-0AD8-DF29-B65085DAAED5</keyObject>

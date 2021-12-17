@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACBAAD8B-D459-6FC5-7F1E-3AB61469B810" name="ТОПЛИВО">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACBAAD8B-D459-6FC5-7F1E-3AB61469B810" name="FUEL">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>F05D2384-2D9B-5C6F-4A0A-96D984767344</generatorID>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="тип_топлива" id="1DA6FE12-624E-65A9-15BB-A27E705F101D">
+<Column name="TYP" id="1DA6FE12-624E-65A9-15BB-A27E705F101D">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>47B8FA66-142D-8744-9964-C54757EC3E47</generatorID>
@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="октановое_число" id="4CD8E467-E378-1F17-C833-08C62860AEAE">
+<Column name="Octane" id="4CD8E467-E378-1F17-C833-08C62860AEAE">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>48F1EAAB-561F-C39C-9271-5E27112F9758</generatorID>
@@ -43,7 +43,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="17E26964-13B8-1B54-D145-D7898A49800E" name="Топливо_PK">
+<ind_PK_UK id="17E26964-13B8-1B54-D145-D7898A49800E" name="FUEL_PK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>02DFCBD1-C1DD-97DA-C435-AD65E5A6F755</generatorID>

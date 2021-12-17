@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8CC9C7ED-B1D2-D16D-C1B9-ED013B99A91A" containerWithKeyObject="3FE7AA33-CECA-F384-F6B3-24469F263D4F" localFKIndex="FBF6EF6D-AE60-DCD8-D4F5-886445E653CE" name="Учет_ТОПЛИВА_ТОПЛИВО_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8CC9C7ED-B1D2-D16D-C1B9-ED013B99A91A" containerWithKeyObject="3FE7AA33-CECA-F384-F6B3-24469F263D4F" localFKIndex="FBF6EF6D-AE60-DCD8-D4F5-886445E653CE" name="FUEL_LOG_FUEL_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>22664B8C-A51D-9603-76EF-5C553713EF02</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
-<referredTableLongName>ТОПЛИВО</referredTableLongName>
+<referredTableLongName>FUEL</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>ACBAAD8B-D459-6FC5-7F1E-3AB61469B810</referredTableID>
 <keyObject>17E26964-13B8-1B54-D145-D7898A49800E</keyObject>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7C6F97B-1A75-A8D5-A7CE-A73F592E9993" name="Обслуживание">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7C6F97B-1A75-A8D5-A7CE-A73F592E9993" name="MAINTENANCE">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:25:11 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="дата" id="C879A372-FAC6-F8F6-43DA-6FAA3AA90A81">
+<Attribute name="Date" id="C879A372-FAC6-F8F6-43DA-6FAA3AA90A81">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:25:45 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="стоимость" id="12F1CF77-6D78-53D3-F57F-71DF1A1CF925">
+<Attribute name="Cost" id="12F1CF77-6D78-53D3-F57F-71DF1A1CF925">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:25:52 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>

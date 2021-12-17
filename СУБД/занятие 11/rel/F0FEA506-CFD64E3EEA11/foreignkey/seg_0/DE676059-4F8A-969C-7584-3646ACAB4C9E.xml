@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DE676059-4F8A-969C-7584-3646ACAB4C9E" containerWithKeyObject="E1C98E30-9B52-4709-378F-FB80E1D6AB5A" localFKIndex="0A1CBC21-8D19-777C-89A9-D43F96CFE9D6" name="Учет_ПОЛОМОК_АВТОМАШИНЫ_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DE676059-4F8A-969C-7584-3646ACAB4C9E" containerWithKeyObject="E1C98E30-9B52-4709-378F-FB80E1D6AB5A" localFKIndex="0A1CBC21-8D19-777C-89A9-D43F96CFE9D6" name="BREAKDOWN_LOG_VEHICLE_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>3706EEC2-8AEC-4C4E-2A31-9CE635083DF1</generatorID>
 <ownerDesignName>занятие 11</ownerDesignName>
-<referredTableLongName>АВТОМАШИНЫ</referredTableLongName>
+<referredTableLongName>VEHICLES</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>C650D3A8-2999-ADDD-1E68-303157F76993</referredTableID>
 <keyObject>35C01128-3EA9-9F62-0D25-697D0025F430</keyObject>
