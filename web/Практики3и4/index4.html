@@ -1,0 +1,115 @@
+<meta charset = 'utf-8'>
+<script>
+    // Задание 4.1
+    var user = {
+    name: "Джон",
+    age: 30
+    };
+    user.sayHi = function() {
+        alert("Привет!");
+    };
+    user.sayHi(); 
+
+
+    // Задание 4.2
+    var customer = {
+    first_name: "Никитосик",
+    last_name: "Борисов",
+    second_name: "Алексеевич",
+    age: 22,
+    military: true,
+    points: 389221
+    };
+
+    alert(customer.last_name)
+    alert(customer.first_name)
+    alert(customer.second_name)
+
+
+    // Задание 4.3
+    var users = {
+        count: 30,
+        place: "Moscow"
+    };
+    var orders = {
+        total: 21451,
+        count: 213
+    };
+    var restaurants = {
+        location: "Moscow",
+        count: 32,
+        owner: "Jack"
+    };
+
+    if (users.place == restaurants.location) {
+        alert(orders.total)
+    } else {
+        alert('wrong')
+    }
+
+
+     // Задание 4.4
+     document.write("Задание 4.4" + "<br>")
+    function User(name) {
+        this.name = name;
+        this.isAdmin = false;
+    }
+
+    var arr = []
+    var names = ["Вася", "Петя", "Дима", "Гена", "Даня", "Давид"]
+    for(i = 0; i < 10; i++){
+        var name = names[Math.round(Math.random()*5.4999)]
+        arr[i] = new User(name)
+        document.write(arr[i].name + ", isAdmin = " + arr[i].isAdmin + "<br>")
+    }
+    document.write("<hr>")
+
+
+    //Задание 4.5
+    function User(name) {
+        this.name = name;
+
+        this.sayHi = function() {
+            alert( "Меня зовут: " + this.name );
+        };
+    }
+
+    var vasya = new User("Вася");
+
+    vasya.sayHi(); // Меня зовут: Вася
+
+    //Дополнительное задание
+
+    function Calculator(value1, value2) {
+        this.value1 = value1;
+        this.value2 = value2;
+
+        this.add = function() {
+            alert("Сумма" + (this.value1 + this.value2));
+        };
+
+        this.sub = function() {
+            alert("Разность" + (this.value1 - this.value2));
+        };
+
+        this.mul = function() {
+            alert("Произведение" + (this.value1 * this.value2));
+        };
+
+        this.div = function() {
+            alert("Частное" + (this.value1 / this.value2));
+        };
+    }
+    var m1 = parseInt(prompt("Значение1: "));
+    var m2 = parseInt(prompt("Значение2: "));
+    calc = new Calculator(m1, m2)
+    calc.add()
+    calc.sub()
+    calc.mul()
+    calc.div()
+
+
+    //Контрольные вопросы 
+    // Объект нужен для создания собственных экземпяров и видов объектов
+    // мы можем создать любой метод для объекта (функцию)
+</script>
