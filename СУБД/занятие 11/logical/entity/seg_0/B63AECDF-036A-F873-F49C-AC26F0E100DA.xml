@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Actual cost" id="6BB58108-8C42-16AE-1F50-E408964C9083">

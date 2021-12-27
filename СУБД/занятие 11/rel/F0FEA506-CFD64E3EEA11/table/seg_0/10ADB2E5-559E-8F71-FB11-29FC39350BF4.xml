@@ -45,7 +45,7 @@
 <colAssociation fkAssociation="6CAA48FE-2DCB-A8CD-902E-DAEA97BD3B13" referredColumn="F5EF4211-D5C6-73E6-F88F-458F8806CFF0"/>
 </associations>
 </Column>
-<Column name="PRODUCT_UID" id="12D6D7BF-92A4-13B7-0F49-F906B299C2B7">
+<Column name="PRODUCTS_UID" id="12D6D7BF-92A4-13B7-0F49-F906B299C2B7">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>F6197BE2-2BF0-A5E5-9EF3-5A8DC8E7BE7C</generatorID>
@@ -62,7 +62,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DF85F7AB-AAB4-060C-E21C-AF3EF49B5383" name="UNLOADED_PRODUCT_PK">
+<ind_PK_UK id="DF85F7AB-AAB4-060C-E21C-AF3EF49B5383" name="UNLOADED_PRODUCTS_PK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>A89D2BEF-72E3-E567-E19D-8A8C183567D9</generatorID>
@@ -75,7 +75,7 @@
 <colUsage columnID="12D6D7BF-92A4-13B7-0F49-F906B299C2B7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C7BD2AE7-6051-1DCE-A536-7E882AD46EAA" name="UNLOADED_PRODUCT_UNLOADING_FK">
+<ind_PK_UK id="C7BD2AE7-6051-1DCE-A536-7E882AD46EAA" name="UNLOADED_PRODUCTS_UNLOADING_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>5143E52F-AF6D-804F-EB68-797ACB922250</generatorID>
@@ -86,7 +86,7 @@
 <colUsage columnID="70D8A801-0677-0FD2-11B5-8FD50372FDE4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="23A0C01E-F543-C5EA-FBB5-40A4DBFC9A10" name="UNLOADED_PRODUCT_PRODUCT_FK">
+<ind_PK_UK id="23A0C01E-F543-C5EA-FBB5-40A4DBFC9A10" name="UNLOADED_PRODUCTS_PRODUCTS_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>50E02E8F-8A80-2E2B-F87B-EECE40297C17</generatorID>

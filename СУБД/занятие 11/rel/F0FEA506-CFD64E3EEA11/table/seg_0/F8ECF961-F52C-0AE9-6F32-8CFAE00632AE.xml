@@ -27,7 +27,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LEV" id="634E563B-742E-C51A-77D1-1FE7A313379E">
@@ -39,7 +40,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="EST_CST" id="19B46E2A-DE55-DDDF-338A-9A046E305D6C">
@@ -56,7 +58,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1D723F25-45C1-41EF-E758-07280BE77888" name="BREAKDOWN_PK">
+<ind_PK_UK id="1D723F25-45C1-41EF-E758-07280BE77888" name="BREAKDOWNS_PK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>DA4301B6-1204-80CB-F08C-5721547D90ED</generatorID>

@@ -49,7 +49,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Location" id="76E71F37-0C5E-A9D8-BFDD-3188867F8557">
 <createdBy>LocalUSer</createdBy>
@@ -61,7 +62,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="UID1" id="C898EBA0-EB2B-C14E-E69A-0F3A168E8219">
 <createdBy>LocalUSer</createdBy>
@@ -83,8 +85,9 @@
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:26:48 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

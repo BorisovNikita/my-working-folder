@@ -49,7 +49,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="UID3" id="40357F42-6D5F-A8F9-9110-CBDDC2F4E6DE">
 <createdBy>LocalUSer</createdBy>
@@ -99,8 +100,9 @@
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-10-20 07:16:38 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

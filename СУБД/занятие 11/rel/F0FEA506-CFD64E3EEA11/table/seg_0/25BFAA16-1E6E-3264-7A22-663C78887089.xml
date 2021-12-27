@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="DRIVER_UID" id="7DDE34DF-D8F2-B170-AF13-4B2DAEF83398">
+<Column name="DRIVERS_UID" id="7DDE34DF-D8F2-B170-AF13-4B2DAEF83398">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>59C95328-E66B-677F-7203-E07354D0AFC2</generatorID>
@@ -23,7 +23,7 @@
 <colAssociation fkAssociation="6A2191C0-41CE-A482-F753-246AEBFD21A3" referredColumn="349429FD-1467-4465-EE1F-5DF781F4CCE5"/>
 </associations>
 </Column>
-<Column name="Path_UID" id="6410CF0C-8CC6-A2FC-2EA5-17124F0E2623">
+<Column name="PAH_UID" id="6410CF0C-8CC6-A2FC-2EA5-17124F0E2623">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>8F9EA4C2-5567-D24B-A1F7-C7ADD1A30449</generatorID>
@@ -38,7 +38,7 @@
 <colAssociation fkAssociation="B446A0D7-BA80-5698-6028-61B09BC509ED" referredColumn="495192AF-5C96-A42B-4F8F-48086EE93169"/>
 </associations>
 </Column>
-<Column name="VEHICLE_UID" id="371424CE-F891-9713-EF8D-D6845FDD7C54">
+<Column name="VEHICLES_UID" id="371424CE-F891-9713-EF8D-D6845FDD7C54">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>C8B6D0F6-E2E3-C681-EDB2-A08B1E297827</generatorID>
@@ -81,7 +81,7 @@
 <colUsage columnID="371424CE-F891-9713-EF8D-D6845FDD7C54"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="581596F6-4844-B523-D023-FB8982A573C8" name="EXIT_LOG_DRIVER_FK">
+<ind_PK_UK id="581596F6-4844-B523-D023-FB8982A573C8" name="EXIT_LOG_DRIVERS_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>3C581827-B988-4A61-58A4-2BE085505BAC</generatorID>
@@ -92,7 +92,7 @@
 <colUsage columnID="7DDE34DF-D8F2-B170-AF13-4B2DAEF83398"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="87F4C9C4-B675-86DB-441D-5B68EC59389D" name="EXIT_LOG_Path_FK">
+<ind_PK_UK id="87F4C9C4-B675-86DB-441D-5B68EC59389D" name="EXIT_LOG_PAH_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>EE958C27-369A-1CBC-BBD6-F3C18E508DC9</generatorID>
@@ -103,7 +103,7 @@
 <colUsage columnID="6410CF0C-8CC6-A2FC-2EA5-17124F0E2623"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8E5946E6-5E91-24DC-AABD-A6451D2AD9B6" name="EXIT_LOG_VEHICLE_FK">
+<ind_PK_UK id="8E5946E6-5E91-24DC-AABD-A6451D2AD9B6" name="EXIT_LOG_VEHICLES_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>A59734E1-66AE-73E3-418B-76049C1D32EF</generatorID>

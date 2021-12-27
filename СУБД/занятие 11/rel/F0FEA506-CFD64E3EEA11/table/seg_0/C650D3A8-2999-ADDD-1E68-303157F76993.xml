@@ -27,7 +27,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Brand" id="A6AD3AAF-1855-36C4-A224-C3997E6B6642">
@@ -38,7 +39,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="RLE_YEA" id="1340FA78-2F62-918E-3D72-6EED3242F51F">
@@ -63,13 +65,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="117A55C3-E9C4-9B91-3F5A-BB784A2B2E57" referredColumn="AEAC5758-AB5C-1571-F3CC-34551A9A7BDE"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="35C01128-3EA9-9F62-0D25-697D0025F430" name="VEHICLE_PK">
+<ind_PK_UK id="35C01128-3EA9-9F62-0D25-697D0025F430" name="VEHICLES_PK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>FFD4B1C0-86F5-F442-9341-C75EBD32CBF0</generatorID>
@@ -92,16 +91,12 @@
 <colUsage columnID="8E90DD99-D22A-AEBA-4309-BCC05BBD943C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CA94630B-8439-C9BA-B4B2-7DB415654D89" name="VEHICLES_VEHICLE_STU_FK">
+<ind_PK_UK id="D7E278EC-3347-8701-2741-0B370B04B99F" name="АВТОМАШИНЫ_Статус_МАШИН_FK">
 <createdBy>NekitOS</createdBy>
-<createdTime>2021-12-08 10:03:14 UTC</createdTime>
-<generatorID>89BA5727-5EAC-615D-387E-52F5CF5FFB7B</generatorID>
+<createdTime>2021-12-26 13:04:16 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="8E90DD99-D22A-AEBA-4309-BCC05BBD943C"/>
-</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

@@ -16,7 +16,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PCT" id="0FF7CC6D-A1A9-1A78-6833-5BF27362ECF3">
@@ -57,7 +58,7 @@
 <colAssociation fkAssociation="8E406EB0-372E-A63F-5915-3F797F9441C0" referredColumn="8DB51A05-F950-16A4-F22F-B0119720F0A5"/>
 </associations>
 </Column>
-<Column name="BREAKDOWN_UID" id="1024E020-E705-271A-1523-A167CF024B18">
+<Column name="BREAKDOWNS_UID" id="1024E020-E705-271A-1523-A167CF024B18">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>686E9D16-F1B6-E1AA-9B08-72DFE758F25D</generatorID>
@@ -98,7 +99,7 @@
 <colUsage columnID="93113986-7BB5-A584-3D51-09FAF644D38D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E7AF6FBD-3763-891F-BDA0-5D22EF369692" name="DAMAGE_LOG_BREAKDOWN_FK">
+<ind_PK_UK id="E7AF6FBD-3763-891F-BDA0-5D22EF369692" name="DAMAGE_LOG_BREAKDOWNS_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>5D4BA017-E4F7-4713-94D8-2BCC08E7CC8B</generatorID>

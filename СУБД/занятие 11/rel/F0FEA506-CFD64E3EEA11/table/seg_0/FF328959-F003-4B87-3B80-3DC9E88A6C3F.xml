@@ -38,10 +38,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="EXIT_LOG_ВОДИТЕЛИ_UID" id="45E5537D-2B46-778E-EA30-9E39992C6B22">
+<Column name="EXIT_LOG_DRIVER_UID" id="45E5537D-2B46-778E-EA30-9E39992C6B22">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>40357F42-6D5F-A8F9-9110-CBDDC2F4E6DE</generatorID>
@@ -56,7 +57,7 @@
 <colAssociation fkAssociation="19733EE9-E914-0EC1-040F-9DBBAF2B4373" referredColumn="7DDE34DF-D8F2-B170-AF13-4B2DAEF83398"/>
 </associations>
 </Column>
-<Column name="EXIT_LOG_РЕЙСЫ_UID" id="77DF7EA6-F165-7260-BAAB-11C1BCC79B03">
+<Column name="EXIT_LOG_Path_UID" id="77DF7EA6-F165-7260-BAAB-11C1BCC79B03">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>C8E24244-CBDF-F473-A098-43D36FB9C494</generatorID>
@@ -71,7 +72,7 @@
 <colAssociation fkAssociation="19733EE9-E914-0EC1-040F-9DBBAF2B4373" referredColumn="6410CF0C-8CC6-A2FC-2EA5-17124F0E2623"/>
 </associations>
 </Column>
-<Column name="EXIT_LOG_АВТОМАШИНЫ_UID" id="5D8B84FE-91ED-C448-3C0A-D28AF5CA0AB6">
+<Column name="EXIT_LOG_VEHICLE_UID" id="5D8B84FE-91ED-C448-3C0A-D28AF5CA0AB6">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>57638DA8-FE56-F5FB-E8BD-05C4346F6726</generatorID>

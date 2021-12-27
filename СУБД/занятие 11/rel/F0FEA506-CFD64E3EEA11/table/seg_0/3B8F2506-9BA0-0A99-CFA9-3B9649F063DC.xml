@@ -27,7 +27,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LOC" id="20A8262E-B449-7A7A-17EC-969A481BCD4B">
@@ -38,7 +39,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="VEHICLES_UID" id="4AE63485-F29C-FE68-BBAC-36F5B592EABE">
@@ -52,13 +54,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="34479BFA-7078-E86F-CABF-56D85728314F" referredColumn="BAE31DD3-8212-286C-4C3A-161A4E05AB72"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BF5F2E96-4880-0F11-4315-23238DAE8559" name="VEHICLE_STATUS_PK">
+<ind_PK_UK id="BF5F2E96-4880-0F11-4315-23238DAE8559" name="VEHICLE_STU_PK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>240B48C2-ABCD-6E40-8B1E-D84DE93E06E8</generatorID>
@@ -81,16 +80,12 @@
 <colUsage columnID="4AE63485-F29C-FE68-BBAC-36F5B592EABE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D3CC3F3F-14D3-10F3-A12E-D17AD6AC8EBC" name="VEHICLE_STU_VEHICLES_FK">
+<ind_PK_UK id="E5EA876F-5226-9A34-569A-400F6EDB855E" name="Статус_МАШИН_АВТОМАШИНЫ_FK">
 <createdBy>NekitOS</createdBy>
-<createdTime>2021-12-08 10:03:14 UTC</createdTime>
-<generatorID>89BA5727-5EAC-615D-387E-52F5CF5FFB7B</generatorID>
+<createdTime>2021-12-26 13:04:16 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="4AE63485-F29C-FE68-BBAC-36F5B592EABE"/>
-</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

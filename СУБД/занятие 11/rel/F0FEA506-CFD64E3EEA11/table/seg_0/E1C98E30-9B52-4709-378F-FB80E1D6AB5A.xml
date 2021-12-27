@@ -27,7 +27,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Who" id="97B3B7A7-9A5A-13FC-236C-085144A4434A">
@@ -38,10 +39,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="VEHICLE_UID" id="21BD132C-F8A0-C36E-A57B-D7A4CBA60C6C">
+<Column name="VEHICLES_UID" id="21BD132C-F8A0-C36E-A57B-D7A4CBA60C6C">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>5E31E516-95FE-29C0-F378-E0E3DBD3E56D</generatorID>
@@ -56,7 +58,7 @@
 <colAssociation fkAssociation="DE676059-4F8A-969C-7584-3646ACAB4C9E" referredColumn="BAE31DD3-8212-286C-4C3A-161A4E05AB72"/>
 </associations>
 </Column>
-<Column name="BREAKDOWN_UID" id="4019034A-4AA8-B7F1-F120-039316388D86">
+<Column name="BREAKDOWNS_UID" id="4019034A-4AA8-B7F1-F120-039316388D86">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>DCA75BB8-04ED-2269-FEBC-801F94DE3560</generatorID>
@@ -73,7 +75,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="69A156CB-5539-6325-7B0C-C814A92F11AE" name="BREAKDOWN_LOG_PK">
+<ind_PK_UK id="69A156CB-5539-6325-7B0C-C814A92F11AE" name="BRD_LOG_PK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>C7F5C231-420E-D50B-CC85-8D000B662898</generatorID>
@@ -86,7 +88,7 @@
 <colUsage columnID="4019034A-4AA8-B7F1-F120-039316388D86"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0A1CBC21-8D19-777C-89A9-D43F96CFE9D6" name="BREAKDOWN_LOG_VEHICLE_FK">
+<ind_PK_UK id="0A1CBC21-8D19-777C-89A9-D43F96CFE9D6" name="BRD_LOG_VEHICLES_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>3706EEC2-8AEC-4C4E-2A31-9CE635083DF1</generatorID>
@@ -97,7 +99,7 @@
 <colUsage columnID="21BD132C-F8A0-C36E-A57B-D7A4CBA60C6C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="78D4A2DE-AC16-36EC-72B9-9E8761CEB4D8" name="BREAKDOWN_LOG_BREAKDOWN_FK">
+<ind_PK_UK id="78D4A2DE-AC16-36EC-72B9-9E8761CEB4D8" name="BRD_LOG_BREAKDOWNS_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>B2DE62C6-FA80-D145-1E53-5CC708CECD26</generatorID>

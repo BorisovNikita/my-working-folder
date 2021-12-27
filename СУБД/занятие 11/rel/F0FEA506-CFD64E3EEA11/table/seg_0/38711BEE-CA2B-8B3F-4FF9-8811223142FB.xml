@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DRIVER_UID" id="DA577DF3-01E3-CCF0-49E2-432EA06B1CDB">
+<Column name="DRIVERS_UID" id="DA577DF3-01E3-CCF0-49E2-432EA06B1CDB">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>8279026D-E455-F71A-A3F8-D342B81F34D6</generatorID>
@@ -36,7 +36,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="35CB8812-1596-14C8-70BB-B09C185DF0A8" name="WORKING_TIME_LOG_PK">
+<ind_PK_UK id="35CB8812-1596-14C8-70BB-B09C185DF0A8" name="WRK_TME_LOG_PK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>C8CD9138-353C-C9DD-333D-EDB590FB58FC</generatorID>
@@ -48,7 +48,7 @@
 <colUsage columnID="DA577DF3-01E3-CCF0-49E2-432EA06B1CDB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1892F9F2-80D9-7CBB-FC96-62FFD44E08A9" name="WORKING_TIME_LOG_DRIVER_FK">
+<ind_PK_UK id="1892F9F2-80D9-7CBB-FC96-62FFD44E08A9" name="WRK_TME_LOG_DRIVERS_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>1F62A534-DD17-ACB0-598A-A4C4C549FF85</generatorID>

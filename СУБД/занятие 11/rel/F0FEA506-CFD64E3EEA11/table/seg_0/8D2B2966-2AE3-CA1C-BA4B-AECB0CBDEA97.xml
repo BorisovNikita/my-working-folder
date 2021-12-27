@@ -41,7 +41,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="VEHICLE_UID" id="CE76BB26-5FE7-3BFB-F73F-6F892725B999">
+<Column name="VEHICLES_UID" id="CE76BB26-5FE7-3BFB-F73F-6F892725B999">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>6D1B1A0A-3DDE-FD28-B07E-EB8B35D7231F</generatorID>
@@ -56,7 +56,7 @@
 <colAssociation fkAssociation="90615908-DAD2-26AF-677F-0AB6D07FF0A4" referredColumn="BAE31DD3-8212-286C-4C3A-161A4E05AB72"/>
 </associations>
 </Column>
-<Column name="MAINTENANCE_TYPE_UID" id="B9CC23A7-E6E5-B4C0-A0BB-4009A6FD42D7">
+<Column name="MNT_TYP_UID" id="B9CC23A7-E6E5-B4C0-A0BB-4009A6FD42D7">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>E2637F0B-A1F4-AB2F-3AA4-BD5D700FD82A</generatorID>
@@ -73,7 +73,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="2D19FE42-3D01-7A87-60FD-7F2A1C160C2A" name="MAINTENANCE_PK">
+<ind_PK_UK id="2D19FE42-3D01-7A87-60FD-7F2A1C160C2A" name="MNT_PK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>96ADA0BF-1969-9D2F-7F90-71838C7F906D</generatorID>
@@ -85,7 +85,7 @@
 <colUsage columnID="0DECDC48-CAC8-5EB5-B6BB-DD8274CA6298"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="91EE1F04-D5AB-9E6D-55BF-BF07FA5A9EA9" name="MAINTENANCE_VEHICLE_FK">
+<ind_PK_UK id="91EE1F04-D5AB-9E6D-55BF-BF07FA5A9EA9" name="MNT_VEHICLES_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>A18D56F6-25D7-5134-D338-51D9805EEDF7</generatorID>
@@ -96,7 +96,7 @@
 <colUsage columnID="CE76BB26-5FE7-3BFB-F73F-6F892725B999"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C2D05361-E3F6-9D93-0B41-2B580B54F115" name="MAINTENANCE_MAINTENANCE_TYPE_FK">
+<ind_PK_UK id="C2D05361-E3F6-9D93-0B41-2B580B54F115" name="MNT_MNT_TYP_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>C9C13E66-DF3C-782A-38DC-2D6FD7C58AF2</generatorID>

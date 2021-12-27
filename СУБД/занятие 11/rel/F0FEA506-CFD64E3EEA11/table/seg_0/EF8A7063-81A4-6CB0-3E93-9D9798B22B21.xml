@@ -45,7 +45,7 @@
 <colAssociation fkAssociation="D1211177-0FAB-D9B8-CC5E-F9C1B20BE12C" referredColumn="1D654512-7F06-8C1C-484D-BA69B1D7B1D4"/>
 </associations>
 </Column>
-<Column name="PRODUCT_UID" id="7DDF7C13-52CE-BEB8-E013-6527DBC15DCE">
+<Column name="PRODUCTS_UID" id="7DDF7C13-52CE-BEB8-E013-6527DBC15DCE">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>0FAB4B33-6EF1-E993-AFE9-177E1F1D7797</generatorID>
@@ -75,7 +75,7 @@
 <colUsage columnID="7DDF7C13-52CE-BEB8-E013-6527DBC15DCE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6E114757-34A7-6A95-B055-06C9E915177C" name="LOADED_PRODUCT_LOADING_FK">
+<ind_PK_UK id="6E114757-34A7-6A95-B055-06C9E915177C" name="LOADED_PRODUCTS_LOADING_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>9F84B14D-431D-E2FF-6883-5E70557E8CC7</generatorID>
@@ -86,7 +86,7 @@
 <colUsage columnID="DD93E379-0385-4310-6E46-74FF0D86843D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="24422B10-8C64-2445-F6D5-45A6C60D300B" name="LOADED_PRODUCT_PRODUCT_FK">
+<ind_PK_UK id="24422B10-8C64-2445-F6D5-45A6C60D300B" name="LOADED_PRODUCTS_PRODUCTS_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>9C1ED350-33FB-B2EA-3101-986B9AB81B06</generatorID>

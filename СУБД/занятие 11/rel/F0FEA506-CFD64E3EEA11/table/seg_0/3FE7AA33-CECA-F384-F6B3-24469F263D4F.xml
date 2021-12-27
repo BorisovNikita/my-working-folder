@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Path_UID" id="A754BD5E-EC44-125C-451B-7B577D0041E4">
+<Column name="PAH_UID" id="A754BD5E-EC44-125C-451B-7B577D0041E4">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>5E4058CF-3F9B-A364-7563-9D0D09D6F34F</generatorID>
@@ -64,7 +64,7 @@
 <colUsage columnID="4490B24B-07B1-412D-4B33-3F11C0FB3F25"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="961FEBCD-318C-1ACF-C584-2A68188BEFEA" name="FUEL_LOG_Path_FK">
+<ind_PK_UK id="961FEBCD-318C-1ACF-C584-2A68188BEFEA" name="FUEL_LOG_PAH_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>F5E52BF6-7ACF-47DF-FA01-55D060F09A27</generatorID>

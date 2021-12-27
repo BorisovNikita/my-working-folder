@@ -27,7 +27,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="количество" id="36F9D346-FBD4-2E14-2EDE-2574E13FB41E">
@@ -54,7 +55,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="2DCE3083-2FAC-0AD8-DF29-B65085DAAED5" name="PRODUCT_PK">
+<ind_PK_UK id="2DCE3083-2FAC-0AD8-DF29-B65085DAAED5" name="PRODUCTS_PK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>E11146B8-4DD7-4859-110B-80DE71669182</generatorID>

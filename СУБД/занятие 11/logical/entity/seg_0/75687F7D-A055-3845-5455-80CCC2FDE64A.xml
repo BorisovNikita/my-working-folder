@@ -25,7 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Percentage" id="DE47C764-D9DE-6090-AE82-92863C83242C">
 <createdBy>LocalUSer</createdBy>
@@ -86,8 +87,9 @@
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:31:43 UTC</createdTime>
 <ownerDesignName>занятие 11</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="true"/>
+<item key="F0FEA506-787C-B108-924B-CFD64E3EEA11" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

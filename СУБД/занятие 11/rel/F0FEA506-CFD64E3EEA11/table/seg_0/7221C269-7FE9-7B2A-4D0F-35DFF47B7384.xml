@@ -38,7 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LOC" id="92CEFA1E-6E53-E8EC-3815-5AD5D48392AE">
@@ -49,10 +50,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="VEHICLE_UID" id="E8884B64-F5F3-1CFF-5A6E-C91B9D90AEDC">
+<Column name="VEHICLES_UID" id="E8884B64-F5F3-1CFF-5A6E-C91B9D90AEDC">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>C898EBA0-EB2B-C14E-E69A-0F3A168E8219</generatorID>
@@ -81,7 +83,7 @@
 <colUsage columnID="8DB51A05-F950-16A4-F22F-B0119720F0A5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1F0956B0-B2E0-833D-D92B-585BAFD51A45" name="CRASH_LOG_VEHICLE_FK">
+<ind_PK_UK id="1F0956B0-B2E0-833D-D92B-585BAFD51A45" name="CRASH_LOG_VEHICLES_FK">
 <createdBy>LocalUSer</createdBy>
 <createdTime>2021-12-02 06:34:32 UTC</createdTime>
 <generatorID>A04A3756-AAC1-DE0A-3B7D-FEB1B8853E4B</generatorID>
