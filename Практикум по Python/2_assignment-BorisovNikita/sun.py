@@ -1,7 +1,6 @@
 from tkinter import Tk, Canvas
 import time
 from math import sin, cos, radians, pi
-from xmlrpc.client import boolean
 from PIL import Image, ImageTk, ImageDraw
 from random import randint
 
