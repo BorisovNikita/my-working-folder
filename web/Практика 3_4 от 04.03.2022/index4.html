@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Hello React 4.0</title>
+<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.25.0/babel.min.js"></script>
+</head>
+<body>
+    <script type="text/babel">
+
+        const styleObj = {  
+            color:'gray',
+            fontFamily:'TimesNewRoman'
+        };
+
+        function Hello1() {
+            return <h1>Привет1</h1>;
+        }
+        ReactDOM.render(
+            <Hello1/>,
+            document.getElementById("app2")
+        )
+
+
+        var Hello2 =() => {
+            return (<h1>Привет2</h1>);
+        }
+        ReactDOM.render(
+            <Hello2/>,
+            document.getElementById("app3")
+        )
+
+
+        class Hello3 extends React.Component {
+            render() {
+                return <h1>Привет3</h1>;
+            }
+        }
+        ReactDOM.render(
+            <Hello3/>,
+            document.getElementById("app4")
+        )
+
+
+        ReactDOM.render(
+            <h1>Hello React</h1>,
+            document.getElementById("app")
+        )
+
+        class Timer extends React.Component {
+
+            constructor(props) {
+                super(props);
+                this.state = { seconds: 259200 };
+            }
+
+            tick() {
+                this.setState(state => ({
+                    seconds: state.seconds - 1
+                }));
+            }
+
+            componentDidMount() {
+                this.interval = setInterval(() => this.tick(), 1000);
+            }
+
+            componentWillUnmount() {
+                clearInterval(this.interval);
+            }
+
+            render() {
+                return (
+                    <div style={styleObj}>
+                        <h1>
+                        Days: {~~(this.state.seconds/ (60*60*24))}<br></br>
+                        Hours: {(~~(this.state.seconds/ (60*60))) % 24}<br></br>
+                        Minutes: {(~~(this.state.seconds/ (60))) % 60}<br></br>
+                        Seconds: {this.state.seconds % 60}
+                        </h1>
+                    </div>
+                );
+            }
+        }
+
+        ReactDOM.render(
+            <Timer />,
+            document.getElementById('timer-example')
+        );
+
+        class MyImg extends React.Component {
+            render() {
+                const { src } = this.props;
+                return (
+                    < img src= { src } />
+                );
+            }
+        }
+
+        ReactDOM.render(<MyImg src='sale.jpg' />, document.getElementById('sale'));
+
+    </script>
+
+    <div id="app"> </div>
+    <div id="app2"></div>
+    <div id="app3"></div>
+    <div id="app4"></div>
+    <div id="timer-example"></div>
+    <div id="sale"></div>
+</body>
+
+</html>
