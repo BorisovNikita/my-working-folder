@@ -10,4 +10,4 @@ CANVAS создается с размерами SIZE = 600
 Параметр SPEED = 1 задает скорость вращения, равную одному обороту в минуту (подобно секундной стрелку), следовательно кратное изменение этой переменной ведет к кратному изменению скорости.
 Например, SPEED = 1/60 Уже будет вращаться со скоростью 1 оборот в час, а SPEED = 1*60  со скоростью оборот в секунду
 
-![Ну не загрузилась, что поделать](https://github.com/Finuniversity/1_assignment-BorisovNikita/blob/main/example.gif)
+![Ну не загрузилась, что поделать](https://github.com/BorisovNikita/my-working-folder/blob/master/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D1%83%D0%BC%20%D0%BF%D0%BE%20Python/1_assignment-BorisovNikita_1/example.gif)
