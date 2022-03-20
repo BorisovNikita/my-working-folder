@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap" rel="stylesheet">
     <style>
         button{
             width: 100px;
@@ -16,6 +19,9 @@
             color: white;
             background-color: green;
         }
+        div{
+            font-family: 'Dancing Script', cursive;
+        }
 
     </style>
 <meta charset="utf-8" />
@@ -29,14 +35,28 @@
         class Hello extends React.Component {
             render() {
                 return <div>
-                        <p>Имя: {this.props.name}</p>
-                        <p>Возраст: {this.props.age}</p>
+                    <form >
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" placeholder={this.props.name}/>
+          </li>
+          <li>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_mail" placeholder={this.props.email}/>
+          </li>
+          <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+        </ul>
+      </form>
                 </div>;
             }
         }
 
         ReactDOM.render(
-              <Hello name="Никита" age="23" />,
+              <Hello name="Никита" email="nikita@fa.ru" />,
               document.getElementById("app")
           )
 
