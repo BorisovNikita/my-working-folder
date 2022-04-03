@@ -21,6 +21,7 @@ class Planet(object):
         self.d = distance
         self.speed = speed
         self.clockwise =  clockwise
+        
         self.coords = self.x_y()
         self.oval = self.create_oval()
 
