@@ -1,9 +1,10 @@
+from queue import Queue
 from tkinter import Canvas, Tk
 from fieldReader import get_field
 
 SIZE = 600
-FIELD = get_field("field3.csv")
-SPEED = 10
+FIELD = get_field("field.csv")
+SPEED = 100
 DOT_SIZE = 15
 LINE_COLOR = "#ff01c8"
 DOT_COLOR = "white"
@@ -21,6 +22,8 @@ class dot(object):
         self.F = G + H
         self.parent = parent
         self.available = available
+
+
 
 def draw_field(root, field, dot_size = 30):
     global DOT_COLOR, POINT_COLOR
@@ -88,11 +91,12 @@ def draw_line(canvas, current):
         current = current.parent
         if not current:
             break
-    canvas.path_line = canvas.create_line(
-            *line_coords,
-            fill = LINE_COLOR,
-            width = DOT_SIZE / 3
-        )
+    if len(line_coords) > 2:
+        canvas.path_line = canvas.create_line(
+                *line_coords,
+                fill = LINE_COLOR,
+                width = DOT_SIZE / 3
+            )
     # canvas.path_lines.append(line)
 
     # while current.parent:
@@ -164,9 +168,43 @@ def path_finder(canvas, root):
 
     step(root, canvas, current, dots, open_list, closed_list, end)
 
+def width_finder(canvas, root):
+    dots = canvas.a_dots
+    canvas.path_line = None
+    q = Queue()
+    q.put(dots[0][0])
+
+    def step(canvas, root, dots, q):
+        global SPEED, OPEN_DOT_COLOR, CLOSE_DOT_COLOR
+        current = q.get()
+        current.G = 1
+        canvas.itemconfig(current.id_, fill = CLOSE_DOT_COLOR)
+        neignbours = [
+            [current.i-1, current.j],
+            [current.i+1, current.j],
+            [current.i, current.j-1],
+            [current.i, current.j+1]
+        ]
+        for i, j in neignbours:
+            if i >= 0 and j >= 0 and i < len(dots) and j < len(dots[0]):
+                if not dots[i][j].G and not dots[i][j].H and dots[i][j].available:
+                    dots[i][j].parent = current
+                    q.put(dots[i][j])
+                    dots[i][j].H = 1
+                    canvas.itemconfig(dots[i][j].id_, fill = OPEN_DOT_COLOR)
+
+        draw_line(canvas, current)
+
+        if current != dots[-1][-1]:
+            root.after(SPEED, step, canvas, root, dots, q)
+
+    # root.after(5000, step, canvas, root, dots, q)
+    step(canvas, root, dots, q)
+
+
 root = Tk()
 canvas = draw_field(root, FIELD, DOT_SIZE)
-path_finder(canvas, root)
+width_finder(canvas, root)
 
 
 root.mainloop()
