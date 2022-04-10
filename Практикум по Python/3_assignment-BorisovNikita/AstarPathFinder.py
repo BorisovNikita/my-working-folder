@@ -3,8 +3,8 @@ from tkinter import Canvas, Tk
 from fieldReader import get_field
 
 SIZE = 600
-FIELD = get_field("field.csv")
-SPEED = 100
+FIELD = get_field("field2.csv")
+SPEED = 10
 DOT_SIZE = 15
 LINE_COLOR = "#ff01c8"
 DOT_COLOR = "white"
@@ -204,7 +204,7 @@ def width_finder(canvas, root):
 
 root = Tk()
 canvas = draw_field(root, FIELD, DOT_SIZE)
-width_finder(canvas, root)
+path_finder(canvas, root)
 
 
 root.mainloop()
