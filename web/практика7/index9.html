@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+
+        header {
+			width: 100%;
+			background-color: orange;
+			margin-bottom: 30px;
+		}
+        .header2 {
+			margin-bottom: 0px;
+            background-color: #cd5700;
+		}
+
+
+
+        ul {
+			list-style: none;
+			display: flex;
+			flex-direction: row;
+			color: white;
+			margin: 0;
+			padding: 0;
+		}
+        
+        .ul2 {
+			list-style: none;
+			display: flex;
+			flex-direction: row-reverse;
+
+			color: white;
+			margin: 0;
+			padding: 0;
+		}
+        .a2 {
+			display: block;
+			color: white;
+			text-decoration: none;
+			padding: 3px;
+		}
+
+
+        a {
+			display: block;
+			color: white;
+			text-decoration: none;
+			padding: 20px;
+		}
+
+        .label {
+			color: orange;
+			font-size: 12px;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+
+        .blockImg {
+			max-width: 100%;
+            max-height: 100%;
+		}
+
+        .iconImg {
+			max-width: 30px;
+            max-height: 30px;
+
+		}
+
+        .blockText {
+			color: grey;
+		}
+
+
+        .block {
+			width: 23%;
+			margin-bottom: 50px;
+		}
+
+
+        .mainBlock {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			padding-left: 2%;
+			padding-right: 2%;
+		}
+
+    </style>
+<meta charset="utf-8" />
+<title>Hello React 9.0</title>
+<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.25.0/babel.min.js"></script>
+
+</head>
+<body>
+    <script type="text/babel">
+
+
+        const blocks = [
+                {
+                    title: 'Как музыка может улучшить качество нашей жизни?',
+                    text: 'Музыка во все времена и в разных культурах играла очень важную роль. Наши предки погружались в нее и в горе, и в радости.',
+                    src: 'http://brightmagazine.ru/wp-content/uploads/2022/04/pexels-burst-373945-600x400.jpg'
+                },
+   
+                {
+                    title: 'Дела любовные. Самые романтичные книжные новинки',
+                    text: 'Переосмысление сказки «Спящая красавица» в романе Джейн Йолен; очаровательная и смешная история любви в дебютном романе Рэйчел Уинтерс; захватывающая история межрасовых отношений в книге Мэлори Блэкман; сентиментальная проза Ребекки Сёрл и атмосферный роман Дженнифер Робсон, действия которого разворачиваются во времена Первой мировой войны. Рассказываем о главных книжных новинках посвященных самой вечной теме — теме любви. ',
+                    src: 'http://brightmagazine.ru/wp-content/uploads/2022/03/pexels-karolina-grabowska-6328838-600x400.jpg'
+                },
+                {
+                    title: 'Создаем новые луки из старых вещей',
+                    text: 'Вопрос: «Как гармонично сочетать и комбинировать одежду?», — с приходом весны стал еще более актуальным. Это несложная, но порой хлопотная задача может занять довольно много времени. Как сочетать и комбинировать имеющуюся одежду, чтобы было больше любимых нарядов без необходимости покупать что-то новое, подсказала журналу Bright дизайнер Юлия Логвинова.',
+                    src: 'http://brightmagazine.ru/wp-content/uploads/2022/04/pexels-pavel-danilyuk-6925400-600x401.jpg'
+                },
+
+                
+            ];
+
+        function Header () {
+            return(
+                <header>
+                    <ul>
+                        <li><a href="">Журнал bright</a></li>
+                        <li><a href="">Лица</a></li>
+                        <li><a href="">События</a></li>
+                        <li><a href="">Мнения</a></li>
+                        <li><a href="">Путешествия</a></li>
+                        <li><a href="">На глубине</a></li>
+                        <li><a href="">Архив</a></li>
+                        <li><a href="">О журнале</a></li>
+                    </ul>
+                </header>
+            )
+        }
+
+        function Header2 () {
+            return(
+                <header className="header2">
+                    <ul className="ul2">
+                        <li><a className="a2" href=""><img className="iconImg" src='https://cdn-icons-png.flaticon.com/512/2111/2111463.png'/></a></li>
+                        <li><a className="a2" href=""><img className="iconImg" src='https://cdn-icons.flaticon.com/png/512/2504/premium/2504953.png?token=exp=1650020743~hmac=c26bfa5868365227bf4608d2b0dc21ad'/></a></li>
+                        <li><a className="a2" href=""><img className="iconImg" src='https://cdn-icons-png.flaticon.com/512/174/174848.png'/></a></li>
+                        <li><a className="a2" href=""><img className="iconImg" src='https://cdn-icons.flaticon.com/png/512/3955/premium/3955059.png?token=exp=1650020743~hmac=3e1ec69a27b34d82d38b35a8a8ea2a3a'/></a></li>
+                    </ul>
+                </header>
+            )
+        }
+        
+        function Block(props) {
+            return (
+                <div className="block">
+                    <img className="blockImg" src={props.src}/>
+                    <h2>{props.title}</h2>
+                    <p className="blocktext">{props.text}</p>
+                </div>
+            );
+        }
+
+                
+        function Blocks(props) {
+            return (
+                <div className="mainBlock">
+                    {props.blocks.map((item, i) => <Block title={item.title} text={item.text} src={item.src}/>)}
+                </div>
+            );
+        }
+
+        function App() {
+        // Объявляем новую переменную состояния "count"
+        const [count, setCount] = React.useState(0);
+        
+        return (
+            <div>
+                <Header2/>
+                <Header/>
+                <Blocks blocks={blocks}/>
+            </div>
+
+        );
+        }
+        
+        ReactDOM.render(
+            <App />,
+            document.getElementById('app')
+        );
+        
+    </script>
+
+    <div id="app"> </div>
+
+</body>
+
+</html>
