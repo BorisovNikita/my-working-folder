@@ -42,15 +42,25 @@ class Agar():
 
 class Dot(object):
 
-    def __init__(self, field,r = 5):
+    def __init__(self, field,r = 5, fill = "white"):
         self.field = field
         self.r = r
         self.x, self.y = self.rand_x_y()
         self.id = self.field.canvas.create_oval(
             *self.x_y(),
-            fill="white",
+            fill=fill,
             outline="#008000",
-            width=1
+            width=2
+        )
+        self.change_color()
+
+    def change_color(self):
+        i = randint(0, len(self.field.colors)-1)
+        j = randint(0, len(self.field.colors)-1)
+        self.field.canvas.itemconfig(
+            self.id,
+            fill=self.field.colors[i],
+            outline=self.field.colors[j]
         )
 
     def rand_x_y(self):
@@ -80,6 +90,7 @@ class Dot(object):
 
     def reborn(self):
         self.x, self.y = self.rand_x_y()
+        self.change_color()
         for agar in self.field.agars:
             vector = [self.x - agar.x, self.y - agar.y]
             distance = self.field.vec_len(vector)
@@ -131,9 +142,9 @@ class Border(object):
 
 class Field(object):
     
-    def __init__(self, size = 1000, w_width = 600, w_height = 600):
+    def __init__(self, size = 1000, w_width = 600, w_height = 600, max_r = None, dot_count = None):
         self.size = size
-        self.dot_count = int(size / 10)
+        self.dot_count = int(size / 10) if not dot_count else dot_count
         self.w_width = w_width
         self.w_height = w_height
         self.center_x = w_width / 2
@@ -143,10 +154,19 @@ class Field(object):
         self.mouse_y = w_height / 2
         self.max_speed = 5
         self.min_speed = 2
-        self.max_r = size / 10
+        self.max_r = size / 10 if not max_r else max_r
         self.min_r = 8
         self.ratio = 1
         self.limiter = 0.05
+        self.gen_colors()
+
+    def gen_colors(self):
+        self.colors = []
+        for i in range(0x0, 0xFF, 0x8):
+            col1 = f'#{i:0>2x}{(255-i):0>2x}00'
+            col2 = f'#00{i:0>2x}{(255-i):0>2x}'
+            col3 = f'#{(255-i):0>2x}00{i:0>2x}'
+            self.colors.extend([col1, col2, col3])
 
     def canvas_init(self):
         self.root = Tk()
@@ -272,7 +292,7 @@ class Field(object):
         speed = self.speed()
         self.move(speed)
         self.eating()
-        self.root.after(10, self.motion)
+        self.root.after(1, self.motion)
         
     def start(self):
         self.canvas_init()
@@ -280,8 +300,9 @@ class Field(object):
         self.border_init()
         self.dots_init()
         self.focus_on()
-        self.root.after(5000, self.motion)
+        # self.root.after(5000, self.motion)
+        self.motion()
         self.root.mainloop()
  
-field = Field(1000, 1000, 1000)
+field = Field(10000, 800, 800, 2500, 5000)
 field.start()
