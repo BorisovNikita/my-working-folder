@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Формы в React</title>
+	<style>
+
+
+        .tooltip {
+            font-family: 'Arial';
+            width: 250px;
+            margin-left: 20px;
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+
+        .mark {
+            background-color: #f1f1f1;
+            font-size: 16px;
+            border-radius: 50%;
+            text-align: center;
+            cursor: default;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+
+        .mark--hover {
+            background-color: #cecece;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+        
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.25.0/babel.min.js"></script>
+        
+    <script type="text/babel">
+        
+        const InfoWithHover = withHover(Info)
+
+
+        function withHover(Component) {
+            return class WithHover extends React.Component {
+                state = { hovering: false }
+                mouseOver = () => this.setState({ hovering: true })
+                mouseOut = () => this.setState({ hovering: false })
+                render() {
+                    return (
+                        <span onMouseOver={this.mouseOver} onMouseOut={this.mouseOut}>
+                            <Component hovering={this.state.hovering} />
+                        </span>
+                    );
+                }
+            }
+        }
+
+        function Info ({ hovering, height }) {
+            const markClass = hovering ? 'mark mark--hover' : 'mark';
+            return (
+                <span className="icon">
+                    <span className={markClass}>?</span>
+                    {hovering === true
+                        ? <Tooltip />
+                        : null}
+                </span>
+            )
+        }
+
+        function Tooltip () {
+            return (
+                <span className="tooltip">
+                    Поле обязательно для заполнения.
+                </span>
+            )
+        }
+
+
+        ReactDOM.render(
+            <div>
+                Привет я создал свой сайт <InfoWithHover />
+                <br/>
+                Заполните эти поля <InfoWithHover />
+            </div>
+            ,
+            document.getElementById('app')
+        );
+
+    </script>
+</body>
+</html>
